@@ -1,0 +1,125 @@
+import Link from "next/link";
+
+export default function Home() {
+  return (
+    <div className="max-w-3xl mx-auto px-6 md:px-12 py-24">
+      {/* Hero */}
+      <div className="space-y-6">
+        <p className="font-mono text-sm text-muted tracking-wide">
+          AI → EBITDA → Exit Value
+        </p>
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
+          I rebuild $10–$75M SaaS companies where AI hasn&apos;t translated to
+          EBITDA.
+        </h1>
+        <p className="text-lg text-muted leading-relaxed max-w-xl">
+          Two enterprise CX platforms rebuilt to AI-first under live operating
+          pressure. $0→$10M+ AI ARR in 24 months. 22%+ EBITDA. Asset sold to
+          PE portfolio company.
+        </p>
+      </div>
+
+      {/* Proof strip */}
+      <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+        {[
+          { metric: "$10M+", label: "AI ARR built" },
+          { metric: "24 mo", label: "From $0" },
+          { metric: "22→31%", label: "EBITDA margin" },
+          { metric: "2x", label: "AI re-foundings" },
+        ].map((item) => (
+          <div key={item.label} className="border border-border p-4">
+            <p className="text-2xl font-semibold tracking-tight">{item.metric}</p>
+            <p className="text-sm text-muted mt-1">{item.label}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* How I do it */}
+      <div className="mt-20">
+        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-8">
+          How I do it
+        </h2>
+        <ol className="space-y-4">
+          {[
+            "One high-value workflow — not a feature, the actual business process.",
+            "AI that improves customer EBITDA — measurable on the customer's P&L.",
+            "Consumption pricing tied to value — outcome-based, not seat-based.",
+            "GTM around continuous value creation — deliver, expand, deliver again.",
+            "Operating cadence on AI performance + margins — weekly, not quarterly.",
+          ].map((step, i) => (
+            <li key={i} className="flex gap-4">
+              <span className="font-mono text-sm text-muted mt-0.5 shrink-0">
+                {i + 1}/
+              </span>
+              <p className="text-base leading-relaxed">{step}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      {/* Frameworks */}
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
+        {[
+          {
+            title: "AI SaaS Retention",
+            desc: "If a customer can turn off the AI and nothing breaks, retention will always be fragile.",
+            href: "/ai-saas-retention",
+          },
+          {
+            title: "Outcome-Based Pricing",
+            desc: "Seat-based pricing breaks when AI replaces human work. Price the outcome.",
+            href: "/outcome-based-pricing-ai",
+          },
+          {
+            title: "AI → EBITDA Playbook",
+            desc: "AI does not create value until it shows up in EBITDA. Here's how.",
+            href: "/ai-to-ebitda-playbook",
+          },
+          {
+            title: "SaaS → AI Transition",
+            desc: "18 products collapsed into one AI agent. That's what re-founding looks like.",
+            href: "/saas-to-ai-transition",
+          },
+        ].map((item) => (
+          <Link
+            key={item.href}
+            href={item.href}
+            className="bg-paper p-8 group hover:bg-white transition-colors"
+          >
+            <h3 className="text-base font-medium text-ink group-hover:underline">
+              {item.title}
+            </h3>
+            <p className="text-sm text-muted mt-2 leading-relaxed">
+              {item.desc}
+            </p>
+            <span className="text-sm text-muted mt-4 inline-block group-hover:text-ink transition-colors">
+              Read →
+            </span>
+          </Link>
+        ))}
+      </div>
+
+      {/* CTA */}
+      <div className="mt-20 border-t border-border pt-12">
+        <p className="text-muted text-sm">
+          Typical situation: $10M–$75M ARR enterprise SaaS. Growth slowing. AI
+          capability exists but hasn&apos;t hit the P&L.
+        </p>
+        <div className="flex gap-4 mt-6">
+          <Link
+            href="/proof"
+            className="text-sm font-medium border border-ink px-6 py-3 hover:bg-ink hover:text-paper transition-colors"
+          >
+            See the proof
+          </Link>
+          <Link
+            href="/contact"
+            className="text-sm text-muted border border-border px-6 py-3 hover:border-ink hover:text-ink transition-colors"
+          >
+            Get in touch
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
