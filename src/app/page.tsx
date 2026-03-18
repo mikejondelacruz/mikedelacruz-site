@@ -29,7 +29,7 @@ export default function Home() {
           { metric: "$10M+", label: "AI ARR, 24 mos" },
           { metric: "22%+", label: "EBITDA margins" },
         ].map((item) => (
-          <div key={item.label} className="border border-border p-4">
+          <div key={item.label} className="border border-border py-4 pr-4 pl-6">
             <p className="text-2xl font-semibold tracking-tight">{item.metric}</p>
             <p className="text-sm text-muted mt-1">{item.label}</p>
           </div>
