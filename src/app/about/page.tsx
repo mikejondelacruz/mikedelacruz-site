@@ -61,8 +61,8 @@ export default function About() {
             <div className="mt-3 space-y-1 text-sm leading-relaxed">
               <p>Customer support platform for Microsoft, Airbnb, AT&amp;T, SAP.</p>
               <p>Took over as CEO at the start of the pandemic, $9M in the hole.</p>
-              <p>Raised capital, rebuilt the cost architecture, turned AI into the primary driver of margin expansion.</p>
-              <p>Sustained 22%+ EBITDA and closed the asset sale at the high end of the board&apos;s target range.</p>
+              <p>Raised capital, rebuilt the cost architecture, turned AI into margin expansion driver.</p>
+              <p>Sustained 22%+ EBITDA and led asset sale to PE-backed portfolio company.</p>
             </div>
           </div>
 
