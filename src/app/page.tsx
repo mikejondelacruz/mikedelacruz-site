@@ -103,9 +103,9 @@ export default function Home() {
 
       {/* CTA */}
       <div className="mt-20 border-t border-border pt-12">
-        <p className="text-muted text-sm">
-          Typical situation: $10M–$75M ARR enterprise SaaS. Growth slowing. AI
-          capability exists but hasn&apos;t hit the P&L.
+        <p className="text-muted text-sm font-semibold">Typical situation</p>
+        <p className="text-muted text-sm mt-1">
+          $10M–$75M ARR enterprise SaaS. Growth slowing. AI hasn&apos;t hit the P&L.
         </p>
         <div className="flex gap-4 mt-6">
           <Link
