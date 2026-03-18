@@ -9,23 +9,21 @@ export default function Home() {
           AI → EBITDA → Exit Value
         </p>
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
-          I rebuild $10–$75M SaaS companies where AI hasn&apos;t translated to
-          EBITDA.
+          I rebuild $10-$75M SaaS companies by turning AI into EBITDA.
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
           Two enterprise CX platforms rebuilt to AI-first under live operating
-          pressure. $0→$10M+ AI ARR in 24 months. 22%+ EBITDA. Asset sold to
-          PE portfolio company.
+          pressure. $0→$10M+ AI ARR in 24 months in the last one. 50% of exit
+          value prior to that.
         </p>
       </div>
 
       {/* Proof strip */}
-      <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="mt-16 grid grid-cols-3 gap-4">
         {[
-          { metric: "$10M+", label: "AI ARR built" },
-          { metric: "24 mo", label: "From $0" },
-          { metric: "22→31%", label: "EBITDA margin" },
-          { metric: "2x", label: "AI re-foundings" },
+          { metric: "2x", label: "SaaS→AI" },
+          { metric: "$10M+", label: "AI ARR, 24 mos" },
+          { metric: "22%+", label: "EBITDA margins" },
         ].map((item) => (
           <div key={item.label} className="border border-border p-4">
             <p className="text-2xl font-semibold tracking-tight">{item.metric}</p>
@@ -34,10 +32,10 @@ export default function Home() {
         ))}
       </div>
 
-      {/* How I do it */}
+      {/* The Playbook */}
       <div className="mt-20">
         <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-8">
-          How I do it
+          The Playbook
         </h2>
         <ol className="space-y-4">
           {[
