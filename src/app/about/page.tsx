@@ -20,8 +20,9 @@ export default function About() {
         <p>
           My work sits at a specific intersection: mid-market SaaS companies
           where AI capability exists but hasn&apos;t hit the P&L. The gap
-          isn&apos;t technical — it&apos;s structural. Wrong pricing model.
-          Wrong retention mechanics. Wrong metrics.
+          isn&apos;t technical — it&apos;s structural. Outcomes, not features.
+          Customer EBITDA impact, not indirect productivity gains. Deliver
+          first, before securing annual contracts. Break the SaaS GTM silos.
         </p>
         <p>
           I fix the business model so the AI creates measurable financial
