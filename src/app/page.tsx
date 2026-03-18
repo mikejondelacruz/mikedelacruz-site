@@ -9,7 +9,9 @@ export default function Home() {
           AI → EBITDA → Exit Value
         </p>
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
-          I rebuild $10-$75M SaaS companies by turning AI into EBITDA.
+          I rebuild $10-$75M SaaS companies
+          <br />
+          by turning AI into EBITDA.
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
           Two enterprise CX platforms rebuilt to AI-first under live operating
