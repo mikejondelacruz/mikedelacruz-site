@@ -9,8 +9,7 @@ export default function About() {
 
       <div className="mt-12 space-y-6 text-base leading-relaxed">
         <p>
-          I rebuild $10–$75M SaaS companies where AI hasn&apos;t translated to
-          EBITDA.
+          I rebuild $10-$75M B2B SaaS companies by turning AI into EBITDA.
         </p>
         <p>
           Two enterprise CX platforms rebuilt to AI-first under live operating
