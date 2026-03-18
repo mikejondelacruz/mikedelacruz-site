@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
           I rebuild $10-$75M SaaS companies
           <br className="md:hidden" />
-          by turning AI into EBITDA.
+          {" "}by turning AI into EBITDA.
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
           Two enterprise CX platforms rebuilt to AI-first under live operating
