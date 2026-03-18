@@ -17,8 +17,8 @@ export default function Home() {
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
           Two enterprise CX platforms rebuilt to AI-first under live operating
-          pressure. $0→$10M+ AI ARR in 24 months in the last one. 50% of exit
-          value prior to that.
+          pressure. $0→$10M+ AI ARR in 24 months in the last one. Prior to
+          that, ~50% of EBITDA at exit.
         </p>
       </div>
 
