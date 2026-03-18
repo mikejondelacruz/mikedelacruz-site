@@ -59,12 +59,14 @@ export default function About() {
             </div>
             <p className="text-sm text-muted">Directly</p>
             <div className="mt-3 space-y-1 text-sm leading-relaxed">
-              <p>Customer support platform for Microsoft, Airbnb, AT&amp;T, SAP.</p>
-              <p>Promoted to CEO with $4M cash against $5M debt and $1M/mo burn.</p>
-              <p>Raised funding 19 days after pandemic declared.</p>
-              <p>Rebuilt SaaS asset to 22%+ EBITDA, expanding to 31% by sale.</p>
-              <p>AI agent drove ~50% of SaaS EBITDA — structural margin improvement.</p>
-              <p>Led asset sale to PE-backed portfolio company at 2.6x TTM revenue.</p>
+              <p>
+                Customer support platform for Microsoft, Airbnb, AT&amp;T, SAP.
+                Took over as CEO at the start of the pandemic, $9M in the hole.
+                Raised capital, rebuilt the cost architecture, turned AI into
+                the primary driver of margin expansion. Sustained 22%+ EBITDA
+                and closed the asset sale at the high end of the board&apos;s
+                target range.
+              </p>
             </div>
           </div>
 
