@@ -16,7 +16,7 @@ export default function Proof() {
         <div className="border-l-2 border-ink pl-6">
           <h2 className="text-2xl font-semibold tracking-tight">iAdvize</h2>
           <p className="text-sm font-mono text-muted mt-1">
-            President &amp; CSO · 2023–2026
+            President &amp; Chief Strategy Officer · 2023–2026
           </p>
         </div>
 
