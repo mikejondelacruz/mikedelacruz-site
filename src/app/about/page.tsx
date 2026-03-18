@@ -13,9 +13,9 @@ export default function About() {
         </p>
         <p>
           Two enterprise CX platforms rebuilt to AI-first under live operating
-          pressure. Both times, the pattern was the same: the AI worked before
-          the business did. The technology outperformed. The pricing, packaging,
-          and org structure lagged behind.
+          pressure. Both times, the pattern was the same: the AI performed
+          first, then EBITDA followed. The traditional SaaS playbook was what
+          got in the way.
         </p>
         <p>
           My work sits at a specific intersection: mid-market SaaS companies
