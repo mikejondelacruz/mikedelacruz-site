@@ -84,10 +84,10 @@ export default function About() {
         </div>
       </div>
 
-      {/* How I do it */}
+      {/* The Playbook */}
       <div className="mt-16 border-t border-border pt-8">
         <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
-          How I do it
+          The Playbook
         </h2>
         <ol className="space-y-3">
           {[
@@ -111,6 +111,7 @@ export default function About() {
           Education
         </h2>
         <p className="text-base">Harvard Business School</p>
+        <p className="text-base">Yale University</p>
       </div>
 
       {/* Typical engagement */}
