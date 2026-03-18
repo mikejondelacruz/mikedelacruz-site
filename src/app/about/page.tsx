@@ -81,7 +81,7 @@ export default function About() {
           </div>
 
           <div className="text-sm text-muted">
-            <p>Previously: Apple, Yahoo</p>
+            <p>Previously: Hewlett Packard Enterprise, SAP, Siebel</p>
           </div>
         </div>
       </div>
