@@ -7,7 +7,8 @@ export default function Proof() {
         Proof
       </h1>
       <p className="text-lg text-muted mt-4">
-        Two re-foundings. Same pattern. The AI worked before the business did.
+        Two re-foundings. Same pattern. The AI performed first, then EBITDA
+        followed. The traditional SaaS playbook was what got in the way.
       </p>
 
       {/* iAdvize */}
