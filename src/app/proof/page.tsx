@@ -59,7 +59,7 @@ export default function Proof() {
         <div className="border-l-2 border-ink pl-6">
           <h2 className="text-2xl font-semibold tracking-tight">Directly</h2>
           <p className="text-sm font-mono text-muted mt-1">
-            CEO · 2019–2022
+            CEO 2020–2022, Chief Business Officer 2019
           </p>
         </div>
 
@@ -92,8 +92,8 @@ export default function Proof() {
 
         <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
-            { metric: "$3.7M→$10M", value: "ARR scaled" },
-            { metric: "22%→31%", value: "EBITDA margin" },
+            { metric: "$3.7M→$8M+", value: "30% CAGR" },
+            { metric: "22%+", value: "EBITDA margin" },
             { metric: "~50%", value: "EBITDA from AI" },
             { metric: "2.6x TTM", value: "Exit multiple" },
             { metric: "Outcome", value: "Pricing model" },
