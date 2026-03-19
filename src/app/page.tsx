@@ -8,7 +8,7 @@ export default function Home() {
         <p className="font-mono text-sm text-muted tracking-wide">
           AI → EBITDA → Exit Value
         </p>
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
+        <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1]">
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
