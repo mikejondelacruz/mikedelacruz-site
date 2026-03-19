@@ -136,14 +136,12 @@ export default function Proof() {
       </div>
 
       <div className="mt-12">
-        <Link
-          href="https://www.linkedin.com/in/mikejdelacruz"
-          target="_blank"
-          rel="noopener noreferrer"
+        <a
+          href="mailto:mikejdelacruz@gmail.com"
           className="text-sm font-medium border border-ink px-6 py-3 hover:bg-ink hover:text-paper transition-colors"
         >
-          DM on LinkedIn
-        </Link>
+          Email Mike
+        </a>
       </div>
     </div>
   );
