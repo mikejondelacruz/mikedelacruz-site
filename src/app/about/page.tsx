@@ -19,8 +19,7 @@ export default function About() {
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </p>
         <p>
-          Moved two enterprise CX platforms to AI-first under live operating
-          pressure. In both, AI worked first, then an AI GTM model, before financial results. The SaaS playbook was the constraint.
+          Two enterprise CX platforms rebuilt to AI-first. In both, AI worked first, then an AI GTM model, before financial results. The SaaS playbook was the constraint.
         </p>
         <p>
           My work sits at a specific intersection: mid-market SaaS where AI

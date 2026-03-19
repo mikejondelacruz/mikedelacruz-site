@@ -19,7 +19,7 @@ export default function Contact() {
             For operators
           </h2>
           <p className="text-base leading-relaxed">
-            I rebuild $10–$75M SaaS companies by turning AI into EBITDA. Two companies rebuilt under live operating pressure. If AI isn&apos;t showing up in EBITDA, that&apos;s the problem I solve.
+            I rebuild $10–$75M SaaS companies by turning AI into EBITDA. Two companies rebuilt. If AI isn&apos;t showing up in EBITDA, that&apos;s the problem I solve.
           </p>
         </div>
 
