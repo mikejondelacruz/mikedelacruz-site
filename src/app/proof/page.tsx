@@ -28,7 +28,7 @@ export default function Proof() {
             The product team focused on building one AI agent for one high-value workflow. Customer onboarding compressed dramatically. Trial-to-paid conversion tripled during the first customer cohorts.
           </p>
           <p>
-            AI revenue went from $0 to $10M+ ARR in 24 months and overtook legacy SaaS.
+            AI revenue went from $0 to $10M+ ARR in 24 months and overtook SaaS.
           </p>
         </div>
 
