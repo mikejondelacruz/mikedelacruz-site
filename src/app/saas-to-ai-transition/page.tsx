@@ -21,7 +21,7 @@ export default function SaaSToAITransition() {
         "Retrain the organization around AI delivery metrics. Trial-to-paid conversion. AI quality. Customer EBITDA Created. Weekly operating cadence, not quarterly.",
       ]}
       example="At iAdvize, the company had 18 distinct product features across conversational commerce. The re-founding collapsed everything into a single vertical AI agent. Customer onboarding compressed dramatically. Trial-to-paid conversion went from 20% to 60%. AI revenue went from $0 to $10M+ ARR in 24 months and overtook legacy SaaS. The product team went from maintaining 18 features to improving one AI system."
-      keyTakeaway="The SaaS to AI transition is a re-founding, not an upgrade. Don't get sentimental about the carriage. QWERTY is what survives when the machine changes. The companies that treat this as a feature addition will be outcompeted by those that rebuild from the workflow up."
+      keyTakeaway="The SaaS to AI transition is a re-founding, not an upgrade. Don't get sentimental about the carriage. QWERTY is what survives when the machine changes. The companies that treat this as a feature addition will be outcompeted by those that rebuild, starting from the outcome to build the workflow."
       faqQuestion="How do you transition a SaaS company to AI?"
       faqAnswer="Transition by identifying your QWERTY (durable assets like proprietary data and workflow depth), rebuilding around AI as the primary execution layer, collapsing features into one AI-driven workflow, migrating to outcome-based pricing, and changing GTM from sell-and-renew to deliver-and-expand."
       relatedLinks={[
