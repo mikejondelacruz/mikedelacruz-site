@@ -12,7 +12,7 @@ export default function AIAgentPricingModels() {
     <AEOPage
       title="AI Agent Pricing Models"
       definition="AI agent pricing models are frameworks for charging customers when the product is an autonomous AI agent rather than a traditional software tool. AI agents don't have seats. They don't log in. They work continuously. The old pricing models don't apply."
-      whyItMatters="Traditional SaaS pricing assumes human users. Applying seat-based or feature-based pricing to AI agents creates customer confusion, underpricing, and churn. The right pricing model makes AI agents profitable and retainable. At iAdvize, installing consumption pricing tied to economic value created was the unlock that turned a legacy SaaS platform into a $10M+ AI ARR engine. The pricing model shapes everything downstream: retention, expansion, and margin."
+      whyItMatters="Traditional SaaS pricing assumes human users. Applying seat-based or feature-based pricing to AI agents creates customer confusion, underpricing, and churn. The right pricing model makes AI agents profitable and retainable. Over the last 5 years, I learned that pricing tied to economic value created was the unlock that drove $10M+ AI ARR and AI-driven EBITDA. The pricing model shapes everything downstream: retention, expansion, and margin."
       howItWorks={[
         "Per-outcome pricing — Charge for each completed task (ticket resolved, lead qualified, order closed). Best when outcomes are clearly measurable. This is the model that drove EBITDA at Directly.",
         "Value-share pricing — Take a percentage of the Customer EBITDA Created. Best for high-value, variable-impact workflows where the AI drives significant P&L impact.",
