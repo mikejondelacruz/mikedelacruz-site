@@ -16,27 +16,27 @@ export const metadata: Metadata = {
 const articles = [
   {
     title: "The AI to EBITDA Playbook",
-    description: "Most AI initiatives demonstrate impressive technology. Few convert it into margin. This playbook is the bridge.",
+    description: "Most AI initiatives demo well but don't hit the P&L. This is the framework that closes the gap.",
     href: "/ai-to-ebitda-playbook",
   },
   {
     title: "SaaS to AI Transition",
-    description: "Adding AI to a SaaS company is not a product refresh. It's a rebuild. Re-founding means tearing out the carriage and keeping the QWERTY.",
+    description: "Adding AI to a SaaS company is not a product refresh. It's a rebuild.",
     href: "/saas-to-ai-transition",
   },
   {
     title: "Outcome-Based Pricing for AI",
-    description: "Cost-plus quietly caps the exit multiple. Most don't realize it yet. Anchor pricing to the customer's P&L instead.",
+    description: "Cost-plus pricing quietly caps the exit multiple. Most don't realize it yet.",
     href: "/outcome-based-pricing-ai",
   },
   {
     title: "Usage-Based Pricing for AI Agents",
-    description: "Outcome-based pricing is the destination. Usage-based pricing is the bridge. The mistake is treating it as the destination too.",
+    description: "Usage-based pricing is a bridge to outcome-based. The mistake is treating it as the destination.",
     href: "/usage-based-pricing-ai-agents",
   },
   {
     title: "AI Agent Retention",
-    description: "Most agents convert pilots to paid and lose the renewal. The cause is consistent: the agent never moved a line on the customer's P&L.",
+    description: "Most agents convert pilots to paid and lose the renewal. The cause is structural.",
     href: "/ai-saas-retention",
   },
 ];
