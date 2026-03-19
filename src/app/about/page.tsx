@@ -56,7 +56,7 @@ export default function About() {
             <p className="text-sm text-muted">Directly</p>
             <div className="mt-3 space-y-1 text-sm leading-relaxed">
               <p>Customer support platform for Microsoft, Airbnb, AT&amp;T, SAP.</p>
-              <p>Took over as CEO at the start of the pandemic, Obligations exceeded cash.</p>
+              <p>Took over as CEO at the start of the pandemic. Obligations exceeded cash.</p>
               <p>Raised capital, rebuilt the cost architecture, turned AI into margin expansion driver.</p>
               <p>Sustained 22%+ EBITDA and led asset sale to PE-backed portfolio company.</p>
             </div>
