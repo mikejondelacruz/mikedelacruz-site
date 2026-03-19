@@ -43,7 +43,7 @@ export default function Proof() {
             { metric: "18→1", value: "Products consolidated" },
             { metric: "9mo→60d", value: "Acquisition cycle" },
             { metric: "20%→60%", value: "Trial-to-paid" },
-            { metric: "Outcome", value: "Pricing model" },
+            { metric: "Consumption", value: "Tied to outcome" },
             { metric: "AI-first", value: "GTM rebuilt" },
           ].map((item) => (
             <div key={item.value} className="border border-border p-4">
@@ -96,7 +96,7 @@ export default function Proof() {
             { metric: "22%+", value: "EBITDA margin" },
             { metric: "~50%", value: "EBITDA from AI" },
             { metric: "2.6x TTM", value: "Exit multiple" },
-            { metric: "Outcome", value: "Pricing model" },
+            { metric: "Outcome", value: "Per resolution" },
             { metric: "PE portco", value: "Acquirer" },
           ].map((item) => (
             <div key={item.value} className="border border-border p-4">
