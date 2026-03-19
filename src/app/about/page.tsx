@@ -117,7 +117,7 @@ export default function About() {
           Typical situation
         </h2>
         <div className="space-y-2 text-base leading-relaxed">
-          <p>$10M–$75M ARR, enterprise SaaS.</p>
+          <p>$10–$75M ARR, enterprise SaaS.</p>
           <p>Growth slowing. New logo velocity feels different.</p>
           <p>AI capability exists but margin hasn&apos;t moved.</p>
           <p>Board asking hard questions about the AI investment.</p>
