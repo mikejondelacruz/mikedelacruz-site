@@ -9,13 +9,13 @@ export default function About() {
 
       <div className="mt-12 space-y-6 text-base leading-relaxed">
         <p>
-          I rebuild $10-$75M B2B SaaS companies by turning AI into EBITDA.
+          I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </p>
         <p>
-          Two enterprise CX platforms rebuilt to AI-first under live operating
-          pressure. Both times, the pattern was the same: the AI performed
-          first, then EBITDA followed. The traditional SaaS playbook was what
-          got in the way.
+          Moved two enterprise CX platforms to AI-first under live operating
+          pressure. In both, the AI worked before the business did. EBITDA
+          followed once the model caught up. The legacy SaaS playbook was the
+          constraint.
         </p>
         <p>
           My work sits at a specific intersection: mid-market SaaS companies
