@@ -79,9 +79,8 @@ export default function Proof() {
             roadmap — structural margin improvement that compounded.
           </p>
           <p>
-            We moved to outcome-based pricing. Rationalized $2M in low-margin
-            accounts to improve revenue quality. EBITDA went from survival to
-            22%, expanding to 31% by the time we sold.
+            Rationalized low-margin accounts to improve revenue quality. EBITDA
+            went from survival to 22%, expanding to 31% by the time we sold.
           </p>
           <p>
             Led the full exit process: advisor selection, diligence,
