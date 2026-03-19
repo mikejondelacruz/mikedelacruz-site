@@ -119,7 +119,7 @@ export default function SaaSToAITransition() {
             Key takeaway
           </h2>
           <p className="text-lg font-medium leading-relaxed text-ink">
-            The SaaS to AI transition is a re-founding, not an upgrade. Identify your QWERTY. Eliminate your carriage. Rebuild from the outcome. The companies that do this first will be the ones PE firms pay durable multiples for. The ones that don&apos;t will be rationalized by the ones that did.
+            The SaaS to AI transition is a re-founding, not an upgrade. Identify your QWERTY. Don&apos;t get sentimental about the carriage. Rebuild backwards from the customer outcome. The companies that do this will command higher multiples. The ones that don&apos;t will be rationalized by the ones that did.
           </p>
         </div>
 
