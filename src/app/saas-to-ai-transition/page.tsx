@@ -15,7 +15,7 @@ export default function SaaSToAITransition() {
       whyItMatters="QWERTY survived every transition since 1873. Typewriter. Computer. Phone. Tablet. The carriage moved the typewriter across the page — it was essential to the machine. Then the machine changed. A lot of the 20-year SaaS playbook is carriage: build a CRUD app for a persona, market it, sell it, implement it, renew it, repeat. That motion built great companies. It is not the part that necessarily survives. Adding AI features to a SaaS product doesn't make it an AI company. Customers know the difference. Investors know the difference."
       howItWorks={[
         "Identify your QWERTY — the durable asset: clarity on the job to be done, proprietary data, workflow depth, operational tasks the AI must execute. Strip away the carriage.",
-        "Rebuild the core workflow with AI as the primary execution layer, not an assistant. At iAdvize, 18 products became 2: one vertical AI agent, plus one SaaS product. The outcome was an order.",
+        "Rebuild the core workflow with AI as the primary execution layer, not an assistant. At iAdvize, 18 products became 2: one vertical AI agent (outcome = order), plus one SaaS product. Separately reported.",
         "Change the goal: from building software for a user to delivering an outcome for a customer. Change the unit: from seats sold to customer EBITDA created.",
         "Change the GTM: from market, sell, implement, renew to deliver, expand, deliver again. At iAdvize, acquisition cycles dropped from ~9 months to ~60 days.",
         "Retrain the organization around AI delivery metrics. Trial-to-paid conversion. AI quality. Customer EBITDA Created. Weekly operating cadence, not quarterly.",
