@@ -104,15 +104,6 @@ export default function About() {
         </ol>
       </div>
 
-      {/* Education */}
-      <div className="mt-16 border-t border-border pt-8">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
-          Education
-        </h2>
-        <p className="text-base">Harvard Business School</p>
-        <p className="text-base mt-1">Yale University</p>
-      </div>
-
       {/* Typical engagement */}
       <div className="mt-16 bg-white border border-border rounded-lg p-6">
         <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
