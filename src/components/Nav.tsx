@@ -1,6 +1,4 @@
-"use client";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/about", label: "About" },
@@ -10,8 +8,6 @@ const links = [
 ];
 
 export default function Nav() {
-  const pathname = usePathname();
-
   return (
     <nav className="flex items-center justify-between py-8 px-6 md:px-12 max-w-5xl mx-auto">
       <Link
@@ -25,11 +21,7 @@ export default function Nav() {
           <Link
             key={link.href}
             href={link.href}
-            className={`text-sm transition-colors ${
-              pathname === link.href
-                ? "text-ink font-medium"
-                : "text-muted hover:text-ink"
-            }${link.hideOnMobile ? " hidden md:inline" : ""}`}
+            className="text-sm text-muted hover:text-ink transition-colors"
           >
             {link.label}
           </Link>
