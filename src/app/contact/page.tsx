@@ -25,7 +25,7 @@ export default function Contact() {
             For operators
           </h2>
           <p className="text-base leading-relaxed">
-            I rebuild $10–$75M SaaS companies by turning AI into EBITDA. Two companies rebuilt. If AI isn&apos;t showing up in EBITDA, that&apos;s the problem I solve.
+            I rebuild $10–$75M SaaS companies by turning AI into EBITDA. I&apos;ve done it twice. If AI isn&apos;t showing up in EBITDA, that&apos;s the problem I solve.
           </p>
         </div>
 
@@ -34,12 +34,12 @@ export default function Contact() {
             For investors and boards
           </h2>
           <p className="text-base leading-relaxed">
-            I&apos;ve built AI revenue and sold an AI asset. I&apos;ve seen where it breaks:
+            Two re-foundings. One exit. The pattern doesn&apos;t change.
           </p>
           <ul className="list-disc list-inside text-base leading-relaxed mt-2 space-y-1">
-            <li>AI performs but doesn&apos;t renew</li>
-            <li>Revenue doesn&apos;t translate to EBITDA</li>
-            <li>GTM can&apos;t price outcomes</li>
+            <li>AI revenue doesn&apos;t translate to customer EBITDA</li>
+            <li>AI sells but doesn&apos;t renew</li>
+            <li>The renewal is the new sale. GTM wasn&apos;t built for it.</li>
           </ul>
           <p className="text-base leading-relaxed mt-2">
             The board question is simple: what to keep, what to kill.
