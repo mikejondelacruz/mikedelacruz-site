@@ -62,7 +62,7 @@ export default function Proof() {
           <p>
             Directly was an AI-powered customer support platform serving
             Microsoft, Airbnb, AT&amp;T, and SAP. I joined as CBO and scaled
-            ARR from $3.7M to $8.1M+.
+            ARR from $3.7M to $8M+.
           </p>
           <p>
             Promoted to CEO starting Obligations exceeded cash with $1.2M/mo burn. Raised
