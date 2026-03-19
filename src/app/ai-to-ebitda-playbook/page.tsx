@@ -140,7 +140,7 @@ export default function AIToEBITDA() {
               <strong>Customer EBITDA Return (CER)</strong> is CEC divided by the price the customer pays. A CER of 3–10x is the target zone for durable AI revenue. Below 3x, the value is too thin—you will be rationalized. Above 10x, you are underpriced.
             </p>
             <p>
-              Investors and acquirers do not pay for AI capabilities. They pay for EBITDA. At exit, your acquirer will assess the durability of your EBITDA. The companies that translate AI into margin expansion command higher multiples. Those that do not will struggle.
+              The more customer EBITDA you create, the more you can capture. Investors and acquirers do not pay for AI capabilities. They pay for EBITDA. At exit, your acquirer will assess the durability of your EBITDA. The companies that translate AI into margin expansion command higher multiples.
             </p>
           </div>
         </div>
