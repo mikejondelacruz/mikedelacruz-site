@@ -64,10 +64,6 @@ export default function About() {
               <h3 className="font-medium">CEO</h3>
               <span className="text-sm text-muted font-mono">2020–2022</span>
             </div>
-            <div className="flex items-baseline justify-between mt-1">
-              <h3 className="font-medium">CBO</h3>
-              <span className="text-sm text-muted font-mono">2019</span>
-            </div>
             <p className="text-sm text-muted">Directly</p>
             <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
               <li>Customer support platform for Microsoft, Airbnb, AT&amp;T, and SAP</li>
