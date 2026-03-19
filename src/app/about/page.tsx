@@ -52,10 +52,10 @@ export default function About() {
             </div>
             <p className="text-sm text-muted">iAdvize</p>
             <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
-              <li>Rationalized an 18-product portfolio to 2: one vertical AI agent and one SaaS product</li>
-              <li>Built AI revenue engine from $0→$10M+ ARR in 24 months</li>
-              <li>Reduced customer acquisition cycle from ~9 months to ~60 days</li>
-              <li>Tripled trial-to-paid conversion</li>
+              <li>Rationalized an 18-product portfolio to <strong>2</strong>: one vertical AI agent and one SaaS product</li>
+              <li>Built AI revenue engine from $0→<strong>$10M+ ARR</strong> in 24 months</li>
+              <li>Reduced customer acquisition cycle from ~9 months to <strong>~60 days</strong></li>
+              <li><strong>Tripled</strong> trial-to-paid conversion</li>
             </ul>
           </div>
 
@@ -69,8 +69,8 @@ export default function About() {
               <li>Customer support platform for Microsoft, Airbnb, AT&amp;T, and SAP</li>
               <li>Took over as CEO at the start of the pandemic with obligations exceeding cash</li>
               <li>Raised capital and rebuilt the cost architecture</li>
-              <li>AI drove ~50% of EBITDA at exit</li>
-              <li>Sustained 22%+ EBITDA and led asset sale to a PE-backed portfolio company</li>
+              <li>AI drove <strong>~50% of EBITDA</strong> at exit</li>
+              <li>Sustained <strong>22%+ EBITDA</strong> and led asset sale to a PE-backed portfolio company</li>
             </ul>
           </div>
 
