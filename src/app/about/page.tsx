@@ -1,10 +1,9 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Mike de la Cruz — AI Re-founder, Directly & iAdvize",
   description:
-    "Two enterprise CX platforms rebuilt to AI-first under live operating pressure. Previously Hewlett Packard Enterprise, SAP, Siebel. Harvard Business School, Yale University.",
+    "Two enterprise CX platforms rebuilt to AI-first under live operating pressure. Previously Hewlett Packard Enterprise, SAP, Siebel.",
   openGraph: {
     title: "About Mike de la Cruz — AI Re-founder, Directly & iAdvize",
     description: "Two enterprise CX platforms rebuilt to AI-first under live operating pressure.",
@@ -20,6 +19,7 @@ export default function About() {
         About
       </h1>
 
+      {/* Narrative */}
       <div className="mt-12 space-y-6 text-base leading-relaxed">
         <p>
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
@@ -41,7 +41,47 @@ export default function About() {
         </p>
       </div>
 
-      {/* Career */}
+      {/* Typical situation */}
+      <div className="mt-16 bg-white border border-border rounded-lg p-6">
+        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+          Typical situation
+        </h2>
+        <div className="space-y-2 text-base leading-relaxed">
+          <p>$10–$75M ARR B2B SaaS company.</p>
+          <p>AI capability exists, but margin has not moved.</p>
+          <p>Growth is slowing. New logo velocity feels different.</p>
+          <p>The board is asking whether the AI investment is translating into durable value.</p>
+        </div>
+        <a
+          href="mailto:mikejdelacruz@gmail.com"
+          className="text-sm font-medium border border-ink px-5 py-2 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
+        >
+          Email Mike
+        </a>
+      </div>
+
+      {/* The Playbook */}
+      <div className="mt-16 border-t border-border pt-8">
+        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
+          The Playbook
+        </h2>
+        <ol className="space-y-3">
+          {[
+            "One high-value workflow",
+            "AI that improves customer EBITDA",
+            "Consumption pricing tied to value",
+            "GTM around continuous value creation",
+            "Operating cadence on AI performance + margins",
+          ].map((item, i) => (
+            <li key={i} className="flex gap-3 text-base">
+              <span className="text-muted font-mono text-sm mt-0.5">{i + 1}/</span>
+              {item}
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      {/* Operating History */}
       <div className="mt-16 border-t border-border pt-8">
         <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-8">
           Operating history
@@ -81,46 +121,6 @@ export default function About() {
             <p>Previously: Hewlett Packard Enterprise, SAP, Arago (KKR-backed), Siebel</p>
           </div>
         </div>
-      </div>
-
-      {/* The Playbook */}
-      <div className="mt-16 border-t border-border pt-8">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
-          The Playbook
-        </h2>
-        <ol className="space-y-3">
-          {[
-            "One high-value workflow",
-            "AI that improves customer EBITDA",
-            "Consumption pricing tied to value",
-            "GTM around continuous value creation",
-            "Operating cadence on AI performance + margins",
-          ].map((item, i) => (
-            <li key={i} className="flex gap-3 text-base">
-              <span className="text-muted font-mono text-sm mt-0.5">{i + 1}/</span>
-              {item}
-            </li>
-          ))}
-        </ol>
-      </div>
-
-      {/* Typical engagement */}
-      <div className="mt-16 bg-white border border-border rounded-lg p-6">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-          Typical situation
-        </h2>
-        <div className="space-y-2 text-base leading-relaxed">
-          <p>$10–$75M ARR, enterprise SaaS.</p>
-          <p>Growth slowing. New logo velocity feels different.</p>
-          <p>AI capability exists but margin hasn&apos;t moved.</p>
-          <p>Board asking hard questions about the AI investment.</p>
-        </div>
-        <a
-          href="mailto:mikejdelacruz@gmail.com"
-          className="text-sm font-medium border border-ink px-5 py-2 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
-        >
-          Email Mike
-        </a>
       </div>
     </div>
   );
