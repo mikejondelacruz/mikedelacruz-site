@@ -41,7 +41,7 @@ export default function OutcomeBasedPricing() {
   };
 
   const steps = [
-    "Define the measurable outcome the AI delivers. Tickets resolved. Leads qualified. Orders closed. This is your unit of value, not your feature list.",
+    "Define the measurable outcome the AI delivers. Tickets resolved. Orders closed. This is your unit of value, not your feature list.",
     "Measure Customer EBITDA Created (CEC): the actual dollars your AI creates on the customer's P&L. A sales agent closes a $150 order. That's $15 CEC. Know this number before you set any price.",
     "Price so the customer sees 3–10x CER (Customer EBITDA Return). Below 3x, you get rationalized at renewal. Above 10x, you're leaving margin on the table. The Goldilocks zone is where durable revenue lives.",
     "Build measurement infrastructure so both sides can verify outcomes. The renewal conversation becomes a P&L review. That's the shift from CSM to CFO as your retention anchor.",
