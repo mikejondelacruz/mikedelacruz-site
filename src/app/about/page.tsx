@@ -25,8 +25,8 @@ export default function About() {
           first, before securing annual contracts. Break the SaaS GTM silos.
         </p>
         <p>
-          I fix the business model so the AI creates measurable financial
-          value — not just impressive demos.
+          I reset the model so that the AI creates measurable financial value
+          for the customer and your business.
         </p>
       </div>
 
