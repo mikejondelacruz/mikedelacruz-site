@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Writing on AI, SaaS Re-founding, and Exit Value",
   description:
-    "Frameworks for turning AI into EBITDA: the AI to EBITDA Playbook, SaaS to AI transition, outcome-based pricing, AI agent pricing models, and AI SaaS retention.",
+    "Frameworks for turning AI into EBITDA: the AI to EBITDA Playbook, SaaS to AI transition, outcome-based pricing, usage-based pricing for AI agents, and AI SaaS retention.",
   openGraph: {
     title: "Writing on AI, SaaS Re-founding, and Exit Value",
     description: "Frameworks for turning AI into EBITDA. Built from two re-foundings.",
@@ -30,8 +30,8 @@ const articles = [
     href: "/outcome-based-pricing-ai",
   },
   {
-    title: "AI Agent Pricing Models",
-    description: "Most companies apply SaaS pricing to AI agents and wonder why the economics don't work. The old model is the problem.",
+    title: "Usage-Based Pricing for AI Agents",
+    description: "Outcome-based pricing is the destination. Usage-based pricing is the bridge. The mistake is treating it as the destination too.",
     href: "/ai-agent-pricing-models",
   },
   {

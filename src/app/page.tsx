@@ -74,8 +74,8 @@ export default function Home() {
             href: "/outcome-based-pricing-ai",
           },
           {
-            title: "AI Agent Pricing Models",
-            desc: "AI agents don't have seats. They don't log in. The old pricing models don't apply.",
+            title: "Usage-Based Pricing for AI Agents",
+            desc: "Outcome-based pricing is the destination. Usage-based pricing is the bridge.",
             href: "/ai-agent-pricing-models",
           },
         ].map((item) => (
