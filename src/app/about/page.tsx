@@ -55,7 +55,7 @@ export default function About() {
               <p>Turned 18-product portfolio into 2: one vertical AI agent, plus one SaaS product.</p>
               <p>Built AI revenue engine from $0→$10M+ ARR in 24 months.</p>
               <p>Reduced customer acquisition cycles from ~9 months→~60 days.</p>
-              <p>Trial-to-paid conversion from 20%→60%.</p>
+              <p>Trial-to-paid conversion tripled.</p>
             </div>
           </div>
 

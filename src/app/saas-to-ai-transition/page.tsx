@@ -109,7 +109,7 @@ export default function SaaSToAITransition() {
             Example
           </h2>
           <p className="text-base leading-relaxed text-ink">
-            At one re-founding, the company had 18 product features across a single workflow category. The transition collapsed everything into one vertical AI agent. Trial-to-paid conversion went from 20% to 60%. AI revenue went from zero to $10M+ ARR in 24 months. The legacy SaaS business did not go away—the new business overtook it. That shift in revenue mix changes the durability profile a buyer sees at exit.
+            At one re-founding, the company had 18 product features across a single workflow category. The transition collapsed everything into one vertical AI agent. Trial-to-paid conversion tripled. AI revenue went from zero to $10M+ ARR in 24 months. The legacy SaaS business did not go away—the new business overtook it. That shift in revenue mix changes the durability profile a buyer sees at exit.
           </p>
         </div>
 
