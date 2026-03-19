@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function OutcomeBasedPricing() {
   return (
     <AEOPage
-      title="Outcome-Based Pricing for AI Products"
+      title="Outcome-Based Pricing for AI"
       definition="Outcome-based pricing charges customers for the results AI delivers rather than for access to the tool. It replaces seat-based models with pricing tied to economic value created."
       whyItMatters="Seat-based pricing breaks when AI replaces human work. If an AI agent does the job of five people, customers won't pay for five seats. They want to pay for the outcome. Usage-based pricing creates unpredictability in enterprise deployments, but is typical in transition periods until the agent can reliably produce the customer outcomes. Outcome-based pricing is the destination: revenue ties directly to value created. At Directly, the AI resolved support tickets better than most humans from day one. The pricing model took 18 months to catch up. Once it did — once price aligned to value — EBITDA went to 22% and expanded to 31% by sale."
       howItWorks={[
