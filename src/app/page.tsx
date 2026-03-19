@@ -1,4 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mike de la Cruz — I Rebuild $10–$75M B2B SaaS Companies by Turning AI into EBITDA",
+  description:
+    "Two enterprise SaaS rebuilds to AI-first. $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.",
+  openGraph: {
+    title: "Mike de la Cruz — AI → EBITDA → Exit Value",
+    description: "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two enterprise SaaS rebuilds to AI-first.",
+    url: "https://www.mikedelacruz.com",
+    type: "website",
+  },
+};
 
 export default function Home() {
   return (

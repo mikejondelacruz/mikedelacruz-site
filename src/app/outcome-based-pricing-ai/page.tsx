@@ -21,7 +21,7 @@ export default function OutcomeBasedPricing() {
     author: {
       "@type": "Person",
       name: "Mike de la Cruz",
-      url: "https://mikedelacruz.com/about",
+      url: "https://www.mikedelacruz.com/about",
     },
   };
 

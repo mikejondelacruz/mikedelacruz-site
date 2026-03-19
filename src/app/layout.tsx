@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Mike de la Cruz — AI → EBITDA → Exit Value",
     description:
       "I rebuild $10–$75M SaaS companies where AI hasn't translated to EBITDA.",
-    url: "https://mikedelacruz.com",
+    url: "https://www.mikedelacruz.com",
     type: "website",
   },
 };
@@ -35,7 +35,7 @@ const authorSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Mike de la Cruz",
-  url: "https://mikedelacruz.com",
+  url: "https://www.mikedelacruz.com",
   jobTitle: "AI SaaS Operator",
   description:
     "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two enterprise CX platforms rebuilt to AI-first under live operating pressure.",
