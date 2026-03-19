@@ -108,7 +108,7 @@ export default function About() {
           Education
         </h2>
         <p className="text-base">Harvard Business School</p>
-        <p className="text-base">Yale University</p>
+        <p className="text-base mt-1">Yale University</p>
       </div>
 
       {/* Typical engagement */}
