@@ -8,13 +8,12 @@ export default function Contact() {
       <div className="mt-12 space-y-8">
         <div>
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For operators
+            For boards
           </h2>
           <p className="text-base leading-relaxed">
-            If you&apos;re running a $10–$75M SaaS company and AI
-            hasn&apos;t hit your P&amp;L yet, let&apos;s talk. I work with
-            CEOs on the business model side — pricing, retention, and the path
-            to AI-driven EBITDA. I&apos;ve done it twice.
+            The hardest conversation is deciding which parts of the company are
+            QWERTY and which parts are carriage. I help boards navigate that
+            decision with frameworks tested across two re-foundings.
           </p>
         </div>
 
@@ -33,12 +32,13 @@ export default function Contact() {
 
         <div>
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For boards
+            For operators
           </h2>
           <p className="text-base leading-relaxed">
-            The hardest conversation is deciding which parts of the company are
-            QWERTY and which parts are carriage. I help boards navigate that
-            decision with frameworks tested across two re-foundings.
+            If you&apos;re running a $10–$75M SaaS company and AI
+            hasn&apos;t hit your P&amp;L yet, let&apos;s talk. I work with
+            CEOs on the business model side — pricing, retention, and the path
+            to AI-driven EBITDA. I&apos;ve done it twice.
           </p>
         </div>
 
