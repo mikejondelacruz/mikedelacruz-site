@@ -142,7 +142,7 @@ export default function AISaaSRetention() {
               href="/ai-agent-pricing-models"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              AI Agent Pricing
+              Usage-Based Pricing
             </Link>
             <Link
               href="/proof"
