@@ -37,7 +37,7 @@ export default function Proof() {
             { metric: "$0→$10M+", value: "AI ARR in 24 months" },
             { metric: "18→2", value: "Focused products" },
             { metric: "9mo→60d", value: "Acquisition cycle" },
-            { metric: "20%→60%", value: "Trial-to-paid" },
+            { metric: "3x", value: "Trial-to-paid conversion" },
             { metric: "Consumption", value: "Tied to outcome" },
             { metric: "AI-first", value: "GTM rebuilt" },
           ].map((item) => (
