@@ -20,7 +20,7 @@ export default function Contact() {
       </h1>
 
       <p className="text-lg text-muted mt-6 leading-relaxed">
-        For B2B SaaS companies at an AI inflection point.
+        For B2B SaaS companies where AI investment has not yet translated to EBITDA.
       </p>
 
       <div className="mt-12 space-y-8">
@@ -29,7 +29,7 @@ export default function Contact() {
             For CEOs
           </h2>
           <p className="text-base leading-relaxed">
-            Your AI may be real. Your business model may still be old. That gap is where I operate.
+            Your AI investment is real. Your business model may still be old. That gap is where I operate.
           </p>
         </div>
 
@@ -38,16 +38,16 @@ export default function Contact() {
             For investors and boards
           </h2>
           <p className="text-base leading-relaxed">
-            Some SaaS companies need optimization. Others need a re-founding. I&apos;ve done the second.
+            Most SaaS companies optimize around AI. Some need to be rebuilt around it. I&apos;ve done the second, twice.
           </p>
         </div>
 
         <div>
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For CEO and President roles
+            For operating roles
           </h2>
           <p className="text-base leading-relaxed">
-            Open to select roles where the mandate is to rebuild the company around AI and drive measurable value creation.
+            Open to select CEO and President roles where the mandate is to rebuild the company around AI and convert that into revenue quality, margin expansion, and exit-grade fundamentals.
           </p>
         </div>
 
