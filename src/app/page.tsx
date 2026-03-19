@@ -59,16 +59,6 @@ export default function Home() {
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
         {[
           {
-            title: "AI SaaS Retention",
-            desc: "If a customer can turn off the AI and nothing breaks, retention will always be fragile.",
-            href: "/ai-saas-retention",
-          },
-          {
-            title: "Outcome-Based Pricing",
-            desc: "Seat-based pricing breaks when AI replaces human work. Price the outcome.",
-            href: "/outcome-based-pricing-ai",
-          },
-          {
             title: "AI → EBITDA Playbook",
             desc: "AI does not create value until it shows up in EBITDA. Here's how.",
             href: "/ai-to-ebitda-playbook",
@@ -77,6 +67,16 @@ export default function Home() {
             title: "SaaS → AI Transition",
             desc: "18 products collapsed into one AI agent. That's what re-founding looks like.",
             href: "/saas-to-ai-transition",
+          },
+          {
+            title: "Outcome-Based Pricing",
+            desc: "Seat-based pricing breaks when AI replaces human work. Price the outcome.",
+            href: "/outcome-based-pricing-ai",
+          },
+          {
+            title: "AI Agent Pricing Models",
+            desc: "AI agents don't have seats. They don't log in. The old pricing models don't apply.",
+            href: "/ai-agent-pricing-models",
           },
         ].map((item) => (
           <Link
