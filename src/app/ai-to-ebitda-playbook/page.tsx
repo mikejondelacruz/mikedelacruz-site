@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "The AI to EBITDA Playbook — CEC, CER, and Exit Multiples",
   description:
     "A framework for converting AI capabilities into measurable earnings. Includes Customer EBITDA Created (CEC) and Customer EBITDA Return (CER) metrics.",
+  openGraph: {
+    title: "The AI to EBITDA Playbook — CEC, CER, and Exit Multiples",
+    description: "A framework for converting AI capabilities into measurable EBITDA.",
+    url: "https://www.mikedelacruz.com/ai-to-ebitda-playbook",
+    type: "article",
+  },
 };
 
 export default function AIToEBITDA() {

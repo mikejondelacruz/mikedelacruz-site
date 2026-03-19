@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "Proof — Results from Two AI Re-foundings",
   description:
     "Results from two AI re-foundings: iAdvize ($0 to $10M+ AI ARR, 18 products to 2) and Directly (22%+ EBITDA, AI-driven margin expansion, PE exit).",
+  openGraph: {
+    title: "Proof — Results from Two AI Re-foundings",
+    description: "Results from two AI re-foundings: iAdvize and Directly.",
+    url: "https://www.mikedelacruz.com/proof",
+    type: "article",
+  },
 };
 
 export default function Proof() {

@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "Writing on AI, SaaS Re-founding, and Exit Value",
   description:
     "Frameworks for turning AI into EBITDA: the AI to EBITDA Playbook, SaaS to AI transition, outcome-based pricing, AI agent pricing models, and AI SaaS retention.",
+  openGraph: {
+    title: "Writing on AI, SaaS Re-founding, and Exit Value",
+    description: "Frameworks for turning AI into EBITDA. Built from two re-foundings.",
+    url: "https://www.mikedelacruz.com/writing",
+    type: "website",
+  },
 };
 
 const articles = [

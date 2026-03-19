@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "Outcome-Based Pricing for AI — How to Price What the Agent Delivers",
   description:
     "Outcome-based pricing charges customers for the results AI delivers. Consumption pricing tied to economic value created. The model that drove 22%+ EBITDA at Directly.",
+  openGraph: {
+    title: "Outcome-Based Pricing for AI — How to Price What the Agent Delivers",
+    description: "Seat-based pricing breaks when AI replaces human work. Outcome-based pricing is the destination.",
+    url: "https://www.mikedelacruz.com/outcome-based-pricing-ai",
+    type: "article",
+  },
 };
 
 export default function OutcomeBasedPricing() {

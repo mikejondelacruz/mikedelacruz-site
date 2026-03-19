@@ -4,6 +4,12 @@ export const metadata: Metadata = {
   title: "Contact Mike de la Cruz",
   description:
     "For operators running $10–$75M SaaS companies and investors evaluating AI transitions, exit positioning, and revenue durability.",
+  openGraph: {
+    title: "Contact Mike de la Cruz",
+    description: "For operators and investors evaluating AI transitions and exit positioning.",
+    url: "https://www.mikedelacruz.com/contact",
+    type: "website",
+  },
 };
 
 export default function Contact() {

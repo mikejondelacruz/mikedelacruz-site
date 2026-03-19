@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "SaaS to AI Transition — Re-founding, Not Upgrading",
   description:
     "The SaaS to AI transition is re-founding a traditional SaaS company around AI-native architecture, pricing, and delivery. Know what's QWERTY and what's carriage.",
+  openGraph: {
+    title: "SaaS to AI Transition — Re-founding, Not Upgrading",
+    description: "Re-founding means tearing out the carriage and keeping the QWERTY.",
+    url: "https://www.mikedelacruz.com/saas-to-ai-transition",
+    type: "article",
+  },
 };
 
 export default function SaaSToAITransition() {
@@ -38,7 +44,7 @@ export default function SaaSToAITransition() {
     "Identify your QWERTY—the durable asset. Clarity on the job to be done. Proprietary data. Workflow depth. Operational tasks only your AI can execute at scale. Strip away the carriage.",
     "Rebuild the core workflow with AI as the primary execution layer, not an assistant. At one company I re-founded, 18 products collapsed into one vertical AI agent. The outcome became the product.",
     "Change the unit. From seats sold to Customer EBITDA Created. The seat is carriage. The outcome is QWERTY.",
-    "Change the GTM motion. From market, sell, implement, renew to deliver, expand, deliver again. Acquisition cycles compress when the trial proves value before the contract is signed. One re-founding I led dropped acquisition cycles from roughly nine months to roughly 60 days.",
+    "Change the GTM motion. From market, sell, implement, renew to deliver, expand, deliver again. Acquisition cycles compress when the trial proves value before the contract is signed. One re-founding I led dropped acquisition cycles from ~9 months to ~60 days.",
     "Retrain the org around AI delivery metrics. Trial-to-paid conversion. AI quality. Customer EBITDA Created. Weekly operating cadence, not quarterly. The board agenda changes too—agent performance becomes a standing item, not a product update footnote.",
   ];
 

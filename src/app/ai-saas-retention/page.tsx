@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "AI SaaS Retention — How GRR Reveals Durability Before NRR Obscures It",
   description:
     "AI SaaS retention depends on whether the AI is load-bearing in the customer's workflow. Track GRR for AI customers separately. The renewal is the new sale.",
+  openGraph: {
+    title: "AI SaaS Retention — How GRR Reveals Durability Before NRR Obscures It",
+    description: "The pilot converts. Three months later, it churns. AI only renews when it hits the customer's P&L.",
+    url: "https://www.mikedelacruz.com/ai-saas-retention",
+    type: "article",
+  },
 };
 
 export default function AISaaSRetention() {

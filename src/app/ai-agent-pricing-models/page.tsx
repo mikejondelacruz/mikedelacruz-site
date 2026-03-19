@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "AI Agent Pricing Models — Five Models from Seat-Based to Outcome-Based",
   description:
     "Frameworks for pricing autonomous AI agents. Per-outcome, value-share, tiered capacity, usage-based, and hybrid models. Built from two AI re-foundings.",
+  openGraph: {
+    title: "AI Agent Pricing Models — Five Models from Seat-Based to Outcome-Based",
+    description: "The agent doesn't log in. It doesn't have a seat. The old pricing models don't apply.",
+    url: "https://www.mikedelacruz.com/ai-agent-pricing-models",
+    type: "article",
+  },
 };
 
 export default function AIAgentPricingModels() {

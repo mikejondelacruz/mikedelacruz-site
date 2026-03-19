@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "About Mike de la Cruz — AI Re-founder, Directly & iAdvize",
   description:
     "Two enterprise CX platforms rebuilt to AI-first under live operating pressure. Previously Hewlett Packard Enterprise, SAP, Siebel. Harvard Business School, Yale University.",
+  openGraph: {
+    title: "About Mike de la Cruz — AI Re-founder, Directly & iAdvize",
+    description: "Two enterprise CX platforms rebuilt to AI-first under live operating pressure.",
+    url: "https://www.mikedelacruz.com/about",
+    type: "profile",
+  },
 };
 
 export default function About() {
@@ -55,7 +61,7 @@ export default function About() {
 
           <div>
             <div className="flex items-baseline justify-between">
-              <h3 className="font-medium">Chief Executive Officer</h3>
+              <h3 className="font-medium">CEO 2020–2022, CBO 2019</h3>
               <span className="text-sm text-muted font-mono">2019–2022</span>
             </div>
             <p className="text-sm text-muted">Directly</p>
