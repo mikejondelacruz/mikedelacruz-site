@@ -12,7 +12,7 @@ export default function Home() {
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
-          Two enterprise SaaS companies rebuilt to AI-first.
+          Two enterprise SaaS rebuilds to AI-first.
         </p>
         <div className="flex gap-4 mt-2">
           <a
@@ -33,7 +33,7 @@ export default function Home() {
       {/* Proof strip */}
       <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
         {[
-          { metric: "2", label: "Enterprise AI rebuilds" },
+          { metric: "2", label: "SaaS→AI rebuilds" },
           { metric: "18→2", label: "Products rationalized" },
           { metric: "$10M+", label: "AI ARR, 24 mos" },
           { metric: "~50%", label: "of EBITDA at exit" },
