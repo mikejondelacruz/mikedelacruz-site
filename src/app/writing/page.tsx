@@ -8,7 +8,7 @@ const articles = [
   },
   {
     title: "SaaS to AI Transition",
-    description: "18 products collapsed into one AI agent. That's what a re-founding looks like.",
+    description: "18 products became 2. That's what a re-founding looks like.",
     href: "/saas-to-ai-transition",
   },
   {

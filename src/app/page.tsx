@@ -65,7 +65,7 @@ export default function Home() {
           },
           {
             title: "SaaS → AI Transition",
-            desc: "18 products collapsed into one AI agent. That's what re-founding looks like.",
+            desc: "18 products became 2. That's what re-founding looks like.",
             href: "/saas-to-ai-transition",
           },
           {

@@ -42,7 +42,7 @@ export default function About() {
             </div>
             <p className="text-sm text-muted">iAdvize</p>
             <div className="mt-3 space-y-1 text-sm leading-relaxed">
-              <p>Turned 18-product portfolio into a single vertical AI agent.</p>
+              <p>Turned 18-product portfolio into 2: one vertical AI agent, plus one SaaS product.</p>
               <p>Built AI revenue engine from $0→$10M+ ARR in 24 months.</p>
               <p>Reduced customer acquisition cycles from ~9 months→~60 days.</p>
               <p>Trial-to-paid conversion from 20%→60%.</p>

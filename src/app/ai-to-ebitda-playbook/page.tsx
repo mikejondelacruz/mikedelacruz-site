@@ -17,7 +17,7 @@ export default function AIToEBITDA() {
         "Measure Customer EBITDA Created (CEC) — the actual dollars your AI creates on the customer's P&L. Example: an AI sales agent closes a $150 e-commerce order. That order = $15 CEC.",
         "Calculate Customer EBITDA Return (CER): CEC ÷ Price. Below 3x, the value is too thin — you'll be rationalized. 3–10x is the Goldilocks zone — durable revenue. Above 10x, you're probably underpriced.",
         "Restructure pricing to capture a share of that value. Outcome-based, not seat-based. Price so the customer sees a 3–10x return on their P&L.",
-        "Consolidate product surface area — fewer features, more load-bearing AI workflows. At iAdvize, 18 products became one vertical AI agent.",
+        "Consolidate product surface area — fewer features, more load-bearing AI workflows. At iAdvize, 18 products became 2: one vertical AI agent, plus one SaaS product.",
         "Track AI-attributable revenue as a distinct line item. At Directly, the AI agent drove ~50% of SaaS EBITDA — structural margin improvement that compounded and transferred to the acquirer.",
       ]}
       example="At Directly, the company operated at survival-level EBITDA margins. After rebuilding around outcome-based pricing and letting the AI agent drive resolution economics, EBITDA went from survival to 22%, expanding to 31% by sale. The exit closed at 2.6x TTM revenue. The AI margin improvement transferred fully to the PE-backed acquirer."
