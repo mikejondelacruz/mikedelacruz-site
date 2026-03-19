@@ -22,7 +22,7 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            At iAdvize, the company was positioned as a 360-degree CX platform with 18 products. I worked with the CEO to re-found the company to build a vertical agent for e-commerce and commercialized it. Portfolio from 18 → 2: one AI agent, plus one SaaS product.
+            At iAdvize, the company was positioned as a 360-degree CX platform with 18 products. I worked with the CEO to re-found the company to build a vertical agent for e-commerce and commercialize it. Portfolio from 18 → 2: one AI agent, plus one SaaS product.
           </p>
           <p>
             The product team focused on building one AI agent for one high-value workflow. Customer onboarding compressed dramatically. Trial-to-paid conversion tripled during the first customer cohorts.
