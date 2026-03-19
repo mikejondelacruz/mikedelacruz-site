@@ -13,14 +13,14 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex gap-6">
-          <Link href="/ai-saas-retention" className="text-sm text-muted hover:text-ink transition-colors">
-            AI SaaS Retention
+          <Link href="/ai-to-ebitda-playbook" className="text-sm text-muted hover:text-ink transition-colors">
+            AI → EBITDA
+          </Link>
+          <Link href="/saas-to-ai-transition" className="text-sm text-muted hover:text-ink transition-colors">
+            SaaS → AI
           </Link>
           <Link href="/outcome-based-pricing-ai" className="text-sm text-muted hover:text-ink transition-colors">
             Outcome-Based Pricing
-          </Link>
-          <Link href="/ai-to-ebitda-playbook" className="text-sm text-muted hover:text-ink transition-colors">
-            AI → EBITDA
           </Link>
         </div>
       </div>
