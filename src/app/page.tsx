@@ -13,6 +13,7 @@ export default function Home() {
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
           Enterprise CX → AI revenue engines under live operating pressure.
+          <br className="hidden md:block" />
           $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.
         </p>
       </div>
