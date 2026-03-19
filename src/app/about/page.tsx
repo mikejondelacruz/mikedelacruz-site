@@ -22,8 +22,7 @@ export default function About() {
           Two enterprise CX platforms rebuilt to AI-first. In both, AI worked first, then an AI GTM model, before financial results. The SaaS playbook was the constraint.
         </p>
         <p>
-          My work sits at a specific intersection: mid-market SaaS where AI
-          capability exists but hasn&apos;t hit the P&L. The gap is structural,
+          Mid-market SaaS where AI capability exists but hasn&apos;t hit the P&amp;L. The gap is structural,
           not technical. Outcomes over features. Customer EBITDA impact over
           productivity claims. Deliver before annual contracts. Break GTM silos.
         </p>
