@@ -10,27 +10,27 @@ export const metadata: Metadata = {
 const articles = [
   {
     title: "The AI to EBITDA Playbook",
-    description: "AI does not create value until it appears in EBITDA. Demos don't count. Pilots don't count.",
+    description: "Most AI initiatives demonstrate impressive technology. Few convert it into margin. This playbook is the bridge.",
     href: "/ai-to-ebitda-playbook",
   },
   {
     title: "SaaS to AI Transition",
-    description: "18 products became 2. That's what a re-founding looks like.",
+    description: "Adding AI to a SaaS company is not a transition. It is a distraction. Re-founding means tearing out the carriage and keeping the QWERTY.",
     href: "/saas-to-ai-transition",
   },
   {
     title: "Outcome-Based Pricing for AI",
-    description: "Seat-based pricing breaks when AI replaces human work. Here's what replaces it.",
+    description: "Seat-based pricing made sense when software served humans. AI doesn't use seats. Customers who figured that out first will renegotiate every contract you have.",
     href: "/outcome-based-pricing-ai",
   },
   {
     title: "AI Agent Pricing Models",
-    description: "AI agents don't have seats. They don't log in. The old pricing models don't apply.",
+    description: "Most companies apply SaaS pricing to AI agents and wonder why the economics don't work. The old model is the problem.",
     href: "/ai-agent-pricing-models",
   },
   {
     title: "AI SaaS Retention",
-    description: "If a customer can turn off the AI and nothing breaks, retention will always be fragile.",
+    description: "The pilot converts. Three months later, it churns. If the AI doesn't show up on the customer's P&L, it will be turned off.",
     href: "/ai-saas-retention",
   },
 ];
