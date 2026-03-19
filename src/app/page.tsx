@@ -40,7 +40,7 @@ export default function Home() {
         ].map((item) => (
           <div key={item.label} className="border border-border py-4 pr-4 pl-6">
             <p className="text-2xl font-semibold tracking-tight">{item.metric}</p>
-            <p className="text-[10px] text-muted mt-1">{item.label}</p>
+            <p className="text-xs text-muted mt-1">{item.label}</p>
           </div>
         ))}
       </div>
