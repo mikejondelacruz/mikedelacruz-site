@@ -8,9 +8,6 @@ export default function Footer() {
           <p className="font-mono text-sm text-muted">
             © {new Date().getFullYear()} Mike de la Cruz
           </p>
-          <p className="text-sm text-muted mt-1">
-            AI → EBITDA → Exit Value
-          </p>
         </div>
         <div className="flex gap-6">
           <Link href="/ai-to-ebitda-playbook" className="text-sm text-muted hover:text-ink transition-colors">
