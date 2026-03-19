@@ -21,7 +21,7 @@ export default function Nav() {
       >
         mike de la cruz
       </Link>
-      <div className="flex gap-6">
+      <div className="flex gap-3 md:gap-6">
         {links.map((link) => (
           <Link
             key={link.href}
