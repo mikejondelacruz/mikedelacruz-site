@@ -26,7 +26,7 @@ const articles = [
   },
   {
     title: "Outcome-Based Pricing for AI",
-    description: "Seat-based pricing made sense when software served humans. AI doesn't use seats. Customers who figured that out first will renegotiate every contract you have.",
+    description: "Cost-plus quietly caps the exit multiple. Most don't realize it yet. Anchor pricing to the customer's P&L instead.",
     href: "/outcome-based-pricing-ai",
   },
   {
