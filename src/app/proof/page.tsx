@@ -78,7 +78,7 @@ export default function Proof() {
           <p>
             Led the full exit process: advisor selection, diligence,
             negotiation, board coordination. Closed the asset sale to a
-            PE-backed portfolio company at 2.6x TTM revenue.
+            PE-backed portfolio company.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export default function Proof() {
             { metric: "$3.7M→$8M+", value: "30% CAGR" },
             { metric: "22%+", value: "EBITDA margin" },
             { metric: "~50%", value: "EBITDA from AI" },
-            { metric: "2.6x TTM", value: "Exit multiple" },
+            { metric: "PE exit", value: "Asset sale" },
             { metric: "Outcome", value: "Per resolution" },
             { metric: "PE portco", value: "Acquirer" },
           ].map((item) => (
