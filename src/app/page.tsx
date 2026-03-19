@@ -12,7 +12,7 @@ export default function Home() {
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
-          Two enterprise SaaS rebuilds to AI-first. $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.
+          Two enterprise SaaS companies rebuilt to AI-first.
         </p>
         <div className="flex gap-4 mt-2">
           <a
