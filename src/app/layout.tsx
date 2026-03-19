@@ -19,11 +19,11 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mike de la Cruz — 2x AI Re-founder of B2B SaaS",
+  title: "Mike de la Cruz — AI → EBITDA → Exit Value",
   description:
     "I rebuild $10–$75M SaaS companies where AI hasn't translated to EBITDA.",
   openGraph: {
-    title: "Mike de la Cruz — 2x AI Re-founder of B2B SaaS",
+    title: "Mike de la Cruz — AI → EBITDA → Exit Value",
     description:
       "I rebuild $10–$75M SaaS companies where AI hasn't translated to EBITDA.",
     url: "https://mikedelacruz.com",
