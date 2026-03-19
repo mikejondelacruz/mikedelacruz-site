@@ -35,8 +35,8 @@ const articles = [
     href: "/usage-based-pricing-ai-agents",
   },
   {
-    title: "AI SaaS Retention",
-    description: "The pilot converts. Three months later, it churns. If the AI doesn't show up on the customer's P&L, it will be turned off.",
+    title: "AI Agent Retention",
+    description: "Most agents convert pilots to paid and lose the renewal. The cause is consistent: the agent never moved a line on the customer's P&L.",
     href: "/ai-saas-retention",
   },
 ];
