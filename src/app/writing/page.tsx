@@ -79,7 +79,7 @@ export default function Writing() {
           href="/proof"
           className="text-sm text-muted mt-4 inline-block hover:text-ink transition-colors"
         >
-          See the proof →
+          See results →
         </Link>
       </div>
     </div>

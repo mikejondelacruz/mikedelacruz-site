@@ -151,7 +151,7 @@ export default function SaaSToAITransition() {
               href="/proof"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              See the proof →
+              See results →
             </Link>
           </div>
         </div>

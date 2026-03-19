@@ -108,13 +108,15 @@ export default function Home() {
             href="/proof"
             className="text-sm font-medium border border-ink px-6 py-3 hover:bg-ink hover:text-paper transition-colors"
           >
-            See the proof
+            See results
           </Link>
           <Link
-            href="/contact"
+            href="https://www.linkedin.com/in/mikejdelacruz"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm text-muted border border-border px-6 py-3 hover:border-ink hover:text-ink transition-colors"
           >
-            Get in touch
+            DM on LinkedIn
           </Link>
         </div>
       </div>

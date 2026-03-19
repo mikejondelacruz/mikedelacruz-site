@@ -133,10 +133,12 @@ export default function About() {
           <p>Board asking hard questions about the AI investment.</p>
         </div>
         <Link
-          href="/contact"
+          href="https://www.linkedin.com/in/mikejdelacruz"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-sm font-medium border border-ink px-5 py-2 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
         >
-          Get in touch
+          DM on LinkedIn
         </Link>
       </div>
     </div>
