@@ -76,7 +76,7 @@ export default function Proof() {
             funding 19 days after the pandemic was declared. Then rebuilt.
           </p>
           <p>
-            Instant Answers AI resolved support tickets on pre-LLM, intent-based technology and ultimately drove ~50% of company EBITDA — structural margin improvement that compounded regardless of the product roadmap.
+            Instant Answers AI resolved support tickets on pre-LLM, intent-based technology and ultimately drove ~50% of company EBITDA—structural margin improvement that compounded regardless of the product roadmap.
           </p>
           <p>
             Rationalized low-margin accounts to improve revenue quality. EBITDA

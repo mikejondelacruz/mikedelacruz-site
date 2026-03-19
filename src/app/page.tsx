@@ -39,11 +39,11 @@ export default function Home() {
         </h2>
         <ol className="space-y-4">
           {[
-            "One high-value workflow — not a feature, the actual business process.",
-            "AI that improves customer EBITDA — measurable on the customer's P&L.",
-            "Consumption pricing tied to value — outcome-based, not seat-based.",
-            "GTM around continuous value creation — deliver, expand, deliver again.",
-            "Operating cadence on AI performance + margins — weekly, not quarterly.",
+            "One high-value workflow—not a feature, the actual business process.",
+            "AI that improves customer EBITDA—measurable on the customer's P&L.",
+            "Consumption pricing tied to value—outcome-based, not seat-based.",
+            "GTM around continuous value creation—deliver, expand, deliver again.",
+            "Operating cadence on AI performance + margins—weekly, not quarterly.",
           ].map((step, i) => (
             <li key={i} className="flex gap-4">
               <span className="font-mono text-sm text-muted mt-0.5 shrink-0">

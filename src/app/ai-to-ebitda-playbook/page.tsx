@@ -28,7 +28,7 @@ export default function AIToEBITDA() {
         name: "What is Customer EBITDA Created (CEC)?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "CEC is the actual dollar value your AI generates on the customer's P&L — not projected savings, not efficiency estimates. It is the number the customer CFO can measure. Example: an AI agent that closes a $150 order at 10% margin creates $15 of CEC.",
+          text: "CEC is the actual dollar value your AI generates on the customer's P&L—not projected savings, not efficiency estimates. It is the number the customer CFO can measure. Example: an AI agent that closes a $150 order at 10% margin creates $15 of CEC.",
         },
       },
       {
@@ -60,7 +60,7 @@ export default function AIToEBITDA() {
         name: "What does re-founding mean in the context of this playbook?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Re-founding is the process of rebuilding a SaaS company's product, GTM motion, and pricing architecture around AI — not bolting AI onto an existing model. The AI to EBITDA Playbook is the financial framework that governs a re-founding. It ensures the rebuild produces measurable margin, not just capability.",
+          text: "Re-founding is the process of rebuilding a SaaS company's product, GTM motion, and pricing architecture around AI—not bolting AI onto an existing model. The AI to EBITDA Playbook is the financial framework that governs a re-founding. It ensures the rebuild produces measurable margin, not just capability.",
         },
       },
     ],
@@ -77,7 +77,7 @@ export default function AIToEBITDA() {
   const faqs = [
     {
       q: "What is Customer EBITDA Created (CEC)?",
-      a: "CEC is the actual dollar value your AI generates on the customer's P&L — not projected savings, not efficiency estimates. It is the number the customer CFO can measure. Example: an AI agent that closes a $150 order at 10% margin creates $15 of CEC.",
+      a: "CEC is the actual dollar value your AI generates on the customer's P&L—not projected savings, not efficiency estimates. It is the number the customer CFO can measure. Example: an AI agent that closes a $150 order at 10% margin creates $15 of CEC.",
     },
     {
       q: "What is Customer EBITDA Return (CER)?",
@@ -93,7 +93,7 @@ export default function AIToEBITDA() {
     },
     {
       q: "What does re-founding mean in the context of this playbook?",
-      a: "Re-founding is the process of rebuilding a SaaS company's product, GTM motion, and pricing architecture around AI — not bolting AI onto an existing model. The AI to EBITDA Playbook is the financial framework that governs a re-founding. It ensures the rebuild produces measurable margin, not just capability.",
+      a: "Re-founding is the process of rebuilding a SaaS company's product, GTM motion, and pricing architecture around AI—not bolting AI onto an existing model. The AI to EBITDA Playbook is the financial framework that governs a re-founding. It ensures the rebuild produces measurable margin, not just capability.",
     },
   ];
 
@@ -131,7 +131,7 @@ export default function AIToEBITDA() {
               <strong>Customer EBITDA Created (CEC)</strong> is the actual dollar value your AI generates on the customer&apos;s P&amp;L. If an AI sales agent closes a $150 e-commerce order at a 10% margin, that order creates $15 of CEC.
             </p>
             <p>
-              <strong>Customer EBITDA Return (CER)</strong> is CEC divided by the price the customer pays. A CER of 3–10x is the target zone for durable AI revenue. Below 3x, the value is too thin — you will be rationalized. Above 10x, you are underpriced.
+              <strong>Customer EBITDA Return (CER)</strong> is CEC divided by the price the customer pays. A CER of 3–10x is the target zone for durable AI revenue. Below 3x, the value is too thin—you will be rationalized. Above 10x, you are underpriced.
             </p>
             <p>
               Investors and acquirers do not pay for AI capabilities. They pay for EBITDA. At exit, your acquirer will assess the durability of your EBITDA. The companies that translate AI into margin expansion command higher multiples. Those that do not will struggle.
@@ -204,19 +204,19 @@ export default function AIToEBITDA() {
               href="/ai-saas-retention"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              AI SaaS Retention — how GRR reveals AI revenue durability before NRR obscures it
+              AI SaaS Retention—how GRR reveals AI revenue durability before NRR obscures it
             </Link>
             <Link
               href="/outcome-based-pricing-ai"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              Outcome-Based Pricing — how to restructure pricing when AI changes the unit of value
+              Outcome-Based Pricing—how to restructure pricing when AI changes the unit of value
             </Link>
             <Link
               href="/saas-to-ai-transition"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              SaaS to AI Transition — the operating model changes that precede the financial ones
+              SaaS to AI Transition—the operating model changes that precede the financial ones
             </Link>
             <Link
               href="/proof"

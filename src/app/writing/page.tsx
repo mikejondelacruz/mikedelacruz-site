@@ -66,7 +66,7 @@ export default function Writing() {
       <div className="mt-12 border-t border-border pt-8">
         <p className="text-sm text-muted">
           These frameworks come from operating two AI transitions at
-          enterprise scale — Directly (CEO, exit to PE) and iAdvize
+          enterprise scale—Directly (CEO, exit to PE) and iAdvize
           (President, $0→$10M+ AI ARR).
         </p>
         <Link
