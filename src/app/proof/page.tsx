@@ -22,18 +22,10 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            iAdvize was an 18-product B2B SaaS platform for conversational
-            commerce. The AI capability was ahead of the packaging.
+            At iAdvize, the company had 18 distinct product features in a 360-degree CX platform. I worked closely with the CEO to re-found the company by collapsing everything into a single vertical agent — #1 for e-commerce.
           </p>
           <p>
-            The re-founding meant collapsing the entire portfolio into a single
-            vertical AI agent. One workflow. One interface. One pricing model
-            tied to customer outcomes.
-          </p>
-          <p>
-            The result: $0→$10M+ AI ARR in 24 months. AI revenue overtook
-            legacy SaaS. The product team went from maintaining 18 features to
-            improving one AI system.
+            The product team went from maintaining 18 features to improving one AI system. Customer onboarding compressed dramatically. Trial-to-paid conversion went from 20% to 60%. AI revenue went from $0 to $10M+ ARR in 24 months and overtook legacy SaaS.
           </p>
         </div>
 
