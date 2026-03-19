@@ -31,10 +31,9 @@ export default function Home() {
       </div>
 
       {/* Proof strip */}
-      <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="mt-16 grid grid-cols-3 gap-4">
         {[
           { metric: "2", label: "SaaS→AI rebuilds" },
-          { metric: "18→2", label: "Products rationalized" },
           { metric: "$10M+", label: "AI ARR, 24 mos" },
           { metric: "~50%", label: "of EBITDA at exit" },
         ].map((item) => (
