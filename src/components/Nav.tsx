@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-  { href: "/", label: "Home" },
+  { href: "/", label: "Home", hideOnMobile: true },
   { href: "/about", label: "About" },
   { href: "/proof", label: "Proof" },
   { href: "/writing", label: "Writing" },
@@ -30,7 +30,7 @@ export default function Nav() {
               pathname === link.href
                 ? "text-ink font-medium"
                 : "text-muted hover:text-ink"
-            }`}
+            }${link.hideOnMobile ? " hidden md:inline" : ""}`}
           >
             {link.label}
           </Link>
