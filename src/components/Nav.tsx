@@ -21,7 +21,7 @@ export default function Nav() {
           <Link
             key={link.href}
             href={link.href}
-            className="text-sm text-muted hover:text-ink transition-colors"
+            className="text-[11px] md:text-sm text-muted hover:text-ink transition-colors"
           >
             {link.label}
           </Link>
