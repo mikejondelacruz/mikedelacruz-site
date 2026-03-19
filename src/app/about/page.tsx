@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Mike de la Cruz — AI Re-founder, Directly & iAdvize",
+  description:
+    "Two enterprise CX platforms rebuilt to AI-first under live operating pressure. Previously Hewlett Packard Enterprise, SAP, Siebel. Harvard Business School, Yale University.",
 };
 
 export default function About() {

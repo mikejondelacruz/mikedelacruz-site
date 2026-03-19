@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Proof — Results from Two AI Re-foundings",
+  description:
+    "Results from two AI re-foundings: iAdvize ($0 to $10M+ AI ARR, 18 products to 2) and Directly (22%+ EBITDA, AI-driven margin expansion, PE exit).",
 };
 
 export default function Proof() {

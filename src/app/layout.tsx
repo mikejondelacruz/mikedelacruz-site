@@ -38,7 +38,19 @@ const authorSchema = {
   url: "https://mikedelacruz.com",
   jobTitle: "AI SaaS Operator",
   description:
-    "I rebuild $10–$75M SaaS companies where AI hasn't translated to EBITDA.",
+    "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two enterprise CX platforms rebuilt to AI-first under live operating pressure.",
+  sameAs: ["https://www.linkedin.com/in/mikejdelacruz"],
+  alumniOf: [
+    { "@type": "Organization", name: "Harvard Business School" },
+    { "@type": "Organization", name: "Yale University" },
+  ],
+  knowsAbout: [
+    "AI to EBITDA conversion",
+    "SaaS to AI transition",
+    "Outcome-based pricing",
+    "AI agent pricing models",
+    "AI SaaS retention",
+  ],
 };
 
 export default function RootLayout({

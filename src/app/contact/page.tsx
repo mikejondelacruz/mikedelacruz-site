@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Mike de la Cruz",
+  description:
+    "For operators running $10–$75M SaaS companies and investors evaluating AI transitions, exit positioning, and revenue durability.",
 };
 
 export default function Contact() {
