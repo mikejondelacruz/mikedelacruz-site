@@ -8,37 +8,19 @@ export default function Contact() {
       <div className="mt-12 space-y-8">
         <div>
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For boards
-          </h2>
-          <p className="text-base leading-relaxed">
-            The hardest conversation is deciding which parts of the company are
-            QWERTY and which parts are carriage. I help boards navigate that
-            decision with frameworks tested across two re-foundings.
-          </p>
-        </div>
-
-        <div>
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For investors
-          </h2>
-          <p className="text-base leading-relaxed">
-            I advise PE firms and growth investors on AI SaaS value creation.
-            If you&apos;re evaluating a portfolio company&apos;s AI
-            transition, exit positioning, or AI revenue durability, I can help
-            with diligence and strategy. I&apos;ve been on both sides of
-            AI revenue due diligence.
-          </p>
-        </div>
-
-        <div>
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
             For operators
           </h2>
           <p className="text-base leading-relaxed">
-            If you&apos;re running a $10–$75M SaaS company and AI
-            hasn&apos;t hit your P&amp;L yet, let&apos;s talk. I work with
-            CEOs on the business model side — pricing, retention, and the path
-            to AI-driven EBITDA. I&apos;ve done it twice.
+            I&apos;ve rebuilt two SaaS companies to AI-first — pricing, retention, and the path to AI-driven EBITDA. If you&apos;re running a $10–$75M SaaS company and AI hasn&apos;t hit your P&amp;L yet, let&apos;s talk.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
+            For investors and boards
+          </h2>
+          <p className="text-base leading-relaxed">
+            I&apos;ve been on both sides of AI revenue due diligence — building the asset and selling it. If you&apos;re evaluating a portfolio company&apos;s AI transition, exit positioning, or whether the AI revenue actually renews, that&apos;s the problem I&apos;ve operated through twice. The hardest board conversation is deciding which parts of the company are QWERTY and which parts are carriage.
           </p>
         </div>
 
