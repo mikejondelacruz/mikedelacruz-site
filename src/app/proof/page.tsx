@@ -32,7 +32,7 @@ export default function Proof() {
         <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
             { metric: "$0→$10M+", value: "AI ARR in 24 months" },
-            { metric: "18→1", value: "Products consolidated" },
+            { metric: "18→2", value: "Focused products" },
             { metric: "9mo→60d", value: "Acquisition cycle" },
             { metric: "20%→60%", value: "Trial-to-paid" },
             { metric: "Consumption", value: "Tied to outcome" },
