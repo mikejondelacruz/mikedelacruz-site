@@ -11,7 +11,7 @@ export default function Contact() {
             For operators
           </h2>
           <p className="text-base leading-relaxed">
-            I&apos;ve rebuilt two SaaS companies to AI-first — pricing, retention, and the path to AI-driven EBITDA. If you&apos;re running a $10–$75M SaaS company and AI hasn&apos;t hit your P&amp;L yet, let&apos;s talk.
+            I rebuild $10–$75M SaaS companies by turning AI into EBITDA. Two companies rebuilt under live operating pressure. If AI isn&apos;t showing up in EBITDA, that&apos;s the problem I solve.
           </p>
         </div>
 
@@ -20,7 +20,15 @@ export default function Contact() {
             For investors and boards
           </h2>
           <p className="text-base leading-relaxed">
-            I&apos;ve been on both sides of AI revenue due diligence — building the asset and selling it. If you&apos;re evaluating a portfolio company&apos;s AI transition, exit positioning, or whether the AI revenue actually renews, that&apos;s the problem I&apos;ve operated through twice. The hardest board conversation is deciding which parts of the company are QWERTY and which parts are carriage.
+            I&apos;ve built AI revenue and sold an AI asset. I&apos;ve seen where it breaks:
+          </p>
+          <ul className="list-disc list-inside text-base leading-relaxed mt-2 space-y-1">
+            <li>AI performs but doesn&apos;t renew</li>
+            <li>Revenue doesn&apos;t translate to EBITDA</li>
+            <li>GTM can&apos;t price outcomes</li>
+          </ul>
+          <p className="text-base leading-relaxed mt-2">
+            The board question is simple: what to keep, what to kill.
           </p>
         </div>
 
