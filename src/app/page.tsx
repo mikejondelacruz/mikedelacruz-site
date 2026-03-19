@@ -18,7 +18,7 @@ export default function Home() {
         </p>
         <div className="flex gap-4 mt-2">
           <a
-            href="mailto:mike@mikedelacruz.com"
+            href="mailto:mikejdelacruz@gmail.com"
             className="text-sm font-medium border border-ink px-6 py-3 hover:bg-ink hover:text-paper transition-colors"
           >
             Email Mike
