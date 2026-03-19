@@ -13,20 +13,18 @@ export default function About() {
         </p>
         <p>
           Moved two enterprise CX platforms to AI-first under live operating
-          pressure. In both, the AI worked before the business did. EBITDA
-          followed once the model caught up. The legacy SaaS playbook was the
-          constraint.
+          pressure. In both, AI worked before the business did. EBITDA followed
+          once the model caught up. The legacy SaaS playbook was the constraint.
         </p>
         <p>
-          My work sits at a specific intersection: mid-market SaaS companies
-          where AI capability exists but hasn&apos;t hit the P&L. The gap
-          isn&apos;t technical — it&apos;s structural. Outcomes, not features.
-          Customer EBITDA impact, not indirect productivity gains. Deliver
-          first, before securing annual contracts. Break the SaaS GTM silos.
+          My work sits at a specific intersection: mid-market SaaS where AI
+          capability exists but hasn&apos;t hit the P&L. The gap is structural,
+          not technical. Outcomes over features. Customer EBITDA impact over
+          productivity claims. Deliver before annual contracts. Break GTM silos.
         </p>
         <p>
-          I reset the model so that the AI creates measurable financial value
-          for the customer and your business.
+          I reset the model so AI produces measurable financial value for the
+          customer and the business.
         </p>
       </div>
 
