@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </h1>
-        <p className="text-lg text-muted leading-relaxed max-w-xl">
+        <p className="text-xl text-muted leading-relaxed max-w-xl">
           Two enterprise SaaS rebuilds to AI-first.
         </p>
         <div className="flex gap-4 mt-2">
