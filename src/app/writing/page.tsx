@@ -21,7 +21,7 @@ const articles = [
   },
   {
     title: "SaaS to AI Transition",
-    description: "Adding AI to a SaaS company is not a transition. It is a distraction. Re-founding means tearing out the carriage and keeping the QWERTY.",
+    description: "Adding AI to a SaaS company is not a product refresh. It's a rebuild. Re-founding means tearing out the carriage and keeping the QWERTY.",
     href: "/saas-to-ai-transition",
   },
   {

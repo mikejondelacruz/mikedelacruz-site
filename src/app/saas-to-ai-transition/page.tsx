@@ -65,7 +65,7 @@ export default function SaaSToAITransition() {
         </h1>
 
         <p className="text-lg text-muted mt-6 leading-relaxed">
-          Adding AI to a SaaS company is not a transition. It is a distraction. Re-founding means tearing out the carriage and keeping the QWERTY.
+          Adding AI to a SaaS company is not a product refresh. It&apos;s a rebuild. Re-founding means tearing out the carriage and keeping the QWERTY.
         </p>
 
         {/* Why it matters */}
