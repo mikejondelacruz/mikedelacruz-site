@@ -12,9 +12,8 @@ export default function Home() {
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
-          I rebuild enterprise CX platforms into AI-first revenue engines under
-          live operating pressure. $0 → $10M+ AI ARR in 24 months. AI
-          drove ~50% of EBITDA at exit.
+          Enterprise CX → AI revenue engines under live operating pressure.
+          $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.
         </p>
       </div>
 
