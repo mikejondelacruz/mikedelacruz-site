@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Usage-Based Pricing for AI Agents — The Bridge to Outcome-Based Pricing",
     description: "Outcome-based pricing is the destination. Usage-based pricing is the bridge. The mistake is treating it as the destination too.",
-    url: "https://www.mikedelacruz.com/ai-agent-pricing-models",
+    url: "https://www.mikedelacruz.com/usage-based-pricing-ai-agents",
     type: "article",
   },
 };

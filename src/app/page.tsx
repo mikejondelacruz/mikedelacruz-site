@@ -76,7 +76,7 @@ export default function Home() {
           {
             title: "Usage-Based Pricing for AI Agents",
             desc: "Outcome-based pricing is the destination. Usage-based pricing is the bridge.",
-            href: "/ai-agent-pricing-models",
+            href: "/usage-based-pricing-ai-agents",
           },
         ].map((item) => (
           <Link

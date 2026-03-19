@@ -157,7 +157,7 @@ export default function OutcomeBasedPricing() {
               AI → EBITDA Playbook
             </Link>
             <Link
-              href="/ai-agent-pricing-models"
+              href="/usage-based-pricing-ai-agents"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
               Usage-Based Pricing

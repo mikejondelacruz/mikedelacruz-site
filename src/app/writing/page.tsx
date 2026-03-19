@@ -32,7 +32,7 @@ const articles = [
   {
     title: "Usage-Based Pricing for AI Agents",
     description: "Outcome-based pricing is the destination. Usage-based pricing is the bridge. The mistake is treating it as the destination too.",
-    href: "/ai-agent-pricing-models",
+    href: "/usage-based-pricing-ai-agents",
   },
   {
     title: "AI SaaS Retention",
