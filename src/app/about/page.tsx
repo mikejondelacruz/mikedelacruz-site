@@ -25,16 +25,19 @@ export default function About() {
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </p>
         <p>
-          Two enterprise CX platforms rebuilt to AI-first. In both, AI worked first, then an AI GTM model, before financial results. The SaaS playbook was the constraint.
+          I&apos;ve led two enterprise SaaS rebuilds to AI-first under live operating pressure.
         </p>
         <p>
-          Mid-market SaaS where AI capability exists but hasn&apos;t hit the P&amp;L. The gap is structural,
-          not technical. Outcomes over features. Customer EBITDA impact over
-          productivity claims. Deliver before annual contracts. Break GTM silos.
+          At Directly, AI became a major driver of EBITDA in an outcome-based model and a core part of the value creation behind the sale to a PE-backed portfolio company.
         </p>
         <p>
-          I reset the model so AI produces measurable financial value for the
-          customer and the business.
+          At iAdvize, I rationalized an 18-product portfolio to 2 and built an AI revenue engine from $0 to $10M+ ARR in 24 months.
+        </p>
+        <p>
+          In both, the AI worked before the business model did. Financial results followed once pricing, GTM, and packaging caught up.
+        </p>
+        <p>
+          That gap is where I operate: where AI capability is real, but the company has not yet converted it into revenue quality, margin expansion, and exit-grade fundamentals.
         </p>
       </div>
 
