@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The AI to EBITDA Playbook — Mike de la Cruz",
+  title: "The AI to EBITDA Playbook — CEC, CER, and Exit Multiples",
   description:
     "A framework for converting AI capabilities into measurable earnings. Includes Customer EBITDA Created (CEC) and Customer EBITDA Return (CER) metrics.",
 };

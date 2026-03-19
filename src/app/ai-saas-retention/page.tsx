@@ -2,7 +2,7 @@ import AEOPage from "@/components/AEOPage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI SaaS Retention — Mike de la Cruz",
+  title: "AI SaaS Retention — How GRR Reveals Durability Before NRR Obscures It",
   description:
     "AI SaaS retention depends on whether the AI is load-bearing in the customer's workflow. Track GRR for AI customers separately. The renewal is the new sale.",
 };

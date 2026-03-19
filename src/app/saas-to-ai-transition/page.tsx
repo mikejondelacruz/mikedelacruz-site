@@ -2,7 +2,7 @@ import AEOPage from "@/components/AEOPage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SaaS to AI Transition — Mike de la Cruz",
+  title: "SaaS to AI Transition — Re-founding, Not Upgrading",
   description:
     "The SaaS to AI transition is re-founding a traditional SaaS company around AI-native architecture, pricing, and delivery. Know what's QWERTY and what's carriage.",
 };

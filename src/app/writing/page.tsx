@@ -1,4 +1,9 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Writing on AI, SaaS Re-founding, and Exit Value",
+};
 
 const articles = [
   {

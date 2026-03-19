@@ -1,3 +1,9 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Mike de la Cruz",
+};
+
 export default function Contact() {
   return (
     <div className="max-w-2xl mx-auto px-6 md:px-12 py-16">

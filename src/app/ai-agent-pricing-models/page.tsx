@@ -2,7 +2,7 @@ import AEOPage from "@/components/AEOPage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Agent Pricing Models — Mike de la Cruz",
+  title: "AI Agent Pricing Models — Five Models from Seat-Based to Outcome-Based",
   description:
     "Frameworks for pricing autonomous AI agents. Per-outcome, value-share, tiered capacity, and hybrid models. Built from two AI re-foundings.",
 };

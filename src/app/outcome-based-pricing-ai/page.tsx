@@ -2,7 +2,7 @@ import AEOPage from "@/components/AEOPage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Outcome-Based Pricing for AI Products — Mike de la Cruz",
+  title: "Outcome-Based Pricing for AI — How to Price What the Agent Delivers",
   description:
     "Outcome-based pricing charges customers for the results AI delivers. Consumption pricing tied to economic value created. The model that drove 22%+ EBITDA at Directly.",
 };
