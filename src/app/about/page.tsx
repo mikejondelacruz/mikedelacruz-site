@@ -51,26 +51,31 @@ export default function About() {
               <span className="text-sm text-muted font-mono">2023–2026</span>
             </div>
             <p className="text-sm text-muted">iAdvize</p>
-            <div className="mt-3 space-y-1 text-sm leading-relaxed">
-              <p>Turned 18-product portfolio into 2: one vertical AI agent, plus one SaaS product.</p>
-              <p>Built AI revenue engine from $0→$10M+ ARR in 24 months.</p>
-              <p>Reduced customer acquisition cycles from ~9 months→~60 days.</p>
-              <p>Trial-to-paid conversion tripled.</p>
-            </div>
+            <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
+              <li>Rationalized an 18-product portfolio to 2: one vertical AI agent and one SaaS product</li>
+              <li>Built AI revenue engine from $0→$10M+ ARR in 24 months</li>
+              <li>Reduced customer acquisition cycle from ~9 months to ~60 days</li>
+              <li>Tripled trial-to-paid conversion</li>
+            </ul>
           </div>
 
           <div>
             <div className="flex items-baseline justify-between">
-              <h3 className="font-medium">CEO 2020–2022, CBO 2019</h3>
-              <span className="text-sm text-muted font-mono">2019–2022</span>
+              <h3 className="font-medium">CEO</h3>
+              <span className="text-sm text-muted font-mono">2020–2022</span>
+            </div>
+            <div className="flex items-baseline justify-between mt-1">
+              <h3 className="font-medium">CBO</h3>
+              <span className="text-sm text-muted font-mono">2019</span>
             </div>
             <p className="text-sm text-muted">Directly</p>
-            <div className="mt-3 space-y-1 text-sm leading-relaxed">
-              <p>Customer support platform for Microsoft, Airbnb, AT&amp;T, SAP.</p>
-              <p>Took over as CEO at the start of the pandemic. Obligations exceeded cash.</p>
-              <p>Raised capital, rebuilt the cost architecture, turned AI into margin expansion driver.</p>
-              <p>Sustained 22%+ EBITDA and led asset sale to PE-backed portfolio company.</p>
-            </div>
+            <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
+              <li>Customer support platform for Microsoft, Airbnb, AT&amp;T, and SAP</li>
+              <li>Took over as CEO at the start of the pandemic with obligations exceeding cash</li>
+              <li>Raised capital and rebuilt the cost architecture</li>
+              <li>AI drove ~50% of EBITDA at exit</li>
+              <li>Sustained 22%+ EBITDA and led asset sale to a PE-backed portfolio company</li>
+            </ul>
           </div>
 
           <div>
@@ -79,10 +84,10 @@ export default function About() {
               <span className="text-sm text-muted font-mono">2017–2018</span>
             </div>
             <p className="text-sm text-muted">Arago (KKR-backed)</p>
-            <div className="mt-3 space-y-1 text-sm leading-relaxed">
-              <p>Led US expansion for European general AI platform (reasoning).</p>
-              <p>Secured initial enterprise logos and built enterprise pipeline.</p>
-            </div>
+            <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
+              <li>Led US expansion for a European general AI platform focused on reasoning</li>
+              <li>Secured initial enterprise logos and built the enterprise pipeline</li>
+            </ul>
           </div>
 
           <div className="text-sm text-muted">
