@@ -9,11 +9,12 @@ export default function Home() {
           AI → EBITDA → Exit Value
         </p>
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
-          I rebuild enterprise CX platforms into AI revenue engines under
-          live operating pressure.
+          I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </h1>
         <p className="text-lg text-muted leading-relaxed max-w-xl">
-          $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.
+          I rebuild enterprise CX platforms into AI-first revenue engines under
+          live operating pressure. $0 → $10M+ AI ARR in 24 months. AI
+          drove ~50% of EBITDA at exit.
         </p>
       </div>
 
