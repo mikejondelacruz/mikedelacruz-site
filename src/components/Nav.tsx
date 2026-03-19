@@ -14,7 +14,7 @@ export default function Nav() {
         href="/"
         className="font-mono text-sm tracking-tight text-ink hover:text-muted transition-colors"
       >
-        mike de la cruz
+        Mike de la Cruz
       </Link>
       <div className="flex gap-3 md:gap-6">
         {links.map((link) => (
