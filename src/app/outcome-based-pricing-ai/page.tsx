@@ -65,7 +65,7 @@ export default function OutcomeBasedPricing() {
         </h1>
 
         <p className="text-lg text-muted mt-6 leading-relaxed">
-          SaaS companies price AI agents from their cost structure. Platform cost. Inference cost. Target margin. That&apos;s cost-plus, regardless of what the model is called. Cost-plus quietly caps the exit multiple. Most don&apos;t realize it yet.
+          Start from value, not cost. SaaS companies often price AI agents from their cost structure. Platform cost. Inference cost. Target margin. That&apos;s cost-plus, regardless of what the model is called. Cost-plus quietly caps the exit multiple. Most don&apos;t realize it yet.
         </p>
 
         {/* Why it matters */}
