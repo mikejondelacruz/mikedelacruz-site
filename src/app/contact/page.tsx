@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Mike de la Cruz",
+  title: "Work With Mike de la Cruz",
   description:
-    "For operators running $10–$75M SaaS companies and investors evaluating AI transitions, exit positioning, and revenue durability.",
+    "For B2B SaaS companies at an AI inflection point. CEOs, investors, and boards evaluating AI transitions, exit positioning, and revenue durability.",
   openGraph: {
-    title: "Contact Mike de la Cruz",
-    description: "For operators and investors evaluating AI transitions and exit positioning.",
+    title: "Work With Mike de la Cruz",
+    description: "For B2B SaaS companies at an AI inflection point.",
     url: "https://www.mikedelacruz.com/contact",
     type: "website",
   },
@@ -16,16 +16,20 @@ export default function Contact() {
   return (
     <div className="max-w-2xl mx-auto px-6 md:px-12 py-16">
       <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
-        Contact
+        Work With Mike
       </h1>
+
+      <p className="text-lg text-muted mt-6 leading-relaxed">
+        For B2B SaaS companies at an AI inflection point.
+      </p>
 
       <div className="mt-12 space-y-8">
         <div>
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For operators
+            For CEOs
           </h2>
           <p className="text-base leading-relaxed">
-            I rebuild $10–$75M SaaS companies by turning AI into EBITDA. I&apos;ve done it twice. If AI isn&apos;t showing up in EBITDA, that&apos;s the problem I solve.
+            Your AI may be real. Your business model may still be old. That gap is where I operate.
           </p>
         </div>
 
@@ -34,23 +38,33 @@ export default function Contact() {
             For investors and boards
           </h2>
           <p className="text-base leading-relaxed">
-            Two re-foundings. One exit. The pattern doesn&apos;t change.
+            Some SaaS companies need optimization. Others need a re-founding. I&apos;ve done the second.
           </p>
-          <ul className="list-disc list-inside text-base leading-relaxed mt-2 space-y-1">
-            <li>AI revenue doesn&apos;t translate to customer EBITDA</li>
-            <li>AI sells but doesn&apos;t renew</li>
-            <li>The renewal is the new sale. GTM wasn&apos;t built for it.</li>
-          </ul>
-          <p className="text-base leading-relaxed mt-2">
-            The board question is simple: what to keep, what to kill.
+        </div>
+
+        <div>
+          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
+            For CEO and President roles
+          </h2>
+          <p className="text-base leading-relaxed">
+            Open to select roles where the mandate is to rebuild the company around AI and drive measurable value creation.
           </p>
         </div>
 
         <div className="border-t border-border pt-8">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            Reach out
+            Contact
           </h2>
           <div className="space-y-2 text-base">
+            <p>
+              <span className="text-muted">Email:</span>{" "}
+              <a
+                href="mailto:mikejdelacruz@gmail.com"
+                className="underline hover:text-muted transition-colors"
+              >
+                mikejdelacruz@gmail.com
+              </a>
+            </p>
             <p>
               <span className="text-muted">LinkedIn:</span>{" "}
               <a
@@ -62,19 +76,7 @@ export default function Contact() {
                 linkedin.com/in/mikejdelacruz
               </a>
             </p>
-            <p>
-              <span className="text-muted">Email:</span>{" "}
-              <a
-                href="mailto:mikejdelacruz@gmail.com"
-                className="underline hover:text-muted transition-colors"
-              >
-                mikejdelacruz@gmail.com
-              </a>
-            </p>
           </div>
-          <p className="text-sm text-muted mt-6">
-            New Orleans, Louisiana
-          </p>
         </div>
       </div>
     </div>
