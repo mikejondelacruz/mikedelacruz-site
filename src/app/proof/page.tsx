@@ -65,7 +65,7 @@ export default function Proof() {
             ARR from $3.7M to $8M+.
           </p>
           <p>
-            Promoted to CEO starting Obligations exceeded cash with $1.2M/mo burn. Raised
+            Promoted to CEO. Obligations exceeded cash with $1.2M/mo burn. Raised
             funding 19 days after the pandemic was declared. Then rebuilt.
           </p>
           <p>
