@@ -124,7 +124,7 @@ export default function OutcomeBasedPricing() {
             Example
           </h2>
           <p className="text-base leading-relaxed text-ink">
-            At Directly, every pricing decision anchored to resolved support tickets at less than a third of Customer EBITDA Created. Customers got the 3x+ return. The company captured the margin. AI became the primary driver of company EBITDA—not by cutting costs, but by starting price from the customer&apos;s P&amp;L, not from ours. GRR strengthened. EBITDA expanded from 22% to 31%. That margin improvement transferred fully to the PE-backed acquirer at exit.
+            At Directly, the Instant Answers AI resolved support tickets in an outcome model. At $1 per resolution, it was priced to deliver customer EBITDA with a 3–10x return. It started slow, unlike a SaaS deal. But because pricing anchored to the customer&apos;s P&amp;L instead of our cost structure, margin contribution stacked. Total EBITDA went to 22% and expanded to 31%.
           </p>
         </div>
 
