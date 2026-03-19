@@ -34,14 +34,14 @@ export default function AIAgentPricingModels() {
         name: "What is usage-based pricing for AI agents?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Usage-based pricing charges per interaction or unit of work. It serves as a transitional bridge to outcome-based pricing while the AI agent reaches Minimum Productive Agent (MPA)--the point where Customer EBITDA Created is measurable, the return exceeds 3x, and the customer agrees.",
+          text: "Usage-based pricing charges per interaction or unit of work. It serves as a transitional bridge to outcome-based pricing while the AI agent reaches Minimum Productive Agent (MPA)\u2014the point where Customer EBITDA Created is measurable, the return exceeds 3x, and the customer agrees.",
         },
       },
     ],
   };
 
   const steps = [
-    "Fixed-price consumption bands. Customers pay a flat fee for a defined volume of agent activity--interactions, tasks, API calls. Predictable for the customer. Protects your revenue floor. Best for early deployments where outcome measurement isn\u2019t yet clean.",
+    "Fixed-price consumption bands. Customers pay a flat fee for a defined volume of agent activity\u2014interactions, tasks, API calls. Predictable for the customer. Protects your revenue floor. Best for early deployments where outcome measurement isn\u2019t yet clean.",
     "Tiered pricing. Charge different rates based on volume thresholds. Lower tiers reduce customer risk and accelerate trial conversion. Higher tiers capture expansion as usage grows. Keeps the door open to outcome-based pricing as the tier logic shifts from volume to value.",
     "Hybrid pricing with a platform fee. A fixed platform fee as the revenue floor with usage-based upside above it. The most common model in mature AI deployments. Gives the customer cost predictability and gives you natural expansion. When the agent hits MPA, the hybrid model migrates cleanly to outcome-based pricing by replacing the usage variable with an outcome variable.",
   ];
@@ -76,13 +76,10 @@ export default function AIAgentPricingModels() {
               AI agents sell faster than SaaS. Renewals are the trap.
             </p>
             <p>
-              The pattern is consistent: the first call ends in a yes to a pilot, the pilot converts to paid, then silence at renewal. That last step is where companies churn.
+              If the AI agent can&apos;t reliably deliver the outcome yet, you&apos;re not at MPA&mdash;Minimum Productive Agent. Outcome-based pricing before MPA creates a measurement problem neither side can resolve.
             </p>
             <p>
-              If the AI agent can&apos;t reliably deliver the outcome yet, you&apos;re not at MPA--Minimum Productive Agent. Outcome-based pricing before MPA creates a measurement problem neither side can resolve. Usage-based pricing buys time to get there. But it only works if both sides understand it&apos;s a bridge, not a business model.
-            </p>
-            <p>
-              The customer still needs to trace impact to their P&L. Usage-based pricing has to move them toward that moment, not away from it.
+              Usage-based pricing buys time to get there. But it only works if both sides understand it&apos;s a bridge, not a business model. The customer still needs to trace impact to their P&amp;L. Usage-based pricing has to move them toward that moment, not away from it.
             </p>
           </div>
         </div>
