@@ -2,16 +2,6 @@ import Link from "next/link";
 
 const articles = [
   {
-    title: "AI SaaS Retention",
-    description: "If a customer can turn off the AI and nothing breaks, retention will always be fragile.",
-    href: "/ai-saas-retention",
-  },
-  {
-    title: "Outcome-Based Pricing for AI",
-    description: "Seat-based pricing breaks when AI replaces human work. Here's what replaces it.",
-    href: "/outcome-based-pricing-ai",
-  },
-  {
     title: "The AI to EBITDA Playbook",
     description: "AI does not create value until it appears in EBITDA. Demos don't count. Pilots don't count.",
     href: "/ai-to-ebitda-playbook",
@@ -22,9 +12,19 @@ const articles = [
     href: "/saas-to-ai-transition",
   },
   {
+    title: "Outcome-Based Pricing for AI",
+    description: "Seat-based pricing breaks when AI replaces human work. Here's what replaces it.",
+    href: "/outcome-based-pricing-ai",
+  },
+  {
     title: "AI Agent Pricing Models",
     description: "AI agents don't have seats. They don't log in. The old pricing models don't apply.",
     href: "/ai-agent-pricing-models",
+  },
+  {
+    title: "AI SaaS Retention",
+    description: "If a customer can turn off the AI and nothing breaks, retention will always be fragile.",
+    href: "/ai-saas-retention",
   },
 ];
 
