@@ -74,20 +74,8 @@ export default function About() {
             </ul>
           </div>
 
-          <div>
-            <div className="flex items-baseline justify-between">
-              <h3 className="font-medium">VP of Sales</h3>
-              <span className="text-sm text-muted font-mono">2017–2018</span>
-            </div>
-            <p className="text-sm text-muted">Arago (KKR-backed)</p>
-            <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
-              <li>Led US expansion for a European general AI platform focused on reasoning</li>
-              <li>Secured initial enterprise logos and built the enterprise pipeline</li>
-            </ul>
-          </div>
-
           <div className="text-sm text-muted">
-            <p>Previously: Hewlett Packard Enterprise, SAP, Siebel</p>
+            <p>Previously: Hewlett Packard Enterprise, SAP, Arago (KKR-backed), Siebel</p>
           </div>
         </div>
       </div>
