@@ -42,14 +42,9 @@ export default function Contact() {
           </p>
         </div>
 
-        <div>
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For operating roles
-          </h2>
-          <p className="text-base leading-relaxed">
-            Open to select CEO and President roles where the mandate is to rebuild the company around AI and convert that into revenue quality, margin expansion, and exit-grade fundamentals.
-          </p>
-        </div>
+        <p className="text-base leading-relaxed">
+          Open to CEO role where the mandate is to rebuild around AI and drive exit-grade fundamentals.
+        </p>
 
         <div className="border-t border-border pt-8">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
