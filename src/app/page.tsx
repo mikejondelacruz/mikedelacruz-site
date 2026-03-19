@@ -16,6 +16,20 @@ export default function Home() {
           <br className="hidden md:block" />
           $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.
         </p>
+        <div className="flex gap-4 mt-2">
+          <a
+            href="mailto:mike@mikedelacruz.com"
+            className="text-sm font-medium border border-ink px-6 py-3 hover:bg-ink hover:text-paper transition-colors"
+          >
+            Email Mike
+          </a>
+          <Link
+            href="/proof"
+            className="text-sm text-muted border border-border px-6 py-3 hover:border-ink hover:text-ink transition-colors"
+          >
+            See Results
+          </Link>
+        </div>
       </div>
 
       {/* Proof strip */}
@@ -97,29 +111,6 @@ export default function Home() {
         ))}
       </div>
 
-      {/* CTA */}
-      <div className="mt-20 border-t border-border pt-12">
-        <p className="text-muted text-sm font-semibold">Typical situation</p>
-        <p className="text-muted text-sm mt-1">
-          $10–$75M ARR B2B SaaS. Enterprise CX. Growth slowing. AI hasn&apos;t hit the P&L.
-        </p>
-        <div className="flex gap-4 mt-6">
-          <Link
-            href="/proof"
-            className="text-sm font-medium border border-ink px-6 py-3 hover:bg-ink hover:text-paper transition-colors"
-          >
-            See results
-          </Link>
-          <Link
-            href="https://www.linkedin.com/in/mikejdelacruz"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-muted border border-border px-6 py-3 hover:border-ink hover:text-ink transition-colors"
-          >
-            DM on LinkedIn
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }
