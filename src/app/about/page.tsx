@@ -4,10 +4,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Mike de la Cruz — AI Re-founder, Directly & iAdvize",
   description:
-    "Two enterprise CX platforms rebuilt to AI-first under live operating pressure. Previously Hewlett Packard Enterprise, SAP, Siebel.",
+    "Two B2B CX platforms rebuilt to AI-first under live operating pressure. Previously Hewlett Packard Enterprise, SAP, Siebel.",
   openGraph: {
     title: "About Mike de la Cruz — AI Re-founder, Directly & iAdvize",
-    description: "Two enterprise CX platforms rebuilt to AI-first under live operating pressure.",
+    description: "Two B2B CX platforms rebuilt to AI-first under live operating pressure.",
     url: "https://www.mikedelacruz.com/about",
     type: "profile",
   },
@@ -37,7 +37,7 @@ export default function About() {
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </p>
         <p>
-          I&apos;ve led two enterprise SaaS rebuilds under live operating pressure.
+          I&apos;ve led two B2B SaaS rebuilds under live operating pressure.
         </p>
         <p>
           At Directly, AI became a major driver of EBITDA in an outcome-based model and part of the value creation behind the sale to a PE-backed portfolio company.

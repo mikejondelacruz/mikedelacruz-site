@@ -38,7 +38,7 @@ const authorSchema = {
   url: "https://www.mikedelacruz.com",
   jobTitle: "AI SaaS Operator",
   description:
-    "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two enterprise CX platforms rebuilt to AI-first under live operating pressure.",
+    "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two B2B CX platforms rebuilt to AI-first under live operating pressure.",
   sameAs: ["https://www.linkedin.com/in/mikejdelacruz"],
   alumniOf: [
     { "@type": "Organization", name: "Harvard Business School" },

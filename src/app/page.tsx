@@ -4,10 +4,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mike de la Cruz — I Rebuild $10–$75M B2B SaaS Companies by Turning AI into EBITDA",
   description:
-    "Two enterprise SaaS rebuilds to AI-first. $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.",
+    "Two B2B SaaS rebuilds to AI-first. $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.",
   openGraph: {
     title: "Mike de la Cruz — AI → EBITDA → Exit Value",
-    description: "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two enterprise SaaS rebuilds to AI-first.",
+    description: "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two B2B SaaS rebuilds to AI-first.",
     url: "https://www.mikedelacruz.com",
     type: "website",
   },
@@ -25,7 +25,7 @@ export default function Home() {
           I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
-          Two enterprise SaaS rebuilds under live operating pressure.
+          Two B2B SaaS rebuilds under live operating pressure.
           <br />
           From product reset to AI revenue to EBITDA.
         </p>
