@@ -68,7 +68,7 @@ export default function Home() {
         <div className="space-y-2 text-base leading-relaxed">
           <p>PE- or venture-backed B2B SaaS.</p>
           <p>$10M–$75M ARR.</p>
-          <p>AI capability is real, but GTM, growth, and margin have not caught up.</p>
+          <p>AI capability is real, but commercial infrastructure has not converted it into revenue quality or margin expansion.</p>
         </div>
       </div>
 
@@ -82,7 +82,7 @@ export default function Home() {
             { step: "Collapse to one high-value workflow", detail: "Not a feature. The business process that matters." },
             { step: "Tie AI to customer EBITDA", detail: "If it does not hit the customer P&L, it will not renew." },
             { step: "Price the outcome, not the seat", detail: "AI breaks seat-based logic when it replaces labor." },
-            { step: "Rebuild GTM around delivery", detail: "Deliver, expand, deliver more." },
+            { step: "Rebuild commercial infrastructure around continuous delivery", detail: "Deliver, expand, deliver more." },
             { step: "Run on AI performance and margins", detail: "Weekly operating cadence, not quarterly theater." },
           ].map((item, i) => (
             <li key={i} className="flex gap-4">
