@@ -52,7 +52,7 @@ export default function AISaaSRetention() {
         name: "What causes AI agent churn?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Three patterns repeat: all new logos are running experiments (easy to acquire, easy to churn), the renewal is the new sale and most GTM teams aren't built for it, and the agent only renews when it moves a line on the customer's P&L.",
+          text: "Three patterns repeat: all new accounts are running experiments (easy to acquire, easy to churn), the renewal is the new sale and most GTM teams aren't built for it, and the agent only renews when it moves a line on the customer's P&L.",
         },
       },
       {
@@ -79,7 +79,7 @@ export default function AISaaSRetention() {
     "Quantify Customer EBITDA Created for every deployment before the renewal conversation starts.",
     "Price so the customer sees a 3\u201310x return on their P&L. Below 3x, the agent is expendable at budget time.",
     "Make the renewal deck a P&L review, not a product review. The CFO is the retention anchor, not the CSM.",
-    "Start new AI agent logos on monthly contracts until retention proves itself. Annual contracts before proven retention is a bet that rarely pays off.",
+    "Start new AI agent accounts on monthly contracts until retention proves itself. Annual contracts before proven retention is a bet that rarely pays off.",
     "Review agent quality, churn reasons, downgrades, and stalled trials weekly. Not quarterly.",
   ];
 
@@ -136,7 +136,7 @@ export default function AISaaSRetention() {
           <div className="space-y-4 text-base leading-relaxed text-ink">
             <p>Three patterns repeat across AI agent deployments:</p>
             <ul className="space-y-2 ml-1">
-              <li>All new logos are running experiments. Easy to acquire, easy to churn.</li>
+              <li>All new accounts are running experiments. Easy to acquire, easy to churn.</li>
               <li>The renewal is the new sale. Most GTM teams aren&apos;t built for it.</li>
               <li>After the pilots, the agent only renews when it moves a line on the customer&apos;s P&amp;L.</li>
             </ul>
@@ -205,7 +205,7 @@ export default function AISaaSRetention() {
           </h2>
           <div className="space-y-4">
             <p className="text-lg font-medium leading-relaxed text-ink">
-              AI agent revenue only becomes durable when it shows up on the customer&apos;s income statement. Track AI GRR separate from SaaS. Make every renewal deck a P&amp;L review. Start new logos on monthly contracts until retention proves itself.
+              AI agent revenue only becomes durable when it shows up on the customer&apos;s income statement. Track AI GRR separate from SaaS. Make every renewal deck a P&amp;L review. Start new accounts on monthly contracts until retention proves itself.
             </p>
             <p className="text-lg font-medium leading-relaxed text-ink">
               Everything else is just a pilot.
