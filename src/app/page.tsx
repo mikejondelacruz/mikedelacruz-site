@@ -104,6 +104,11 @@ export default function Home() {
             desc: "Outcome-based pricing is the destination. Usage-based pricing is the bridge.",
             href: "/usage-based-pricing-ai-agents",
           },
+          {
+            title: "AI Agent Retention",
+            desc: "Most agents convert pilots to paid and lose the renewal. The cause is structural.",
+            href: "/ai-saas-retention",
+          },
         ].map((item) => (
           <Link
             key={item.href}
