@@ -60,36 +60,18 @@ export default function About() {
         </p>
       </div>
 
-      {/* Selected operating results */}
+      {/* Two re-foundings */}
       <div className="mt-16 border-t border-border pt-8">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-8">
-          Selected operating results
-        </h2>
-
-        <div className="space-y-10">
-          <div>
-            <h3 className="font-medium">iAdvize</h3>
-            <p className="text-sm text-muted">President &amp; Chief Strategy Officer</p>
-            <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
-              <li>Reset an 18-product portfolio to <strong>2</strong>: one vertical AI agent and one SaaS product</li>
-              <li>Built AI revenue from $0 to <strong>$10M+ ARR</strong> in 24 months</li>
-              <li>Reduced the customer acquisition cycle from ~9 months to <strong>~60 days</strong> and <strong>tripled</strong> trial-to-paid conversion</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-medium">Directly</h3>
-            <p className="text-sm text-muted">CEO</p>
-            <ul className="mt-3 space-y-1 text-sm leading-relaxed list-disc list-inside">
-              <li>Took over at the start of the pandemic with obligations exceeding cash and rebuilt the cost architecture</li>
-              <li>Sustained <strong>22%+ EBITDA</strong> and led the asset sale to a PE-backed portfolio company</li>
-              <li>AI drove <strong>~50% of EBITDA</strong> at exit</li>
-            </ul>
-          </div>
-
-          <div className="text-sm text-muted">
-            <p>Previously: Hewlett Packard Enterprise, SAP, Arago, Siebel.</p>
-          </div>
+        <div className="space-y-6 text-base leading-relaxed">
+          <p className="font-medium">
+            Two re-foundings, same pattern.
+          </p>
+          <p>
+            At iAdvize, I reset an 18-product portfolio around one vertical AI agent, built AI revenue from $0 to $10M+ ARR in 24 months, and compressed the sales cycle from ~9 months to ~60 days.
+          </p>
+          <p>
+            At Directly, I took over as CEO at the start of the pandemic with obligations exceeding cash, rebuilt the cost architecture, sustained 22%+ EBITDA, and led the asset sale to a PE-backed portfolio company. AI drove ~50% of EBITDA at exit.
+          </p>
         </div>
       </div>
 
