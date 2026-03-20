@@ -122,11 +122,11 @@ export default function AIToEBITDA() {
         </h1>
 
         <p className="text-lg text-muted mt-6 leading-relaxed">
-          AI does not create value until it appears in EBITDA.
+          The AI agent does not create value until it appears in EBITDA.
         </p>
 
         <p className="text-base leading-relaxed text-ink mt-4">
-          Most AI initiatives demonstrate impressive technology. Few convert it into margin. This playbook is the bridge.
+          Most AI agents demonstrate impressive technology. Few convert it into margin. This playbook is the bridge.
         </p>
 
         {/* The two metrics that matter */}
