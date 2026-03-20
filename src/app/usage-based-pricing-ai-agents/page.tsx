@@ -158,7 +158,7 @@ export default function AIAgentPricingModels() {
               href="/ai-saas-retention"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              AI SaaS Retention
+              AI Agent Retention
             </Link>
             <Link
               href="/saas-to-ai-transition"

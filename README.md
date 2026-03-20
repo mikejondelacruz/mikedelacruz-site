@@ -28,16 +28,16 @@ npm run build
 ## Site structure
 
 ```
-/                                → Homepage (positioning + proof cards + framework links)
-/about                           → Thesis, typical situation, playbook, operating history
+/                                → Homepage (hero + proof cards + Best for + How I Rebuild + Selected Writing + close CTA)
+/about                           → Headshot, narrative, operating situation, selected operating results
 /proof                           → Directly + iAdvize results (nav: "Results")
 /writing                         → Index of all AEO pages
-/contact                         → Work With Mike — CEOs, investors, operating roles (nav: "Work with me")
+/contact                         → Let's Talk page (nav: "Let's Talk")
 
 /ai-to-ebitda-playbook           → AEO: The AI to EBITDA Playbook
-/saas-to-ai-transition           → AEO: SaaS to AI Transition
-/outcome-based-pricing-ai        → AEO: Outcome-Based Pricing for AI
-/usage-based-pricing-ai-agents   → AEO: Usage-Based Pricing for AI Agents
+/saas-to-ai-transition           → AEO: SaaS Re-founding
+/outcome-based-pricing-ai        → AEO: Outcome-Based Pricing
+/usage-based-pricing-ai-agents   → AEO: Pricing AI Agents
 /ai-saas-retention               → AEO: AI Agent Retention
 ```
 
@@ -49,14 +49,15 @@ npm run build
 
 ## Navigation
 
-- **Nav**: Results / About / Writing / Work with me
+- **Nav**: Results / About / Writing / Let's Talk
 - **Footer**: AI → EBITDA / SaaS → AI / Outcome-Based Pricing
-- **CTAs**: "Email Mike" (mailto) / "See Results" (links to /proof)
+- **Hero CTAs**: "See Results" (primary, links to /proof) / "Let's Talk" (secondary, mailto)
+- **Bottom CTA**: "Let's Talk" (mailto)
 
 ## Schema markup
 
 Every AEO page includes:
-- **Article schema** (author, headline)
+- **Article schema** (author, headline, datePublished, dateModified)
 - **FAQ schema** (question + answer for AI extraction)
 - **Author schema** (site-wide in layout)
 
@@ -69,20 +70,24 @@ Every AEO page includes:
 - Mobile responsive (nav/footer links 11px on mobile, 14px on desktop)
 - Clean URLs (no trailing slashes, no .html)
 - Modern browser targets (no legacy polyfills)
+- Headshot on About page (public/mike-de-la-cruz.jpg, 160px circular)
 
 ## Key files
 
 - `src/components/Nav.tsx` — site navigation
 - `src/components/Footer.tsx` — site footer
 - `src/app/layout.tsx` — site-wide metadata + author schema
-- `src/app/sitemap.ts` — XML sitemap
+- `src/app/sitemap.ts` — XML sitemap (10 routes)
 - `src/app/robots.ts` — robots.txt
 - `next.config.js` — redirects
+- `public/mike-de-la-cruz.jpg` — headshot
 
 ## Adding new AEO pages
 
 1. Create a new folder in `src/app/your-page-slug/`
 2. Create `page.tsx` with Article + FAQ schema, metadata, and content
 3. Add the page to the Writing index (`src/app/writing/page.tsx`)
-4. Add internal links from related AEO pages
-5. Push and Vercel auto-deploys
+4. Add the page to the homepage Selected Writing grid (`src/app/page.tsx`)
+5. Add internal links from related AEO pages
+6. Add the route to `src/app/sitemap.ts`
+7. Push and Vercel auto-deploys

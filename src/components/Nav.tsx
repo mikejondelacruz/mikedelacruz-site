@@ -4,7 +4,7 @@ const links = [
   { href: "/proof", label: "Results" },
   { href: "/about", label: "About" },
   { href: "/writing", label: "Writing" },
-  { href: "/contact", label: "Work with me" },
+  { href: "/contact", label: "Let's Talk" },
 ];
 
 export default function Nav() {

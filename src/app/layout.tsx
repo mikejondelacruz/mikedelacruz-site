@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 const sans = IBM_Plex_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-sans",
   display: "swap",
 });
@@ -59,8 +59,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${sans.variable} ${mono.variable}`}>
-      <body className="font-sans bg-paper text-ink antialiased">
+    <html lang="en" className={`${sans.variable} ${mono.variable} font-sans`}>
+      <body className="bg-paper text-ink antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(authorSchema) }}

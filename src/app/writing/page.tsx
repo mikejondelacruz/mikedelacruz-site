@@ -2,12 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Writing on AI, SaaS Re-founding, and Exit Value",
+  title: "Writing — AI, SaaS Re-founding, and Exit Value",
   description:
-    "Frameworks for turning AI into EBITDA: the AI to EBITDA Playbook, SaaS to AI transition, outcome-based pricing, usage-based pricing for AI agents, and AI SaaS retention.",
+    "Selected writing for CEOs, boards, and investors navigating AI-led SaaS resets. The operating ideas behind the rebuilds.",
   openGraph: {
-    title: "Writing on AI, SaaS Re-founding, and Exit Value",
-    description: "Frameworks for turning AI into EBITDA. Built from two re-foundings.",
+    title: "Writing — AI, SaaS Re-founding, and Exit Value",
+    description: "Selected writing for CEOs, boards, and investors navigating AI-led SaaS resets.",
     url: "https://www.mikedelacruz.com/writing",
     type: "website",
   },
@@ -15,29 +15,29 @@ export const metadata: Metadata = {
 
 const articles = [
   {
-    title: "The AI to EBITDA Playbook",
-    description: "Most AI initiatives demo well but don't hit the P&L. This is the framework that closes the gap.",
+    title: "AI \u2192 EBITDA Playbook",
+    description: "AI only matters when it changes the P&L. Here is the operating model.",
     href: "/ai-to-ebitda-playbook",
   },
   {
-    title: "SaaS to AI Transition",
-    description: "Adding AI to a SaaS company is not a product refresh. It's a rebuild.",
+    title: "SaaS Re-founding",
+    description: "18 products became 2. That is what an AI reset looks like under pressure.",
     href: "/saas-to-ai-transition",
   },
   {
-    title: "Outcome-Based Pricing for AI",
-    description: "Cost-plus pricing quietly caps the exit multiple. Most don't realize it yet.",
+    title: "Outcome-Based Pricing",
+    description: "Seat-based pricing breaks when AI replaces labor. Price the result.",
     href: "/outcome-based-pricing-ai",
   },
   {
-    title: "Usage-Based Pricing for AI Agents",
-    description: "Usage-based pricing is a bridge to outcome-based. The mistake is treating it as the destination.",
-    href: "/usage-based-pricing-ai-agents",
+    title: "AI Agent Retention",
+    description: "Pilots convert. Renewals fail. The cause is usually structural, not technical.",
+    href: "/ai-saas-retention",
   },
   {
-    title: "AI Agent Retention",
-    description: "Most agents convert pilots to paid and lose the renewal. The cause is structural.",
-    href: "/ai-saas-retention",
+    title: "Pricing AI Agents",
+    description: "Outcome pricing is the destination. Usage pricing is often the bridge.",
+    href: "/usage-based-pricing-ai-agents",
   },
 ];
 
@@ -47,9 +47,8 @@ export default function Writing() {
       <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
         Writing
       </h1>
-      <p className="text-lg text-muted mt-4">
-        Frameworks for turning AI capability into business value. Built from
-        two re-foundings, not theory.
+      <p className="text-lg text-muted mt-4 leading-relaxed">
+        Selected writing for CEOs, boards, and investors navigating AI-led SaaS resets. These are the operating ideas behind the rebuilds.
       </p>
 
       <div className="mt-12 divide-y divide-border">
@@ -69,18 +68,17 @@ export default function Writing() {
         ))}
       </div>
 
+      {/* Closing */}
       <div className="mt-12 border-t border-border pt-8">
-        <p className="text-sm text-muted">
-          These frameworks come from operating two AI transitions at
-          enterprise scale—Directly (CEO, exit to PE) and iAdvize
-          (President, $0→$10M+ AI ARR).
+        <p className="text-base leading-relaxed">
+          If you are evaluating a B2B SaaS reset around AI, reach out.
         </p>
-        <Link
-          href="/proof"
-          className="text-sm text-muted mt-4 inline-block hover:text-ink transition-colors"
+        <a
+          href="mailto:mikejdelacruz@gmail.com"
+          className="text-sm font-medium border border-ink px-6 py-3 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
         >
-          See results →
-        </Link>
+          Let's Talk
+        </a>
       </div>
     </div>
   );

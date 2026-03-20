@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Work With Mike de la Cruz",
+  title: "CEO Mandate — Mike de la Cruz",
   description:
-    "For B2B SaaS companies at an AI inflection point. CEOs, investors, and boards evaluating AI transitions, exit positioning, and revenue durability.",
+    "Select CEO mandates to rebuild B2B SaaS companies around AI. Revenue quality, margin expansion, and exit-grade performance.",
   openGraph: {
-    title: "Work With Mike de la Cruz",
-    description: "For B2B SaaS companies at an AI inflection point.",
+    title: "CEO Mandate — Mike de la Cruz",
+    description: "Select CEO mandates to rebuild B2B SaaS companies around AI.",
     url: "https://www.mikedelacruz.com/contact",
     type: "website",
   },
@@ -16,62 +16,64 @@ export default function Contact() {
   return (
     <div className="max-w-2xl mx-auto px-6 md:px-12 py-16">
       <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
-        Work With Mike
+        Your company has AI. It has not translated to value.
       </h1>
 
       <p className="text-lg text-muted mt-6 leading-relaxed">
-        For B2B SaaS companies where AI investment has not yet translated to EBITDA.
+        That&apos;s the problem I solve. Two rebuilds, same pattern. Rationalize the product, tie AI to customer P&amp;L, new GTM to convert AI into EBITDA.
       </p>
 
-      <div className="mt-12 space-y-8">
-        <div>
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For CEOs
-          </h2>
-          <p className="text-base leading-relaxed">
-            Your AI investment is real. Your business model may still be old. That gap is where I operate.
-          </p>
+      {/* Best for */}
+      <div className="border-l-2 border-ink pl-6 mt-12">
+        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+          Best for
+        </h2>
+        <div className="space-y-2 text-base leading-relaxed">
+          <p>PE-backed or venture-backed B2B SaaS.</p>
+          <p>$10M–$75M ARR.</p>
+          <p>AI capability is real, but growth, margin, and GTM have not caught up.</p>
+          <p>Board needs an operator, not another AI narrative.</p>
         </div>
+      </div>
 
-        <div>
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            For investors and boards
-          </h2>
-          <p className="text-base leading-relaxed">
-            Most SaaS companies optimize around AI. Some need to be rebuilt around it. I&apos;ve done the second, twice.
-          </p>
+      {/* Most impactful when */}
+      <div className="border-l-2 border-ink pl-6 mt-12">
+        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+          Most impactful when
+        </h2>
+        <div className="space-y-2 text-base leading-relaxed">
+          <p>The product works, but the business model does not.</p>
+          <p>AI exists in market, but has not changed the P&amp;L.</p>
+          <p>The company needs tighter focus, faster GTM learning, and a reset around one high-value workflow.</p>
         </div>
+      </div>
 
+      {/* CTA */}
+      <div className="mt-12 border-t border-border pt-8">
         <p className="text-base leading-relaxed">
-          Open to CEO role where the mandate is to rebuild around AI and drive exit-grade fundamentals.
+          If this matches the situation, reach out.
         </p>
-
-        <div className="border-t border-border pt-8">
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-3">
-            Contact
-          </h2>
-          <div className="space-y-2 text-base">
-            <p>
-              <span className="text-muted">Email:</span>{" "}
-              <a
-                href="mailto:mikejdelacruz@gmail.com"
-                className="underline hover:text-muted transition-colors"
-              >
-                mikejdelacruz@gmail.com
-              </a>
-            </p>
-            <p>
-              <span className="text-muted">LinkedIn:</span>{" "}
-              <a
-                href="https://www.linkedin.com/in/mikejdelacruz"
-                className="underline hover:text-muted transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                linkedin.com/in/mikejdelacruz
-              </a>
-            </p>
-          </div>
+        <div className="mt-6 space-y-2 text-base">
+          <p>
+            <span className="text-muted">Email:</span>{" "}
+            <a
+              href="mailto:mikejdelacruz@gmail.com"
+              className="underline hover:text-muted transition-colors"
+            >
+              mikejdelacruz@gmail.com
+            </a>
+          </p>
+          <p>
+            <span className="text-muted">LinkedIn:</span>{" "}
+            <a
+              href="https://www.linkedin.com/in/mikejdelacruz"
+              className="underline hover:text-muted transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/mikejdelacruz
+            </a>
+          </p>
         </div>
       </div>
     </div>

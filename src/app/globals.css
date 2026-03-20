@@ -9,6 +9,7 @@ html {
 body {
   background-color: #fafaf8;
   color: #0a0a0a;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
