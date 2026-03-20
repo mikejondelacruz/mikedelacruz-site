@@ -30,10 +30,10 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            iAdvize was positioned as a 360-degree CX platform with 18 products. I worked with the CEO to reset the company around one vertical AI agent for e-commerce. The portfolio went from 18 products to 2: one AI agent and one SaaS product.
+            iAdvize was positioned as a 360-degree CX platform with 18 products. Re-founded the company alongside the CEO by collapsing 18 products into one vertical AI agent for e-commerce. The portfolio became two: one AI agent and one SaaS product.
           </p>
           <p>
-            We focused the product on one AI agent for one high-value workflow. Onboarding compressed sharply. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M+ ARR in 24 months and overtook SaaS.
+            We focused the product on one AI agent for one high-value workflow. Onboarding compressed. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M+ ARR in 24 months and overtook SaaS.
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            Directly was an AI-powered customer support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. I joined as CBO and helped scale ARR from $3.7M to $8M+.
+            Directly was an AI-powered customer support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. I joined as CBO and grew ARR from $3.7M to $8M+ through revenue quality improvement and account expansion.
           </p>
           <p>
             I was promoted to CEO as obligations exceeded cash and burn reached $1.2M per month. We raised funding 19 days after the pandemic was declared, then rebuilt the company. Instant Answers AI, built on pre-LLM intent-based technology, ultimately drove about 50% of EBITDA at exit.
@@ -96,7 +96,7 @@ export default function Proof() {
         </h2>
         <ol className="space-y-4">
           {[
-            "AI capability is rarely the bottleneck. Business model design is.",
+            "AI capability is rarely the bottleneck. Commercial infrastructure is.",
             "Seat-based pricing breaks when AI replaces labor.",
             "Renewal is the new sale. AI only sticks when it moves the customer P&L.",
             "Margin comes from aligning price to value, not from AI activity alone.",
