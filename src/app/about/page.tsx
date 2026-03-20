@@ -56,7 +56,7 @@ export default function About() {
       {/* Where I operate */}
       <div className="mt-12 space-y-6 text-base leading-relaxed">
         <p>
-          I operate in a specific kind of situation: B2B SaaS companies, typically in the $10M–$75M range, where AI capability is real but growth, margins, and GTM have not caught up. The product may be working. The commercial infrastructure is not. That is usually when boards and CEOs realize they do not need more AI activity. They need an operating reset.
+          I operate in a specific kind of situation: B2B SaaS companies, typically in the $10M–$75M range, where AI capability is real but commercial infrastructure has not converted it into revenue quality or margin expansion. The product may be working. The operating model is not. That is usually when boards and CEOs realize they do not need more AI activity. They need an operating reset.
         </p>
       </div>
 
