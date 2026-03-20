@@ -46,7 +46,7 @@ export default function About() {
           At iAdvize, I reset an 18-product portfolio to 2 and built an AI revenue engine from $0 to $10M+ ARR in 24 months.
         </p>
         <p>
-          In both cases, the AI worked before the business model did. Financial results followed once pricing, packaging, and GTM caught up.
+          In both cases, the AI worked before the operating model did. Financial results followed once pricing, packaging, and GTM caught up.
         </p>
         <p>
           That is where I operate: where AI capability is real, but the company has not yet converted it into revenue quality, margin expansion, and exit-grade fundamentals.
@@ -56,7 +56,7 @@ export default function About() {
       {/* Where I operate */}
       <div className="mt-12 space-y-6 text-base leading-relaxed">
         <p>
-          I operate in a specific kind of situation: B2B SaaS companies, typically in the $10M–$75M range, where AI capability is real but growth, margins, and GTM have not caught up. The product may be working. The business model is not. That is usually when boards and CEOs realize they do not need more AI activity. They need an operating reset.
+          I operate in a specific kind of situation: B2B SaaS companies, typically in the $10M–$75M range, where AI capability is real but growth, margins, and GTM have not caught up. The product may be working. The commercial infrastructure is not. That is usually when boards and CEOs realize they do not need more AI activity. They need an operating reset.
         </p>
       </div>
 

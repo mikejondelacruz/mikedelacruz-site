@@ -45,9 +45,9 @@ export default function Contact() {
           Most impactful when
         </h2>
         <div className="space-y-2 text-base leading-relaxed">
-          <p>The product works, but the business model does not.</p>
-          <p>AI exists in market, but has not changed the P&amp;L.</p>
-          <p>The company needs tighter focus, faster GTM learning, and a reset around one high-value workflow.</p>
+          <p>AI capability exists, but has not changed the P&amp;L.</p>
+          <p>The product works, but commercial infrastructure has not converted it into revenue quality.</p>
+          <p>The company needs ICP focus, compressed GTM execution, and concentration around one monetizable workflow.</p>
         </div>
       </div>
 

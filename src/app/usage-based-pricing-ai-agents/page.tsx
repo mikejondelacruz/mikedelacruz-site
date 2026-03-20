@@ -81,7 +81,7 @@ export default function AIAgentPricingModels() {
               If the AI agent can&apos;t reliably deliver the outcome yet, you&apos;re not at MPA&mdash;Minimum Productive Agent. Outcome-based pricing before MPA creates a measurement problem neither side can resolve.
             </p>
             <p>
-              Usage-based pricing buys time to get there. But it only works if both sides understand it&apos;s a bridge, not a business model. The customer still needs to trace impact to their P&amp;L. Usage-based pricing has to move them toward that moment, not away from it.
+              Usage-based pricing buys time to get there. But it only works if both sides understand it&apos;s a bridge, not a permanent commercial model. The customer still needs to trace impact to their P&amp;L. Usage-based pricing has to move them toward that moment, not away from it.
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     "Results from two AI re-foundings: iAdvize ($0 to $10M+ AI ARR, 18 products to 2) and Directly (22%+ EBITDA, AI-driven margin expansion, PE exit).",
   openGraph: {
     title: "Results — Two AI Re-foundings",
-    description: "Two AI re-foundings. Same pattern. The product worked before the business model did.",
+    description: "Two AI re-foundings. Same pattern. The product worked before the operating model did.",
     url: "https://www.mikedelacruz.com/proof",
     type: "article",
   },
@@ -19,7 +19,7 @@ export default function Proof() {
         Results
       </h1>
       <p className="text-lg text-muted mt-4 leading-relaxed">
-        Two AI re-foundings. Same pattern. The product worked before the business model did. Results followed once pricing, GTM, and operating cadence caught up.
+        Two AI re-foundings. Same pattern. The product worked before the operating model did. Results followed once pricing, GTM, and operating cadence caught up.
       </p>
 
       {/* iAdvize */}
@@ -115,7 +115,7 @@ export default function Proof() {
       {/* Closing */}
       <div className="mt-12 border-t border-border pt-8">
         <p className="text-lg font-medium leading-relaxed">
-          The question is not whether the AI works. It is whether the business model can convert that into durable financial performance.
+          The question is not whether the AI works. It is whether the commercial infrastructure can convert that into durable financial performance.
         </p>
         <a
           href="mailto:mikejdelacruz@gmail.com"
