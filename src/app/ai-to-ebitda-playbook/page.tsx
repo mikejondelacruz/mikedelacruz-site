@@ -78,7 +78,7 @@ export default function AIToEBITDA() {
     "Measure CEC. Identify the actual dollars your AI creates on the customer's P&L. This is not theoretical savings. It is the number a customer CFO can measure and defend.",
     "Calculate CER. Divide CEC by price. If CER falls below 3x, re-examine pricing or product scope. If CER exceeds 10x, you are leaving value on the table.",
     "Restructure pricing to capture a share of that value. Outcome-based, not seat-based. Price so the customer sees a 3–10x return on their P&L. The unit of value must match the unit of pricing.",
-    "Consolidate product surface area. Fewer features. More load-bearing AI workflows. At iAdvize, 18 products became one vertical AI agent. The consolidation reduced delivery cost and sharpened the value proposition.",
+    "Consolidate product surface area. Fewer features. More load-bearing AI workflows. At iAdvize, 18 products became one vertical AI agent. The consolidation restructured the delivery cost architecture and sharpened the value proposition.",
     "Track AI-attributable revenue as a distinct line item. At Directly, the AI agent drove approximately 50% of SaaS EBITDA. That was not buried in a blended margin. It was visible, defensible, and transferred fully to the acquirer at exit.",
   ];
 
@@ -142,7 +142,7 @@ export default function AIToEBITDA() {
               <strong>Customer EBITDA Return (CER)</strong> is CEC divided by the price the customer pays. A CER of 3–10x is the target zone for durable AI revenue. Below 3x, the value is too thin—you will be rationalized. Above 10x, you are underpriced.
             </p>
             <p>
-              The more customer EBITDA you create, the more you can capture. Investors and acquirers do not pay for AI capabilities. They pay for EBITDA. At exit, your acquirer will assess the durability of your EBITDA. The companies that translate AI into margin expansion command higher multiples.
+              The more customer EBITDA you create, the more you can capture. Investors and acquirers do not pay for AI capabilities. They pay for EBITDA. At exit, your acquirer will assess the durability of your EBITDA. The companies that translate AI into margin expansion will command higher multiples. Those that don&apos;t will trade at declining-SaaS multiples.
             </p>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function AIToEBITDA() {
             What this looks like in practice
           </h2>
           <p className="text-base leading-relaxed text-ink">
-            At Directly, the company operated at survival-level EBITDA margins. After rebuilding around outcome-based pricing and letting the AI agent drive resolution economics, EBITDA expanded from survival-level to 22%, then to 31% by sale. The AI margin improvement transferred fully to the PE-backed acquirer.
+            At Directly, the company operated at negative EBITDA. After rebuilding around outcome-based pricing and letting the AI agent drive resolution economics, EBITDA expanded to 22%, then to 31% by sale. The AI margin improvement transferred fully to the PE-backed acquirer.
           </p>
           <p className="text-base leading-relaxed text-ink mt-4">
             That is what the playbook produces. Not a better pitch. A better P&amp;L.
@@ -183,7 +183,7 @@ export default function AIToEBITDA() {
             The playbook in one line
           </h2>
           <p className="text-lg font-medium leading-relaxed text-ink">
-            Make AI load-bearing. Measure CEC. Price at 3–10x CER. Reduce delivery cost. Expand your own EBITDA. That is what drives your multiple.
+            Make AI load-bearing. Measure CEC. Price at 3–10x CER. Restructure delivery cost architecture. Expand your own EBITDA. That is what drives your multiple.
           </p>
         </div>
 

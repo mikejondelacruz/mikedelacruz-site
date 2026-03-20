@@ -80,7 +80,7 @@ export default function OutcomeBasedPricing() {
               Seat-based pricing breaks when AI replaces human work. Usage-based pricing sounds different but often isn&apos;t. If the unit price starts from your cost structure, it&apos;s still cost-plus. The name changes. The misalignment doesn&apos;t.
             </p>
             <p>
-              At Directly, the AI resolved support tickets better than most humans from day one. The pricing model took 18 months to catch up. That lag cost margin and delayed exit value. Once pricing anchored to the customer&apos;s P&amp;L instead of our cost structure, EBITDA went to 22% and expanded to 31% by sale. The distinction wasn&apos;t product quality. It was where the price started.
+              At Directly, the AI resolved support tickets better than most humans from day one. Once price aligned to value, EBITDA went to 22% and expanded to 31% by sale. The distinction wasn&apos;t product quality. It was where the price started.
             </p>
           </div>
         </div>

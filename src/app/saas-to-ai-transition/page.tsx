@@ -46,7 +46,7 @@ export default function SaaSToAITransition() {
     "Identify your QWERTY—the durable asset. Clarity on the job to be done. Proprietary data. Workflow depth. Operational tasks only your AI can execute at scale. Strip away the carriage.",
     "Rebuild the core workflow with AI as the primary execution layer, not an assistant. At one company, we made the decision to \"fire the chatbot\" to make sure we embraced the full workflow and business outcome.",
     "Change the unit. From seats sold to Customer EBITDA Created. The seat is carriage. The outcome is QWERTY.",
-    "Change the GTM motion. From: market, sell, implement, renew. To: deliver, expand, deliver again. Acquisition cycles compress when the trial proves value before the contract is signed. One re-founding I led dropped acquisition cycles from ~9 months to ~60 days.",
+    "Rebuild the commercial infrastructure. From: market, sell, implement, renew. To: deliver, expand, deliver again. Acquisition cycles compress when the trial proves value before the contract is signed. One re-founding I led dropped acquisition cycles from ~9 months to ~60 days.",
     "Retrain the org around AI delivery metrics. Trial-to-paid conversion. AI quality. Customer EBITDA Created. Weekly operating cadence, not quarterly. The board agenda changes too—agent performance becomes a standing item, not a product update footnote.",
   ];
 
