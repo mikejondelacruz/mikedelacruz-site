@@ -18,6 +18,8 @@ export default function OutcomeBasedPricing() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Outcome-Based Pricing for AI",
+    datePublished: "2025-01-15",
+    dateModified: "2026-03-19",
     author: {
       "@type": "Person",
       name: "Mike de la Cruz",

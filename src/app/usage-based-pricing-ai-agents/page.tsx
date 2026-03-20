@@ -18,6 +18,8 @@ export default function AIAgentPricingModels() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Usage-Based Pricing for AI Agents",
+    datePublished: "2025-01-15",
+    dateModified: "2026-03-19",
     author: {
       "@type": "Person",
       name: "Mike de la Cruz",
