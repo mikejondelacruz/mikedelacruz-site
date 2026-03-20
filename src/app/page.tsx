@@ -66,16 +66,16 @@ export default function Home() {
           Best for
         </h2>
         <div className="space-y-2 text-base leading-relaxed">
-          <p>PE-backed or venture-backed B2B SaaS.</p>
+          <p>PE- or venture-backed B2B SaaS.</p>
           <p>$10M–$75M ARR.</p>
-          <p>AI capability is real, but growth, margin, and GTM have not caught up.</p>
+          <p>AI capability is real, but GTM, growth, and margin have not caught up.</p>
         </div>
       </div>
 
       {/* How I Rebuild */}
       <div className="mt-20">
         <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-8">
-          How I Rebuild
+          How I Create Value
         </h2>
         <ol className="space-y-6">
           {[
@@ -111,28 +111,28 @@ export default function Home() {
         {[
           {
             title: "AI → EBITDA Playbook",
-            desc: "AI does not create value until it shows up in EBITDA. Here's how.",
+            desc: "AI only matters when it changes the P&L. Here is the operating model.",
             href: "/ai-to-ebitda-playbook",
           },
           {
-            title: "SaaS to AI Transition",
-            desc: "18 products became 2. That's what re-founding looks like.",
+            title: "SaaS Re-founding",
+            desc: "18 products became 2. That is what an AI reset looks like under pressure.",
             href: "/saas-to-ai-transition",
           },
           {
             title: "Outcome-Based Pricing",
-            desc: "Seat-based pricing breaks when AI replaces human work. Price the outcome.",
+            desc: "Seat-based pricing breaks when AI replaces labor. Price the result.",
             href: "/outcome-based-pricing-ai",
           },
           {
-            title: "Usage-Based Pricing for AI Agents",
-            desc: "Outcome-based pricing is the destination. Usage-based pricing is the bridge.",
-            href: "/usage-based-pricing-ai-agents",
+            title: "AI Agent Retention",
+            desc: "Pilots convert. Renewals fail. The cause is usually structural, not technical.",
+            href: "/ai-saas-retention",
           },
           {
-            title: "AI Agent Retention",
-            desc: "Most agents convert pilots to paid and lose the renewal. The cause is structural.",
-            href: "/ai-saas-retention",
+            title: "Pricing AI Agents",
+            desc: "Outcome pricing is the destination. Usage pricing is often the bridge.",
+            href: "/usage-based-pricing-ai-agents",
           },
         ].map((item) => (
           <Link
@@ -159,7 +159,10 @@ export default function Home() {
           Your company has AI. It has not translated to value.
         </h2>
         <p className="text-base leading-relaxed max-w-xl">
-          That&apos;s the problem I solve. Two rebuilds, same pattern. Rationalize the product, tie AI to customer P&amp;L, new GTM to convert AI into EBITDA.
+          That&apos;s the problem I solve.
+        </p>
+        <p className="text-base leading-relaxed max-w-xl mt-4">
+          Two rebuilds, same pattern. In both cases, the AI worked before the operating model did. Rationalize the portfolio, tie the AI agent to customer P&amp;L, and install a new operating cadence to convert AI into EBITDA.
         </p>
         <a
           href="mailto:mikejdelacruz@gmail.com"

@@ -20,7 +20,10 @@ export default function Contact() {
       </h1>
 
       <p className="text-lg text-muted mt-6 leading-relaxed">
-        That&apos;s the problem I solve. Two rebuilds, same pattern. Rationalize the product, tie AI to customer P&amp;L, new GTM to convert AI into EBITDA.
+        That&apos;s the problem I solve.
+      </p>
+      <p className="text-lg text-muted mt-4 leading-relaxed">
+        Two rebuilds, same pattern. In both cases, the AI worked before the operating model did. Rationalize the portfolio, tie the AI agent to customer P&amp;L, and install a new operating cadence to convert AI into EBITDA.
       </p>
 
       {/* Best for */}
@@ -29,10 +32,10 @@ export default function Contact() {
           Best for
         </h2>
         <div className="space-y-2 text-base leading-relaxed">
-          <p>PE-backed or venture-backed B2B SaaS.</p>
+          <p>PE- or venture-backed B2B SaaS.</p>
           <p>$10M–$75M ARR.</p>
-          <p>AI capability is real, but growth, margin, and GTM have not caught up.</p>
-          <p>Board needs an operator, not another AI narrative.</p>
+          <p>AI capability is real, but GTM, growth, and margin have not caught up.</p>
+          <p>Needs EBITDA impact, not AI narrative.</p>
         </div>
       </div>
 

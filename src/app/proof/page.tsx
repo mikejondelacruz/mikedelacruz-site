@@ -19,7 +19,7 @@ export default function Proof() {
         Results
       </h1>
       <p className="text-lg text-muted mt-4 leading-relaxed">
-        Two AI re-foundings. Same pattern. The product worked before the business model did.
+        Two AI re-foundings. Same pattern. The product worked before the business model did. Results followed once pricing, GTM, and operating cadence caught up.
       </p>
 
       {/* iAdvize */}
