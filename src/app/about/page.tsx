@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -75,13 +76,20 @@ export default function About() {
         </div>
       </div>
 
-      <div className="mt-12">
-        <a
-          href="mailto:mikejdelacruz@gmail.com"
+      {/* Links */}
+      <div className="mt-12 flex gap-6">
+        <Link
+          href="/proof"
           className="text-sm font-medium border border-ink px-6 py-3 inline-block hover:bg-ink hover:text-paper transition-colors"
         >
-          Let's Talk
-        </a>
+          See Results →
+        </Link>
+        <Link
+          href="/writing"
+          className="text-sm font-medium border border-ink px-6 py-3 inline-block hover:bg-ink hover:text-paper transition-colors"
+        >
+          Read the Frameworks →
+        </Link>
       </div>
     </div>
   );

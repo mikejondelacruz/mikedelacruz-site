@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -77,6 +78,11 @@ export default function Contact() {
               linkedin.com/in/mikejdelacruz
             </a>
           </p>
+        </div>
+        <div className="mt-6">
+          <Link href="/proof" className="text-sm text-muted hover:text-ink transition-colors">
+            See results from two re-foundings →
+          </Link>
         </div>
       </div>
     </div>

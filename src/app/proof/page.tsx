@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -112,17 +113,32 @@ export default function Proof() {
         </ol>
       </div>
 
+      {/* Related articles */}
+      <div className="mt-16 border-t border-border pt-8">
+        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
+          The frameworks behind these results
+        </h2>
+        <div className="space-y-3">
+          <Link href="/ai-to-ebitda-playbook" className="block text-base hover:text-muted transition-colors">
+            AI → EBITDA Playbook →
+          </Link>
+          <Link href="/outcome-based-pricing-ai" className="block text-base hover:text-muted transition-colors">
+            Outcome-Based Pricing for AI →
+          </Link>
+        </div>
+      </div>
+
       {/* Closing */}
       <div className="mt-12 border-t border-border pt-8">
         <p className="text-lg font-medium leading-relaxed">
           The question is not whether the AI works. It is whether the commercial infrastructure can convert that into durable financial performance.
         </p>
-        <a
-          href="mailto:mikejdelacruz@gmail.com"
+        <Link
+          href="/contact"
           className="text-sm font-medium border border-ink px-6 py-3 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
         >
-          Let's Talk
-        </a>
+          Let's Talk →
+        </Link>
       </div>
     </div>
   );

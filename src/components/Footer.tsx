@@ -19,6 +19,12 @@ export default function Footer() {
           <Link href="/outcome-based-pricing-ai" className="text-[11px] md:text-sm text-muted hover:text-ink transition-colors">
             Outcome-Based Pricing
           </Link>
+          <Link href="/usage-based-pricing-ai-agents" className="text-[11px] md:text-sm text-muted hover:text-ink transition-colors">
+            Usage-Based Pricing
+          </Link>
+          <Link href="/ai-saas-retention" className="text-[11px] md:text-sm text-muted hover:text-ink transition-colors">
+            AI Retention
+          </Link>
         </div>
       </div>
     </footer>
