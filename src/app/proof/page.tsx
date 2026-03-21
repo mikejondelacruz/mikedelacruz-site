@@ -34,7 +34,7 @@ export default function Proof() {
             iAdvize was positioned as a 360-degree CX platform with 18 products. Re-founded the company alongside the CEO by collapsing 18 products into one vertical AI agent for e-commerce. The portfolio became two: one AI agent and one SaaS product.
           </p>
           <p>
-            We focused the product on one AI agent for one high-value workflow. Onboarding compressed. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M+ ARR in 24 months and overtook SaaS.
+            We focused the company on one AI agent for one high-value workflow. Onboarding compressed. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M+ ARR in 24 months and overtook SaaS.
           </p>
         </div>
 
