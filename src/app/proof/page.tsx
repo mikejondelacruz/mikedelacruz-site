@@ -90,18 +90,18 @@ export default function Proof() {
         </div>
       </div>
 
-      {/* What I learned */}
+      {/* Principles */}
       <div className="mt-20 bg-white border border-border p-8">
         <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-          What I learned
+          Principles
         </h2>
         <ol className="space-y-4">
           {[
-            "AI capability is rarely the bottleneck. Commercial infrastructure is.",
-            "Seat-based pricing breaks when AI replaces labor.",
-            "Renewal is the new sale. AI only sticks when it moves the customer P&L.",
-            "Margin comes from aligning price to value, not from AI activity alone.",
-            "This transition is a re-founding, not an upgrade.",
+            "The AI transition is a re-founding, not an upgrade.",
+            "The bottleneck is commercial infrastructure that converts AI into revenue quality.",
+            "Outcome pricing is the destination. Usage pricing is the bridge.",
+            "The renewal is the new sale. AI only renews when it moves a line on the customer\u2019s P&L.",
+            "Durable EBITDA comes from aligning price to value.",
           ].map((step, i) => (
             <li key={i} className="flex gap-4">
               <span className="font-mono text-sm text-muted shrink-0">
