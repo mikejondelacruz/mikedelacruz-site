@@ -79,7 +79,7 @@ export default function Home() {
         </h2>
         <ol className="space-y-6">
           {[
-            { step: "Collapse to one high-value workflow", detail: "Not a feature. The business process that matters." },
+            { step: "Concentrate on one high-value workflow", detail: "Not a feature. The business process that matters." },
             { step: "Tie AI to customer EBITDA", detail: "If it does not hit the customer P&L, it will not renew." },
             { step: "Price the outcome, not the seat", detail: "AI breaks seat-based logic when it replaces labor." },
             { step: "Rebuild commercial infrastructure around continuous delivery", detail: "Deliver, expand, deliver more." },
