@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CEO Mandate — Mike de la Cruz",
+  title: "Let's Talk — Mike de la Cruz",
   description:
     "Select CEO mandates to rebuild B2B SaaS companies around AI. Revenue quality, margin expansion, and exit-grade performance.",
   openGraph: {
-    title: "CEO Mandate — Mike de la Cruz",
+    title: "Let's Talk — Mike de la Cruz",
     description: "Select CEO mandates to rebuild B2B SaaS companies around AI.",
     url: "https://www.mikedelacruz.com/contact",
     type: "website",

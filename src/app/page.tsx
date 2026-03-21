@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mike de la Cruz — I Rebuild $10–$75M B2B SaaS Companies by Turning AI into EBITDA",
+  title: "Mike de la Cruz — AI to EBITDA for $10–75M SaaS",
   description:
     "Two B2B SaaS rebuilds to AI-first. $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.",
   openGraph: {

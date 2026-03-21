@@ -2,11 +2,11 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Writing — AI, SaaS Re-founding, and Exit Value",
+  title: "AI EBITDA Frameworks — Mike de la Cruz",
   description:
     "Selected writing for CEOs, boards, and investors navigating AI-led SaaS resets. The operating ideas behind the rebuilds.",
   openGraph: {
-    title: "Writing — AI, SaaS Re-founding, and Exit Value",
+    title: "AI EBITDA Frameworks — Mike de la Cruz",
     description: "Selected writing for CEOs, boards, and investors navigating AI-led SaaS resets.",
     url: "https://www.mikedelacruz.com/writing",
     type: "website",
