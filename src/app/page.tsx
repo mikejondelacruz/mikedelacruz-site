@@ -83,7 +83,7 @@ export default function Home() {
             { step: "Tie AI to customer EBITDA", detail: "If it does not hit the customer P&L, it will not renew." },
             { step: "Price the outcome, not the seat", detail: "AI breaks seat-based logic when it replaces labor." },
             { step: "Rebuild commercial infrastructure around continuous delivery", detail: "Deliver, expand, deliver more." },
-            { step: "Run on AI performance and margins", detail: "Weekly operating cadence, not quarterly theater." },
+            { step: "Operate on AI outcomes", detail: "Weekly cadence on AI quality, customer P&L impact, and margin. Not quarterly theater." },
           ].map((item, i) => (
             <li key={i} className="flex gap-4">
               <span className="font-mono text-sm text-muted mt-0.5 shrink-0">
