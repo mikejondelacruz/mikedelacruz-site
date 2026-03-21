@@ -45,9 +45,9 @@ export default function Contact() {
           Most impactful when
         </h2>
         <div className="space-y-2 text-base leading-relaxed">
-          <p>AI capability exists, but has not changed the P&amp;L.</p>
-          <p>The product works, but commercial infrastructure has not converted it into revenue quality.</p>
-          <p>The company needs ICP focus, compressed GTM execution, and concentration around one monetizable workflow.</p>
+          <p>SaaS growth has stalled but the AI works.</p>
+          <p>The board is asking what the AI investment has produced.</p>
+          <p>The next milestone depends on converting AI capability into margin.</p>
         </div>
       </div>
 
