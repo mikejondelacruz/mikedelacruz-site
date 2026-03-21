@@ -35,8 +35,7 @@ export default function Contact() {
         <div className="space-y-2 text-base leading-relaxed">
           <p>PE- or venture-backed B2B SaaS.</p>
           <p>$10M–$75M ARR.</p>
-          <p>AI capability is real, but GTM, growth, and margin have not caught up.</p>
-          <p>Needs EBITDA impact, not AI narrative.</p>
+          <p>AI capability is real, but commercial infrastructure has not converted it into revenue quality or margin expansion.</p>
         </div>
       </div>
 
