@@ -496,12 +496,12 @@ export default function OutcomeBasedPricingAI() {
 
         {/* CTA */}
         <div className="mt-12">
-          <p className="text-base leading-relaxed">If you are evaluating an AI-led SaaS reset, reach out.</p>
+          <p className="text-base leading-relaxed">If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.</p>
           <a
-            href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
+            href="mailto:mike@mikedelacruz.com"
             className="text-sm font-medium bg-ink text-paper border border-ink px-6 py-3 mt-4 inline-block hover:bg-transparent hover:text-ink transition-colors"
           >
-            Discuss a Portco
+            Let&apos;s Talk
           </a>
         </div>
 

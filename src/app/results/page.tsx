@@ -141,13 +141,13 @@ export default function Proof() {
       {/* Closing */}
       <div className="mt-12 border-t border-border pt-8">
         <p className="text-lg font-medium leading-relaxed">
-          If you have a portfolio company where the AI works but the numbers haven&apos;t followed, this is the pattern I run.
+          If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.
         </p>
         <a
           href="mailto:mike@mikedelacruz.com"
           className="text-sm font-medium border border-ink px-6 py-3 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
         >
-          Discuss a Portco →
+          Let&apos;s Talk
         </a>
       </div>
     </div>

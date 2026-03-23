@@ -73,13 +73,13 @@ export default function Frameworks() {
       {/* Closing */}
       <div className="mt-12 border-t border-border pt-8">
         <p className="text-base leading-relaxed">
-          If you have a portfolio company where AI hasn&apos;t shown up in EBITDA yet, I&apos;ve solved that problem twice.
+          If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.
         </p>
         <a
           href="mailto:mike@mikedelacruz.com"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
-          Discuss a Portco
+          Let&apos;s Talk
         </a>
       </div>
     </div>

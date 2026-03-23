@@ -147,12 +147,12 @@ export default function SaaSToAITransition() {
 
         {/* CTA */}
         <div className="mt-12">
-          <p className="text-base leading-relaxed">If you are evaluating an AI-led SaaS reset, reach out.</p>
+          <p className="text-base leading-relaxed">If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.</p>
           <a
             href="mailto:mike@mikedelacruz.com"
             className="text-sm font-medium border border-ink px-6 py-3 mt-4 inline-block hover:bg-ink hover:text-paper transition-colors"
           >
-            Discuss a Portco
+            Let&apos;s Talk
           </a>
         </div>
         {/* Related */}
