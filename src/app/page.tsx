@@ -28,7 +28,7 @@ export default function Home() {
           AI → EBITDA → Exit Value
         </p>
         <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1]">
-          B2B Vertical SaaS CEO who turns AI into EBITDA.
+          B2B Vertical SaaS CEO turns AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
           Two B2B SaaS re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin, expanding to 31% at exit. Asset sale to a PE-backed portfolio company.
@@ -69,10 +69,10 @@ export default function Home() {
           <p className="text-base leading-relaxed"><strong>You need an operator</strong> who has solved this problem before and can show the financial results.</p>
         </div>
         <p className="text-xl font-medium leading-relaxed mt-6">
-          I go in as CEO and rebuild the commercial infrastructure so AI shows up in EBITDA.
+          I go in as CEO. Collapse the portfolio. Reset GTM. Convert AI to EBITDA.
         </p>
         <a
-          href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
+          href="mailto:mike@mikedelacruz.com?subject=Portfolio%20Company"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
           Discuss a Portco
@@ -119,7 +119,7 @@ export default function Home() {
           If your portfolio company has working AI that hasn&apos;t shown up in EBITDA, I&apos;ve solved that problem twice.
         </p>
         <a
-          href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
+          href="mailto:mike@mikedelacruz.com?subject=Portfolio%20Company"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
           Discuss a Portco
