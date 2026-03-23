@@ -79,7 +79,7 @@ export default function Frameworks() {
           href="mailto:mike@mikedelacruz.com"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
-          Let's Talk
+          Discuss a Portco
         </a>
       </div>
     </div>

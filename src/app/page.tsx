@@ -75,7 +75,7 @@ export default function Home() {
           href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
-          Discuss the Reset
+          Discuss a Portco
         </a>
       </div>
 
@@ -122,7 +122,7 @@ export default function Home() {
           href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
-          Discuss the Reset
+          Discuss a Portco
         </a>
       </div>
 
