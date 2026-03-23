@@ -64,13 +64,13 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            Directly was a customer support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Joined as CBO, grew ARR from $3.7M to $8M+ through revenue quality improvement and account expansion.
+            Directly was a vertical AI support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Grew ARR from $3.7M to $8M+ by rationalizing low-margin accounts and expanding enterprise accounts.
           </p>
           <p>
-            Promoted to CEO when obligations exceeded cash and burn hit $1.2M per month. Led the full re-founding as CEO: raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, ultimately drove about 50% of EBITDA at exit.
+            Promoted to CEO when obligations exceeded cash and burn hit $1.2M per month. Raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, drove roughly 50% of EBITDA at exit.
           </p>
           <p>
-            Rationalized low-margin accounts to improve revenue quality. EBITDA margin reached 22% and expanded to 31% at exit. Led the complete exit process as CEO&mdash;advisor selection, diligence, negotiation, and board coordination&mdash;culminating in an asset sale to a PE-backed portfolio company.
+            EBITDA margin reached 22% and expanded to 31% at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed portfolio company.
           </p>
         </div>
 
