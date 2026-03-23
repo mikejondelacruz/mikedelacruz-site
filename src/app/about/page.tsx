@@ -5,11 +5,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
   description:
-    "B2B Vertical SaaS CEO. Two B2B SaaS re-foundings to AI-first. $0 to $10M+ AI ARR. 22% EBITDA margin, PE exit.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
   alternates: { canonical: "https://www.mikedelacruz.com/about" },
   openGraph: {
     title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
-    description: "Two B2B CX platforms rebuilt to AI-first under live operating pressure. iAdvize ($0 to $10M+ AI ARR) and Directly (22%+ EBITDA margin, PE exit).",
+    description: "B2B Vertical SaaS CEO. iAdvize: $0 to $10M+ AI ARR in 24 months. Directly: 22% EBITDA margin, asset sale to a PE-backed portfolio company.",
     url: "https://www.mikedelacruz.com/about",
     type: "profile",
   },

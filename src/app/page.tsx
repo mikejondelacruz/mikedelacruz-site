@@ -4,18 +4,18 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
   description:
-    "B2B Vertical SaaS CEO. Two B2B SaaS re-foundings to AI-first. $0 to $10M+ AI ARR. 22% EBITDA. PE exit.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
   alternates: { canonical: "https://www.mikedelacruz.com" },
   openGraph: {
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two B2B SaaS re-foundings to AI-first. $0 to $10M+ AI ARR. 22% EBITDA. PE exit.",
+    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
     url: "https://www.mikedelacruz.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two B2B SaaS re-foundings to AI-first. $0 to $10M+ AI ARR. 22% EBITDA. PE exit.",
+    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
   },
 };
 
@@ -28,10 +28,10 @@ export default function Home() {
           AI → EBITDA → Exit Value
         </p>
         <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1]">
-          B2B Vertical SaaS CEO turns AI into EBITDA.
+          B2B Vertical SaaS CEO who turns AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
-          Two B2B SaaS re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin, expanding to 31% at exit. Asset sale to a PE-backed portfolio company.
+          Two B2B Vertical SaaS re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin, expanding to 31% at exit. Asset sale to a PE-backed portfolio company.
         </p>
         <div className="mt-2">
           <Link
