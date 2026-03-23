@@ -31,7 +31,7 @@ export default function Home() {
           B2B Vertical SaaS CEO who turns AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
-          Two B2B Vertical SaaS re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin, expanding to 31% at exit. Asset sale to a PE-backed portfolio company.
+          $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin, expanding to 31% at exit. Asset sale to a PE-backed portfolio company.
         </p>
         <div className="mt-2">
           <Link
