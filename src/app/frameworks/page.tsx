@@ -49,7 +49,7 @@ export default function Frameworks() {
         Frameworks
       </h1>
       <p className="text-lg text-muted mt-4 leading-relaxed">
-        The operating frameworks behind two AI-led SaaS rebuilds. Built for PE operating partners, portfolio company CEOs, and deal teams evaluating AI-to-EBITDA conversion in B2B SaaS.
+        The operating frameworks behind two AI-led SaaS rebuilds. Each framework is built in public, tested in production, living documents. For PE portfolio companies navigating the shift.
       </p>
 
       <div className="mt-12 divide-y divide-border">
