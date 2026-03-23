@@ -2,173 +2,127 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mike de la Cruz — AI to EBITDA for $10–75M SaaS",
+  title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
   description:
-    "Two B2B SaaS rebuilds to AI-first. $0 → $10M+ AI ARR in 24 months. AI drove ~50% of EBITDA at exit.",
+    "B2B Vertical SaaS CEO. Two B2B SaaS re-foundings to AI-first. $0 to $10M+ AI ARR. 22% EBITDA. PE exit.",
+  alternates: { canonical: "https://www.mikedelacruz.com" },
   openGraph: {
-    title: "Mike de la Cruz — AI → EBITDA → Exit Value",
-    description: "I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA. Two B2B SaaS rebuilds to AI-first.",
+    title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
+    description: "B2B Vertical SaaS CEO. Two B2B SaaS re-foundings to AI-first. $0 to $10M+ AI ARR. 22% EBITDA. PE exit.",
     url: "https://www.mikedelacruz.com",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
+    description: "B2B Vertical SaaS CEO. Two B2B SaaS re-foundings to AI-first. $0 to $10M+ AI ARR. 22% EBITDA. PE exit.",
   },
 };
 
 export default function Home() {
   return (
-    <div className="max-w-3xl mx-auto px-6 md:px-12 py-24">
+    <div className="max-w-3xl mx-auto px-6 md:px-12 pt-16 pb-12">
       {/* Hero */}
-      <div className="space-y-6">
+      <div className="space-y-5">
         <p className="font-mono text-sm text-muted tracking-wide">
           AI → EBITDA → Exit Value
         </p>
         <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1]">
-          I rebuild $10–$75M B2B SaaS companies by turning AI into EBITDA.
+          B2B Vertical SaaS CEO who turns AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
-          Two B2B SaaS rebuilds under live operating pressure.
-          <br />
-          From product reset to AI revenue to EBITDA.
+          Two B2B SaaS re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin, expanding to 31% at exit. Asset sale to a PE-backed portfolio company.
         </p>
-        <div className="flex gap-4 mt-2">
+        <div className="mt-2">
           <Link
-            href="/proof"
-            className="text-sm font-medium border border-ink px-6 py-3 hover:bg-ink hover:text-paper transition-colors"
+            href="/results"
+            className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 inline-block hover:bg-transparent hover:text-ink transition-colors"
           >
-            See Results
+            See Portfolio Results
           </Link>
-          <a
-            href="mailto:mikejdelacruz@gmail.com"
-            className="text-sm text-muted border border-border px-6 py-3 hover:border-ink hover:text-ink transition-colors"
-          >
-            Let's Talk
-          </a>
         </div>
       </div>
 
       {/* Proof strip */}
-      <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
-          { metric: "2", label: "AI-led SaaS rebuilds" },
-          { metric: "18→2", label: "product reset" },
+          { metric: "2", label: "SaaS re-foundings" },
+          { metric: "18→2", label: "portfolio reset" },
           { metric: "$0→$10M+", label: "AI ARR" },
           { metric: "~50%", label: "of EBITDA at exit" },
         ].map((item) => (
-          <div key={item.label} className="border border-border py-4 pr-4 pl-6">
+          <div key={item.label} className="border-2 border-border py-3 pr-4 pl-5">
             <p className="text-2xl font-semibold tracking-tight">{item.metric}</p>
             <p className="text-xs text-muted mt-1">{item.label}</p>
           </div>
         ))}
       </div>
 
-      {/* Best for */}
-      <div className="mt-20 border-l-2 border-ink pl-6">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-          Best for
+      {/* When this matters */}
+      <div className="mt-14">
+        <h2 className="text-sm font-mono font-medium uppercase tracking-widest text-accent mb-4">
+          When this matters
         </h2>
-        <div className="space-y-2 text-base leading-relaxed">
-          <p>PE- or venture-backed B2B SaaS.</p>
-          <p>$10M–$75M ARR.</p>
-          <p>AI capability is real, but commercial infrastructure has not converted it into revenue quality or margin expansion.</p>
+        <div className="border-l-2 border-ink pl-6 space-y-3">
+          <p className="text-base leading-relaxed"><strong>Your portco built working AI.</strong> Revenue hasn&apos;t followed.</p>
+          <p className="text-base leading-relaxed"><strong>The commercial model</strong> is still SaaS. Pricing, GTM, and operating cadence haven&apos;t been rebuilt for AI delivery.</p>
+          <p className="text-base leading-relaxed"><strong>You need an operator</strong> who has solved this problem before and can show the financial results.</p>
         </div>
+        <p className="text-xl font-medium leading-relaxed mt-6">
+          I go in as CEO and rebuild the commercial infrastructure so AI shows up in EBITDA.
+        </p>
+        <a
+          href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
+          className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
+        >
+          Discuss the Reset
+        </a>
       </div>
 
-      {/* How I Rebuild */}
-      <div className="mt-20">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-8">
-          How I Create Value
+      {/* How I convert AI to EBITDA: Operating Frameworks */}
+      <div className="mt-14">
+        <h2 className="text-sm font-mono font-medium uppercase tracking-widest text-accent mb-4">
+          How I convert AI to EBITDA: Operating Frameworks
         </h2>
-        <ol className="space-y-6">
+        <ol className="space-y-0">
           {[
-            { step: "Concentrate on one high-value workflow", detail: "Not a feature. The business process that matters." },
-            { step: "Tie AI to customer EBITDA", detail: "If it does not hit the customer P&L, it will not renew." },
-            { step: "Price the outcome, not the seat", detail: "AI breaks seat-based logic when it replaces labor." },
-            { step: "Rebuild commercial infrastructure around continuous delivery", detail: "Deliver, expand, deliver more." },
-            { step: "Operate on AI outcomes", detail: "Weekly cadence on AI quality, customer P&L impact, and margin. Not quarterly theater." },
+            { step: "Concentrate into one load-bearing workflow", detail: "Where AI delivers measurable customer EBITDA.", linkText: "SaaS to AI Re-founding", href: "/saas-to-ai-transition" },
+            { step: "Anchor AI to customer EBITDA", detail: "If it does not hit customer EBITDA, it will not renew.", linkText: "The AI to EBITDA Playbook", href: "/ai-to-ebitda-playbook" },
+            { step: "Price the outcome, not your target margin", detail: "Start from customer value, not cost plus markup.", linkText: "How to Price AI Agents", href: "/outcome-based-pricing-ai" },
+            { step: "Deliver first", detail: "Prove the result before you scale the contract.", linkText: "The AI Commercial Model", href: "/ai-commercial-model" },
+            { step: "Run on AI performance", detail: "Weekly execution cadence, not quarterly theater.", linkText: "The AI Operating Cadence", href: "/ai-operating-cadence" },
           ].map((item, i) => (
-            <li key={i} className="flex gap-4">
-              <span className="font-mono text-sm text-muted mt-0.5 shrink-0">
-                {i + 1}/
-              </span>
-              <div>
-                <p className="text-base font-medium">{item.step}</p>
-                <p className="text-sm text-muted mt-1">{item.detail}</p>
-              </div>
+            <li key={i}>
+              <Link href={item.href} className="flex gap-4 py-3 px-4 -mx-4 rounded hover:bg-white transition-colors duration-200 cursor-pointer">
+                <span className="font-mono text-sm text-muted mt-0.5 shrink-0">
+                  {i + 1}/
+                </span>
+                <div className="flex-1">
+                  <div className="flex items-baseline justify-between">
+                    <p className="text-base font-medium">{item.step}</p>
+                    <span className="text-sm text-muted ml-4 shrink-0 hidden md:inline">→</span>
+                  </div>
+                  <p className="text-sm text-muted mt-1">{item.detail}</p>
+                  <p className="text-sm italic text-muted mt-1">
+                    Read: {item.linkText} →
+                  </p>
+                </div>
+              </Link>
             </li>
           ))}
         </ol>
       </div>
 
-      {/* Selected Writing */}
-      <div className="mt-20">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-2">
-          Selected Writing
-        </h2>
-        <p className="text-sm text-muted mb-8">
-          For CEOs, boards, and investors navigating AI-led SaaS resets.
-        </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
-        {[
-          {
-            title: "AI → EBITDA Playbook",
-            desc: "AI only matters when it changes the P&L. Here is the operating model.",
-            href: "/ai-to-ebitda-playbook",
-          },
-          {
-            title: "SaaS Re-founding",
-            desc: "18 products became 2. That is what an AI reset looks like under pressure.",
-            href: "/saas-to-ai-transition",
-          },
-          {
-            title: "Outcome-Based Pricing",
-            desc: "Seat-based pricing breaks when AI replaces labor. Price the result.",
-            href: "/outcome-based-pricing-ai",
-          },
-          {
-            title: "AI Agent Retention",
-            desc: "Pilots convert. Renewals fail. The cause is usually structural, not technical.",
-            href: "/ai-saas-retention",
-          },
-          {
-            title: "Pricing AI Agents",
-            desc: "Outcome pricing is the destination. Usage pricing is often the bridge.",
-            href: "/usage-based-pricing-ai-agents",
-          },
-        ].map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            className="bg-paper p-8 group hover:bg-white transition-colors"
-          >
-            <h3 className="text-base font-medium text-ink group-hover:underline">
-              {item.title}
-            </h3>
-            <p className="text-sm text-muted mt-2 leading-relaxed">
-              {item.desc}
-            </p>
-            <span className="text-sm text-muted mt-4 inline-block group-hover:text-ink transition-colors">
-              Read →
-            </span>
-          </Link>
-        ))}
-      </div>
-
-      {/* Close */}
-      <div className="mt-20 border-t border-border pt-12">
-        <h2 className="text-2xl md:text-3xl font-semibold tracking-tight mb-4">
-          Your company has AI. It has not translated to value.
-        </h2>
-        <p className="text-base leading-relaxed max-w-xl">
-          That&apos;s the problem I solve.
-        </p>
-        <p className="text-base leading-relaxed max-w-xl mt-4">
-          Two rebuilds, same pattern. In both cases, the AI worked before the operating model did. Rationalize the portfolio, tie the AI agent to customer P&amp;L, and install a new operating cadence to convert AI into EBITDA.
+      {/* Closing */}
+      <div className="mt-14">
+        <p className="text-base leading-relaxed">
+          If your portfolio company has working AI that hasn&apos;t shown up in EBITDA, I&apos;ve solved that problem twice.
         </p>
         <a
-          href="mailto:mikejdelacruz@gmail.com"
-          className="text-sm font-medium border border-ink px-6 py-3 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
+          href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
+          className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
-          Let's Talk
+          Discuss the Reset
         </a>
       </div>
 

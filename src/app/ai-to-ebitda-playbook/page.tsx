@@ -2,24 +2,26 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The AI to EBITDA Playbook — CEC, CER, and Exit Multiples",
+  title: "The AI to EBITDA Playbook | Mike de la Cruz",
   description:
-    "A framework for converting AI capabilities into measurable earnings. Includes Customer EBITDA Created (CEC) and Customer EBITDA Return (CER) metrics.",
+    "AI does not create enterprise value until it shows up in EBITDA. The Customer EBITDA Created (CEC) and Customer EBITDA Return (CER) frameworks for pricing and measuring AI.",
+  alternates: { canonical: "https://www.mikedelacruz.com/ai-to-ebitda-playbook" },
   openGraph: {
-    title: "The AI to EBITDA Playbook — CEC, CER, and Exit Multiples",
-    description: "A framework for converting AI capabilities into measurable EBITDA.",
+    title: "The AI to EBITDA Playbook | Mike de la Cruz",
+    description:
+      "AI does not create enterprise value until it shows up in EBITDA. The Customer EBITDA Created (CEC) and Customer EBITDA Return (CER) frameworks for pricing and measuring AI.",
     url: "https://www.mikedelacruz.com/ai-to-ebitda-playbook",
     type: "article",
   },
 };
 
-export default function AIToEBITDA() {
+export default function AIToEBITDAPlaybook() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "The AI to EBITDA Playbook",
     datePublished: "2025-01-15",
-    dateModified: "2026-03-19",
+    dateModified: "2026-03-22",
     author: {
       "@type": "Person",
       name: "Mike de la Cruz",
@@ -33,76 +35,27 @@ export default function AIToEBITDA() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "What is Customer EBITDA Created (CEC)?",
+        name: "How does AI translate into EBITDA?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "CEC is the actual dollar value your AI generates on the customer's P&L—not projected savings, not efficiency estimates. It is the number the customer CFO can measure. Example: an AI agent that closes a $150 order at 10% margin creates $15 of CEC.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is Customer EBITDA Return (CER)?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "CER is CEC divided by the price the customer pays for your product. A CER of 3–10x is the target zone. Below 3x, the customer will rationalize the spend at renewal. Above 10x, the pricing model is underpriced relative to the value delivered.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Why does outcome-based pricing matter for AI revenue durability?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Seat-based pricing does not track to value created. When AI replaces or augments labor, the unit of economic value changes. Outcome-based pricing ties your revenue to the customer's P&L impact, which makes renewal justification straightforward and durability visible to investors.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do PE investors and acquirers evaluate AI-attributable EBITDA?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Acquirers assess durability. They ask: is this margin repeatable? Is it tied to defensible workflows, or to experimental budget that won't renew? AI-attributable revenue tracked separately, with CEC and CER benchmarks, gives acquirers the evidence they need to underwrite a higher multiple.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What does re-founding mean in the context of this playbook?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Re-founding is the process of rebuilding a SaaS company's product, GTM motion, and pricing architecture around AI—not bolting AI onto an existing model. The AI to EBITDA Playbook is the financial framework that governs a re-founding. It ensures the rebuild produces measurable margin, not just capability.",
+          text: "Measure Customer EBITDA Created (CEC) — the dollars your AI creates on the customer's P&L. Price so the customer sees 3x to 10x CER. Let margin expand as AI delivery cost falls. Customer EBITDA first, company EBITDA second, multiple expansion at exit.",
         },
       },
     ],
   };
 
   const steps = [
-    "Measure CEC. Identify the actual dollars your AI creates on the customer's P&L. This is not theoretical savings. It is the number a customer CFO can measure and defend.",
-    "Calculate CER. Divide CEC by price. If CER falls below 3x, re-examine pricing or product scope. If CER exceeds 10x, you are leaving value on the table.",
-    "Restructure pricing to capture a share of that value. Outcome-based, not seat-based. Price so the customer sees a 3–10x return on their P&L. The unit of value must match the unit of pricing.",
-    "Consolidate product surface area. Fewer features. More load-bearing AI workflows. At iAdvize, 18 products became one vertical AI agent. The consolidation restructured the delivery cost architecture and sharpened the value proposition.",
-    "Track AI-attributable revenue as a distinct line item. At Directly, the AI agent drove approximately 50% of SaaS EBITDA. That was not buried in a blended margin. It was visible, defensible, and transferred fully to the acquirer at exit.",
+    "Calculate CEC for every deployment.",
+    "Price so the customer sees 3x to 10x CER. That is the zone where revenue renews.",
+    "Build measurement infrastructure so both sides can verify outcomes. The renewal conversation becomes a P&amp;L review, not a product review.",
+    "Let margin expand as AI delivery cost falls. At Directly, the AI agent drove roughly 50% of EBITDA at exit. That margin improvement transferred fully to the acquirer.",
   ];
 
-  const faqs = [
-    {
-      q: "What is Customer EBITDA Created (CEC)?",
-      a: "CEC is the actual dollar value your AI generates on the customer's P&L—not projected savings, not efficiency estimates. It is the number the customer CFO can measure. Example: an AI agent that closes a $150 order at 10% margin creates $15 of CEC.",
-    },
-    {
-      q: "What is Customer EBITDA Return (CER)?",
-      a: "CER is CEC divided by the price the customer pays for your product. A CER of 3–10x is the target zone. Below 3x, the customer will rationalize the spend at renewal. Above 10x, the pricing model is underpriced relative to the value delivered.",
-    },
-    {
-      q: "Why does outcome-based pricing matter for AI revenue durability?",
-      a: "Seat-based pricing does not track to value created. When AI replaces or augments labor, the unit of economic value changes. Outcome-based pricing ties your revenue to the customer's P&L impact, which makes renewal justification straightforward and durability visible to investors.",
-    },
-    {
-      q: "How do PE investors and acquirers evaluate AI-attributable EBITDA?",
-      a: "Acquirers assess durability. They ask: is this margin repeatable? Is it tied to defensible workflows, or to experimental budget that won't renew? AI-attributable revenue tracked separately, with CEC and CER benchmarks, gives acquirers the evidence they need to underwrite a higher multiple.",
-    },
-    {
-      q: "What does re-founding mean in the context of this playbook?",
-      a: "Re-founding is the process of rebuilding a SaaS company's product, GTM motion, and pricing architecture around AI—not bolting AI onto an existing model. The AI to EBITDA Playbook is the financial framework that governs a re-founding. It ensures the rebuild produces measurable margin, not just capability.",
-    },
+  const related = [
+    { label: "SaaS to AI Re-founding", href: "/saas-to-ai-transition" },
+    { label: "How to Price AI Agents", href: "/outcome-based-pricing-ai" },
+    { label: "The AI Commercial Model", href: "/ai-commercial-model" },
+    { label: "See Results \u2192", href: "/results" },
   ];
 
   return (
@@ -117,40 +70,84 @@ export default function AIToEBITDA() {
       />
 
       <article className="max-w-2xl mx-auto px-6 md:px-12 py-16">
+        {/* H1 */}
         <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-ink leading-tight">
           The AI to EBITDA Playbook
         </h1>
 
+        {/* Intro */}
         <p className="text-lg text-muted mt-6 leading-relaxed">
-          The AI agent does not create value until it appears in EBITDA.
+          AI does not create enterprise value until it shows up in EBITDA. The
+          bridge is customer EBITDA: measure the dollars your AI creates on the
+          customer&apos;s P&amp;L, price to capture a share, and let that flow
+          through to your own margins.
         </p>
 
-        <p className="text-base leading-relaxed text-ink mt-4">
-          Most AI agents demonstrate impressive technology. Few convert it into margin. This playbook is the bridge.
+        <p className="text-lg text-muted mt-4 leading-relaxed">
+          At Directly, the AI resolved support tickets at $1 per resolution.
+          EBITDA margin went from survival-level to 22%, expanding to 31% at exit. The
+          AI created value on the customer&apos;s income statement first. Company
+          EBITDA followed.
         </p>
 
-        {/* The two metrics that matter */}
+        {/* Customer EBITDA Created (CEC) */}
         <div className="border-l-2 border-ink pl-6 mt-12">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-            The two metrics that matter
+            Customer EBITDA Created (CEC)
           </h2>
           <div className="space-y-4 text-base leading-relaxed text-ink">
             <p>
-              <strong>Customer EBITDA Created (CEC)</strong> is the actual dollar value your AI generates on the customer&apos;s P&amp;L. If an AI sales agent closes a $150 e-commerce order at a 10% margin, that order creates $15 of CEC.
+              CEC is the actual dollars your AI creates on the customer&apos;s
+              P&amp;L. Not projected savings. Not theoretical ROI. Dollars the
+              customer CFO can measure.
             </p>
             <p>
-              <strong>Customer EBITDA Return (CER)</strong> is CEC divided by the price the customer pays. A CER of 3–10x is the target zone for durable AI revenue. Below 3x, the value is too thin—you will be rationalized. Above 10x, you are underpriced.
+              An AI support agent resolves one ticket. Your customer pays its
+              outsourced call center $5 per ticket for B2C support. Each AI
+              resolution generates $5 CEC.
             </p>
             <p>
-              The more customer EBITDA you create, the more you can capture. Investors and acquirers do not pay for AI capabilities. They pay for EBITDA. At exit, your acquirer will assess the durability of your EBITDA. The companies that translate AI into margin expansion will command higher multiples. Those that don&apos;t will trade at declining-SaaS multiples.
+              An AI sales agent closes a $150 e-commerce order. That order
+              creates roughly $15 of customer EBITDA. That is also CEC.
+            </p>
+            <p>
+              Different workflows. Same measurement. If you cannot calculate CEC
+              for your AI, you do not yet have an EBITDA story.
             </p>
           </div>
         </div>
 
-        {/* The five steps */}
+        {/* Customer EBITDA Return (CER) */}
+        <div className="border-l-2 border-ink pl-6 mt-12">
+          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+            Customer EBITDA Return (CER)
+          </h2>
+          <div className="space-y-4 text-base leading-relaxed text-ink">
+            <p>
+              CER is CEC divided by your price. It answers the question every
+              customer asks at renewal: is this worth what I pay?
+            </p>
+            <p>
+              Below 3x: the value is too thin. You will be rationalized.
+            </p>
+            <p>
+              3x to 10x: durable revenue. The customer sees clear return and has
+              incentive to renew.
+            </p>
+            <p>
+              Above 10x: you are underpriced. Margin is sitting on the table.
+            </p>
+            <p>
+              The 3x to 10x range is where AI revenue becomes structural. Price
+              inside it.
+            </p>
+          </div>
+        </div>
+
+        {/* How it works */}
         <div className="mt-12">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
-            The five steps
+            How it works
           </h2>
           <ol className="space-y-4">
             {steps.map((step, i) => (
@@ -158,80 +155,68 @@ export default function AIToEBITDA() {
                 <span className="font-mono text-sm text-muted mt-0.5 shrink-0">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <p className="text-base leading-relaxed text-ink">{step}</p>
+                <p
+                  className="text-base leading-relaxed text-ink"
+                  dangerouslySetInnerHTML={{ __html: step }}
+                />
               </li>
             ))}
           </ol>
         </div>
 
-        {/* Example */}
+        {/* What it looked like at Directly */}
         <div className="mt-12 bg-white border border-border rounded-lg p-6">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-            What this looks like in practice
+            What it looked like at Directly
           </h2>
-          <p className="text-base leading-relaxed text-ink">
-            At Directly, the company operated at negative EBITDA. After rebuilding around outcome-based pricing and letting the AI agent drive resolution economics, EBITDA expanded to 22%, then to 31% by sale. The AI margin improvement transferred fully to the PE-backed acquirer.
-          </p>
-          <p className="text-base leading-relaxed text-ink mt-4">
-            That is what the playbook produces. Not a better pitch. A better P&amp;L.
-          </p>
+          <div className="space-y-4 text-base leading-relaxed text-ink">
+            <p>
+              The Instant Answers AI resolved support tickets in an outcome
+              model at $1 per resolution. Customers saw clear CER above 3x.
+              Because pricing anchored to the customer&apos;s P&amp;L instead of
+              our cost structure, margin contribution stacked quarter over
+              quarter. The AI margin improvement transferred fully to the
+              PE-backed portfolio company.
+            </p>
+          </div>
         </div>
 
         {/* Key takeaway */}
         <div className="mt-12 border-t border-border pt-8">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-            The playbook in one line
+            Key takeaway
           </h2>
           <p className="text-lg font-medium leading-relaxed text-ink">
-            Make AI load-bearing. Measure CEC. Price at 3–10x CER. Restructure delivery cost architecture. Expand your own EBITDA. That is what drives your multiple.
+            AI creates enterprise value through one path: customer EBITDA first,
+            company EBITDA second, multiple expansion at exit. Measure CEC.
+            Price inside the 3x to 10x CER zone. That is what an acquirer pays
+            a premium for.
           </p>
         </div>
 
-        {/* FAQ */}
-        <div className="mt-12 border-t border-border pt-8">
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
-            Frequently asked questions
-          </h2>
-          <div className="space-y-6">
-            {faqs.map((faq, i) => (
-              <div key={i}>
-                <h3 className="text-base font-semibold text-ink">{faq.q}</h3>
-                <p className="text-base leading-relaxed text-ink mt-2">{faq.a}</p>
-              </div>
-            ))}
-          </div>
-        </div>
 
+        {/* CTA */}
+        <div className="mt-12">
+          <p className="text-base leading-relaxed">If you are evaluating an AI-led SaaS reset, reach out.</p>
+          <a
+            href="mailto:mike@mikedelacruz.com"
+            className="text-sm font-medium border border-ink px-6 py-3 mt-4 inline-block hover:bg-ink hover:text-paper transition-colors"
+          >
+            Let&apos;s Talk
+          </a>
+        </div>
         {/* Related */}
         <div className="mt-16 pt-8 border-t border-border">
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-            Related
-          </h2>
           <div className="flex flex-wrap gap-3">
-            <Link
-              href="/ai-saas-retention"
-              className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
-            >
-              AI Agent Retention
-            </Link>
-            <Link
-              href="/outcome-based-pricing-ai"
-              className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
-            >
-              Outcome-Based Pricing
-            </Link>
-            <Link
-              href="/saas-to-ai-transition"
-              className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
-            >
-              SaaS to AI Transition
-            </Link>
-            <Link
-              href="/proof"
-              className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
-            >
-              See results →
-            </Link>
+            {related.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
         </div>
       </article>

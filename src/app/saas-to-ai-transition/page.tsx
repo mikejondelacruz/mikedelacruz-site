@@ -2,12 +2,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SaaS to AI Transition — Re-founding, Not Upgrading",
+  title: "How to Re-found a SaaS Company Around AI | Mike de la Cruz",
   description:
-    "The SaaS to AI transition is re-founding a traditional SaaS company around AI-native architecture, pricing, and delivery. Know what's QWERTY and what's carriage.",
+    "You don\u2019t add AI to a SaaS company. You re-found it. How to concentrate into the one workflow where AI delivers measurable EBITDA, then rebuild from there.",
+  alternates: { canonical: "https://www.mikedelacruz.com/saas-to-ai-transition" },
   openGraph: {
-    title: "SaaS to AI Transition — Re-founding, Not Upgrading",
-    description: "Re-founding means tearing out the carriage and keeping the QWERTY.",
+    title: "How to Re-found a SaaS Company Around AI | Mike de la Cruz",
+    description:
+      "You don\u2019t add AI to a SaaS company. You re-found it. How to concentrate into the one workflow where AI delivers measurable EBITDA, then rebuild from there.",
     url: "https://www.mikedelacruz.com/saas-to-ai-transition",
     type: "article",
   },
@@ -17,9 +19,9 @@ export default function SaaSToAITransition() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "SaaS to AI Transition",
+    headline: "SaaS to AI Re-founding",
     datePublished: "2025-01-15",
-    dateModified: "2026-03-19",
+    dateModified: "2026-03-22",
     author: {
       "@type": "Person",
       name: "Mike de la Cruz",
@@ -33,21 +35,21 @@ export default function SaaSToAITransition() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "How do you transition a SaaS company to AI?",
+        name: "How do you re-found a SaaS company around AI?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Transition by identifying your QWERTY (durable assets like proprietary data and workflow depth), rebuilding around AI as the primary execution layer, collapsing features into one AI-driven workflow, migrating to outcome-based pricing, and changing GTM from sell-and-renew to deliver-and-expand.",
+          text: "Identify the durable asset (QWERTY), rebuild the core workflow with AI as the execution layer, set Customer EBITDA Created as the unit, design a delivery-led commercial motion, and reset operating cadence to weekly AI performance.",
         },
       },
     ],
   };
 
   const steps = [
-    "Identify your QWERTY—the durable asset. Clarity on the job to be done. Proprietary data. Workflow depth. Operational tasks only your AI can execute at scale. Strip away the carriage.",
-    "Rebuild the core workflow with AI as the primary execution layer, not an assistant. At one company, we made the decision to \"fire the chatbot\" to make sure we embraced the full workflow and business outcome.",
-    "Change the unit. From seats sold to Customer EBITDA Created. The seat is carriage. The outcome is QWERTY.",
-    "Rebuild the commercial infrastructure. From: market, sell, implement, renew. To: deliver, expand, deliver again. Acquisition cycles compress when the trial proves value before the contract is signed. One re-founding I led dropped acquisition cycles from ~9 months to ~60 days.",
-    "Retrain the org around AI delivery metrics. Trial-to-paid conversion. AI quality. Customer EBITDA Created. Weekly operating cadence, not quarterly. The board agenda changes too—agent performance becomes a standing item, not a product update footnote.",
+    "Identify your QWERTY.",
+    "Rebuild the core workflow with AI as the execution layer, not an assistant. The product is now the outcome, not a UI screen.",
+    "Set the unit: Customer EBITDA Created.",
+    "Design the commercial motion: deliver first, monetize, and expand margins.",
+    "Reset the organization around AI performance: quality, trial-to-paid conversion, Customer EBITDA Created, WoW improvement. Not quarterly.",
   ];
 
   return (
@@ -63,27 +65,51 @@ export default function SaaSToAITransition() {
 
       <article className="max-w-2xl mx-auto px-6 md:px-12 py-16">
         <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-ink leading-tight">
-          SaaS to AI Transition
+          SaaS to AI Re-founding
         </h1>
 
         <p className="text-lg text-muted mt-6 leading-relaxed">
-          Adding AI to a SaaS company is not a product refresh. It&apos;s a rebuild. Re-founding means tearing out the carriage and keeping the QWERTY.
+          You do not add AI to a SaaS company. You re-found the company around
+          AI.
         </p>
 
-        {/* Why it matters */}
+        <div className="space-y-4 text-base leading-relaxed text-ink mt-4">
+          <p>
+            That means concentrating into the one workflow where AI replaces
+            labor and the customer can measure the outcome. Then rebuilding
+            pricing, commercial infrastructure, and operating cadence from that
+            workflow out.
+          </p>
+          <p>
+            At iAdvize, 18 products became two: one vertical AI agent, and one
+            SaaS add-on. Quality went up first. Trial-to-paid conversion tripled
+            in the first cohorts. Once we monetized, AI revenue went from $0 to
+            $10M+ ARR in 24 months.
+          </p>
+          <p>Re-founding is not transformation. It is a full reset.</p>
+        </div>
+
+        {/* Know which part is QWERTY and which part is the carriage */}
         <div className="border-l-2 border-ink pl-6 mt-12">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-            Why it matters
+            Know which part of your company is QWERTY and which part is the
+            carriage
           </h2>
           <div className="space-y-4 text-base leading-relaxed text-ink">
             <p>
-              QWERTY survived every machine change since 1873. The typewriter became the computer. The computer became the phone. The keyboard stayed. The carriage—the mechanism that moved the typewriter across the page—disappeared when the machine changed.
+              QWERTY survived every transition since 1873: typewriter, computer,
+              phone, tablet. The carriage moved the typewriter across the page.
+              Essential to the machine. Then the machine changed.
             </p>
             <p>
-              Most of the 20-year SaaS playbook is carriage: build a CRUD app for a persona, market it, sell it, implement it, renew it, repeat. That motion built real companies. It is not the part that survives.
+              A lot of the 20-year SaaS playbook is carriage: build a CRUD app
+              for a persona, market it, sell it, implement it, renew it. That
+              motion built great companies. It is not the part that survives.
             </p>
             <p>
-              The companies that bolt AI onto that motion will be outcompeted by those that start from the outcome and rebuild the workflow. Customers know the difference. Investors know the difference. So does the exit multiple.
+              Your QWERTY is the durable asset: clarity on the job to be done,
+              proprietary data, workflow depth, the operational task the AI must
+              execute. Everything else is carriage.
             </p>
           </div>
         </div>
@@ -105,26 +131,30 @@ export default function SaaSToAITransition() {
           </ol>
         </div>
 
-        {/* Example */}
-        <div className="mt-12 bg-white border border-border rounded-lg p-6">
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
-            Example
-          </h2>
-          <p className="text-base leading-relaxed text-ink">
-            At one re-founding, the company had 18 product features across a single workflow category. The transition collapsed everything into one vertical AI agent. Trial-to-paid conversion tripled. AI revenue went from zero to $10M+ ARR in 24 months. The legacy SaaS business did not go away—the new business overtook it. That shift in revenue mix changes the durability profile a buyer sees at exit.
-          </p>
-        </div>
-
         {/* Key takeaway */}
         <div className="mt-12 border-t border-border pt-8">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
             Key takeaway
           </h2>
           <p className="text-lg font-medium leading-relaxed text-ink">
-            The SaaS to AI transition is a re-founding, not an upgrade. Identify your QWERTY. Don&apos;t get sentimental about the carriage. Rebuild backwards from the customer outcome. The companies that do this will command higher multiples. The ones that don&apos;t will be rationalized by the ones that did.
+            Do not get sentimental about the carriage. The companies that treat
+            AI as a feature addition will be outcompeted by those that re-found
+            from the outcome and rebuild the workflow. QWERTY is what survives
+            when the machine changes.
           </p>
         </div>
 
+
+        {/* CTA */}
+        <div className="mt-12">
+          <p className="text-base leading-relaxed">If you are evaluating an AI-led SaaS reset, reach out.</p>
+          <a
+            href="mailto:mike@mikedelacruz.com"
+            className="text-sm font-medium border border-ink px-6 py-3 mt-4 inline-block hover:bg-ink hover:text-paper transition-colors"
+          >
+            Let&apos;s Talk
+          </a>
+        </div>
         {/* Related */}
         <div className="mt-16 pt-8 border-t border-border">
           <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
@@ -135,25 +165,19 @@ export default function SaaSToAITransition() {
               href="/ai-to-ebitda-playbook"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              AI → EBITDA Playbook
+              The AI to EBITDA Playbook
             </Link>
             <Link
               href="/outcome-based-pricing-ai"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              Outcome-Based Pricing
+              How to Price AI Agents
             </Link>
             <Link
-              href="/usage-based-pricing-ai-agents"
+              href="/results"
               className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
             >
-              Usage-Based Pricing
-            </Link>
-            <Link
-              href="/proof"
-              className="text-sm border border-border rounded-full px-4 py-2 text-muted hover:text-ink hover:border-ink transition-colors"
-            >
-              See results →
+              See Results &rarr;
             </Link>
           </div>
         </div>

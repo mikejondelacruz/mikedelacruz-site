@@ -11,10 +11,10 @@ module.exports = {
       },
       colors: {
         ink: '#0a0a0a',
-        paper: '#fafaf8',
-        muted: '#6b6b6b',
+        paper: '#f7f6f3',
+        muted: '#444444',
         accent: '#1a1a1a',
-        border: '#e5e5e0',
+        border: '#d4d4cf',
       },
     },
   },

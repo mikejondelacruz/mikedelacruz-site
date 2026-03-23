@@ -5,10 +5,11 @@ export const metadata: Metadata = {
   title: "Results — Two AI Re-foundings",
   description:
     "Results from two AI re-foundings: iAdvize ($0 to $10M+ AI ARR, 18 products to 2) and Directly (22%+ EBITDA, AI-driven margin expansion, PE exit).",
+  alternates: { canonical: "https://www.mikedelacruz.com/results" },
   openGraph: {
     title: "Results — Two AI Re-foundings",
     description: "Two AI re-foundings. Same pattern. The product worked before the operating model did.",
-    url: "https://www.mikedelacruz.com/proof",
+    url: "https://www.mikedelacruz.com/results",
     type: "article",
   },
 };
@@ -24,7 +25,7 @@ export default function Proof() {
       </p>
 
       {/* iAdvize */}
-      <div className="mt-16">
+      <div className="mt-12">
         <div className="border-l-2 border-ink pl-6">
           <h2 className="text-2xl font-semibold tracking-tight">iAdvize</h2>
         </div>
@@ -56,20 +57,20 @@ export default function Proof() {
       </div>
 
       {/* Directly */}
-      <div className="mt-20">
+      <div className="mt-12">
         <div className="border-l-2 border-ink pl-6">
           <h2 className="text-2xl font-semibold tracking-tight">Directly</h2>
         </div>
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            Directly was a customer support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Joined as CBO, grew ARR from $3.7M to $8M+ through revenue quality improvement and account expansion, and led the re-founding to AI-first delivery alongside the CEO and CTO.
+            Directly was a customer support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Joined as CBO, grew ARR from $3.7M to $8M+ through revenue quality improvement and account expansion.
           </p>
           <p>
-            Promoted to CEO as obligations exceeded cash and burn reached $1.2M per month. We raised funding 19 days after the pandemic was declared, then rebuilt the company. Instant Answers AI, built on pre-LLM intent-based technology, ultimately drove about 50% of EBITDA at exit.
+            Promoted to CEO when obligations exceeded cash and burn hit $1.2M per month. Led the full re-founding as CEO: raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, ultimately drove about 50% of EBITDA at exit.
           </p>
           <p>
-            We rationalized low-margin accounts to improve revenue quality. EBITDA reached 22% and expanded to 31% by sale. I led the full exit process, including advisor selection, diligence, negotiation, and board coordination, culminating in an asset sale to a PE-backed portfolio company.
+            Rationalized low-margin accounts to improve revenue quality. EBITDA margin reached 22% and expanded to 31% at exit. Led the complete exit process as CEO&mdash;advisor selection, diligence, negotiation, and board coordination&mdash;culminating in an asset sale to a PE-backed portfolio company.
           </p>
         </div>
 
@@ -91,7 +92,7 @@ export default function Proof() {
       </div>
 
       {/* Principles */}
-      <div className="mt-20 bg-white border border-border p-8">
+      <div className="mt-12 bg-white border border-border p-8">
         <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
           Principles
         </h2>
@@ -114,16 +115,25 @@ export default function Proof() {
       </div>
 
       {/* Related articles */}
-      <div className="mt-16 border-t border-border pt-8">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-6">
+      <div className="mt-12 border-t border-border pt-8">
+        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
           The frameworks behind these results
         </h2>
         <div className="space-y-3">
+          <Link href="/saas-to-ai-transition" className="block text-base hover:text-muted transition-colors">
+            SaaS to AI Re-founding →
+          </Link>
           <Link href="/ai-to-ebitda-playbook" className="block text-base hover:text-muted transition-colors">
-            AI → EBITDA Playbook →
+            The AI to EBITDA Playbook →
           </Link>
           <Link href="/outcome-based-pricing-ai" className="block text-base hover:text-muted transition-colors">
-            Outcome-Based Pricing for AI →
+            How to Price AI Agents →
+          </Link>
+          <Link href="/ai-commercial-model" className="block text-base hover:text-muted transition-colors">
+            The AI Commercial Model →
+          </Link>
+          <Link href="/ai-operating-cadence" className="block text-base hover:text-muted transition-colors">
+            The AI Operating Cadence →
           </Link>
         </div>
       </div>
@@ -131,14 +141,14 @@ export default function Proof() {
       {/* Closing */}
       <div className="mt-12 border-t border-border pt-8">
         <p className="text-lg font-medium leading-relaxed">
-          The question is not whether the AI works. It is whether the commercial infrastructure can convert that into durable financial performance.
+          If you have a portfolio company where the AI works but the numbers haven&apos;t followed, this is the pattern I run.
         </p>
-        <Link
-          href="/contact"
+        <a
+          href="mailto:mike@mikedelacruz.com"
           className="text-sm font-medium border border-ink px-6 py-3 mt-6 inline-block hover:bg-ink hover:text-paper transition-colors"
         >
-          Let's Talk →
-        </Link>
+          Let&apos;s Talk →
+        </a>
       </div>
     </div>
   );

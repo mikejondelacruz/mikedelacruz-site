@@ -1,10 +1,9 @@
 import Link from "next/link";
 
 const links = [
-  { href: "/proof", label: "Results" },
-  { href: "/about", label: "About" },
-  { href: "/writing", label: "Writing" },
-  { href: "/contact", label: "Let's Talk" },
+  { href: "/results", label: "Results" },
+  { href: "/about", label: "Operator" },
+  { href: "/frameworks", label: "Frameworks" },
 ];
 
 export default function Nav() {
@@ -21,7 +20,7 @@ export default function Nav() {
           <Link
             key={link.href}
             href={link.href}
-            className="text-[11px] md:text-sm text-muted hover:text-ink transition-colors"
+            className="text-[11px] md:text-sm text-accent hover:text-ink transition-colors"
           >
             {link.label}
           </Link>
