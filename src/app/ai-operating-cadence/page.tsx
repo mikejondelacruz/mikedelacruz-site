@@ -298,7 +298,7 @@ export default function AIOperatingCadence() {
             href="mailto:mike@mikedelacruz.com"
             className="text-sm font-medium border border-ink px-6 py-3 mt-4 inline-block hover:bg-ink hover:text-paper transition-colors"
           >
-            Let&apos;s Talk
+            Discuss a Portco
           </a>
         </div>
         {/* Related */}

@@ -501,7 +501,7 @@ export default function OutcomeBasedPricingAI() {
             href="mailto:mike@mikedelacruz.com?subject=AI%20to%20EBITDA%20Reset"
             className="text-sm font-medium bg-ink text-paper border border-ink px-6 py-3 mt-4 inline-block hover:bg-transparent hover:text-ink transition-colors"
           >
-            Let&apos;s Talk
+            Discuss a Portco
           </a>
         </div>
 
