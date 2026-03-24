@@ -35,7 +35,7 @@ export default function About() {
 
       {/* Opening */}
       <p className="mt-10 text-base leading-relaxed">
-        B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two rebuilds under live operating pressure. I&apos;m an operator that has lived inside the chaos of a SaaS rebuild, and created an AI business out of it.
+        B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two rebuilds under live operating pressure. I&apos;m an operator that has lived inside the chaos of SaaS rebuilds, and created AI businesses out of it.
       </p>
 
       {/* Directly */}
