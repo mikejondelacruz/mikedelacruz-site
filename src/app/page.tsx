@@ -4,18 +4,18 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
   alternates: { canonical: "https://www.mikedelacruz.com" },
   openGraph: {
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
     url: "https://www.mikedelacruz.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function Home() {
           B2B Vertical SaaS CEO who turns AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
-          $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.
+          $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.
         </p>
         <div className="mt-2">
           <Link

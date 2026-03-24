@@ -70,7 +70,7 @@ export default function Proof() {
             Promoted to CEO when obligations exceeded cash and burn hit $1.2M per month. Raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, drove roughly 50% of EBITDA at exit.
           </p>
           <p>
-            EBITDA margin reached 22% and expanded to 31% at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed portfolio company.
+            EBITDA margin reached 22%+ and expanded to 31% at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed portfolio company.
           </p>
         </div>
 

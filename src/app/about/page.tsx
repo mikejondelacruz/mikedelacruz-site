@@ -5,11 +5,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
   alternates: { canonical: "https://www.mikedelacruz.com/about" },
   openGraph: {
     title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
-    description: "B2B Vertical SaaS CEO. iAdvize: $0 to $10M+ AI ARR in 24 months. Directly: 22% EBITDA margin, asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO. iAdvize: $0 to $10M+ AI ARR in 24 months. Directly: 22%+ EBITDA margin, asset sale to a PE-backed portfolio company.",
     url: "https://www.mikedelacruz.com/about",
     type: "profile",
   },
@@ -35,14 +35,14 @@ export default function About() {
 
       {/* Opening */}
       <p className="mt-10 text-base leading-relaxed">
-        B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two rebuilds under live operating pressure. Same pattern both times.
+        B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two rebuilds under live operating pressure. I&apos;m an operator that has lived inside the chaos of a SaaS rebuild, and created an AI business out of it.
       </p>
 
       {/* Directly */}
       <div className="mt-10 border-t border-border pt-8">
         <h2 className="text-xl font-semibold tracking-tight">Directly</h2>
         <p className="mt-4 text-base leading-relaxed">
-          Joined as CBO. Grew ARR from $3.7M to $8M+. Promoted to CEO when obligations exceeded cash and burn hit $1.2M per month. Raised funding 19 days after the pandemic was declared. Rebuilt the cost architecture, sustained 22%+ EBITDA margin, and led the asset sale to a PE-backed portfolio company. The Instant Answers AI drove roughly 50% of EBITDA at exit. Enterprise customers included Microsoft, Airbnb, AT&amp;T, and SAP.
+          Grew ARR from $3.7M to $8M+. Promoted to CEO when obligations exceeded cash and burn hit $1.2M per month. Raised funding 19 days after the pandemic was declared. Rebuilt the cost architecture, sustained 22%+ EBITDA margin, and led the asset sale to a PE-backed portfolio company. The Instant Answers AI drove roughly 50% of EBITDA at exit. Enterprise customers included Microsoft, Airbnb, AT&amp;T, and SAP.
         </p>
       </div>
 

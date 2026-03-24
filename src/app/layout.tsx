@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48" },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
     description:
-      "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+      "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
     url: "https://www.mikedelacruz.com",
     type: "website",
     images: [
@@ -62,7 +62,7 @@ const authorSchema = {
   url: "https://www.mikedelacruz.com",
   jobTitle: "B2B Vertical SaaS CEO | AI-to-EBITDA Operator",
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
   sameAs: ["https://www.linkedin.com/in/mikejdelacruz"],
   alumniOf: [
     { "@type": "Organization", name: "Harvard Business School" },
