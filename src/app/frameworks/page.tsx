@@ -49,7 +49,7 @@ export default function Frameworks() {
         Frameworks
       </h1>
       <p className="text-lg text-muted mt-4 leading-relaxed">
-        The operating frameworks behind two AI-led SaaS rebuilds. Each framework is built in public, tested in production, living documents. For PE portfolio companies navigating the shift.
+        I&apos;m an operator that has lived inside the chaos of a SaaS rebuild, and created an AI business out of it. These are operating frameworks behind two AI-led SaaS rebuilds. Each framework was built in public, tested in production, and evolves as a living document. For PE portfolio companies navigating the shift in 2026.
       </p>
 
       <div className="mt-12 divide-y divide-border">
