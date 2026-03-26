@@ -70,12 +70,12 @@ export default function About() {
         >
           See Results
         </Link>
-        <Link
-          href="/frameworks"
+        <a
+          href="mailto:mike@mikedelacruz.com?subject=Operating%20model%20reset"
           className="text-sm text-muted border-2 border-border px-6 py-3 inline-block hover:border-ink hover:text-ink transition-colors"
         >
-          Frameworks
-        </Link>
+          Let&apos;s Talk
+        </a>
       </div>
     </div>
   );

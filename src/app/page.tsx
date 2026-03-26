@@ -72,7 +72,7 @@ export default function Home() {
           I go in as CEO. Collapse the portfolio. Reset GTM. Convert AI to EBITDA.
         </p>
         <a
-          href="mailto:mike@mikedelacruz.com?subject=Portfolio%20Company"
+          href="mailto:mike@mikedelacruz.com?subject=Operating%20model%20reset"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
           Let's Talk
@@ -119,7 +119,7 @@ export default function Home() {
           If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.
         </p>
         <a
-          href="mailto:mike@mikedelacruz.com?subject=Portfolio%20Company"
+          href="mailto:mike@mikedelacruz.com?subject=Operating%20model%20reset"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
           Let's Talk
