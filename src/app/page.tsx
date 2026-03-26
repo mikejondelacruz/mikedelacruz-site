@@ -46,7 +46,7 @@ export default function Home() {
       {/* Proof strip */}
       <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
-          { metric: "2", label: "SaaS re-foundings" },
+          { metric: "2", label: "operational restructures" },
           { metric: "18→2", label: "portfolio reset" },
           { metric: "$0→$10M+", label: "AI ARR" },
           { metric: "~50%", label: "of EBITDA at exit" },
@@ -69,7 +69,7 @@ export default function Home() {
           <p className="text-base leading-relaxed"><strong>You need an operator</strong> who has solved this problem before and can show the financial results.</p>
         </div>
         <p className="text-xl font-medium leading-relaxed mt-6">
-          I go in as CEO. Collapse the portfolio. Reset GTM. Convert AI to EBITDA.
+          I go in as CEO. Collapse the portfolio. Reset GTM. Convert AI to EBITDA. I have solved that problem twice.
         </p>
         <div className="mt-6 border border-border inline-block px-6 py-3">
           <a
