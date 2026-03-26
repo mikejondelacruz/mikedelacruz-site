@@ -38,7 +38,7 @@ export default function Home() {
             href="/results"
             className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 inline-block hover:bg-transparent hover:text-ink transition-colors"
           >
-            See Portfolio Results
+            Portfolio Results
           </Link>
         </div>
       </div>

@@ -71,7 +71,7 @@ export default function About() {
           href="/results"
           className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 inline-block hover:bg-transparent hover:text-ink transition-colors"
         >
-          See Results
+          Portfolio Results
         </Link>
         <div className="border border-border px-6 py-3 inline-flex items-center">
           <a
