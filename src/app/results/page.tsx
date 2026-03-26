@@ -2,13 +2,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Results — Two AI Re-foundings",
+  title: "Results — Two AI-Led Operational Restructures",
   description:
-    "Results from two AI re-foundings: iAdvize ($0 to $10M+ AI ARR, 18 products to 2) and Directly (22%+ EBITDA, AI-driven margin expansion, PE exit).",
+    "Results from two AI-led operational restructures: iAdvize ($0 to $10M+ AI ARR, 18 products to 2) and Directly (22%+ EBITDA, AI-driven margin expansion, PE exit).",
   alternates: { canonical: "https://www.mikedelacruz.com/results" },
   openGraph: {
-    title: "Results — Two AI Re-foundings",
-    description: "Two AI re-foundings. Same pattern. The product worked before the operating model did.",
+    title: "Results — Two AI-Led Operational Restructures",
+    description: "Two AI-led operational restructures. Same pattern. The product worked before the operating model did.",
     url: "https://www.mikedelacruz.com/results",
     type: "article",
   },
@@ -21,7 +21,7 @@ export default function Proof() {
         Results
       </h1>
       <p className="text-lg text-muted mt-4 leading-relaxed">
-        Two AI re-foundings. Same pattern. The product worked before the operating model did. Results followed once pricing, GTM, and operating cadence caught up.
+        Two AI-led operational restructures. Same pattern. The product worked before the operating model did. Results followed once pricing, GTM, and operating cadence caught up.
       </p>
 
       {/* iAdvize */}
@@ -32,7 +32,7 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            iAdvize was positioned as a 360-degree CX platform with 18 products. Re-founded the company alongside the CEO by collapsing 18 products into one vertical AI agent for e-commerce. The portfolio became two: one AI agent and one SaaS product.
+            iAdvize was positioned as a 360-degree CX platform with 18 products. Led the operational restructure alongside the CEO by collapsing 18 products into one vertical AI agent deployed inside a B2B vertical SaaS platform.
           </p>
           <p>
             We focused the company on one AI agent for one high-value workflow. Onboarding compressed. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M+ ARR in 24 months and overtook SaaS.
@@ -67,7 +67,7 @@ export default function Proof() {
             Directly was a vertical AI support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Grew ARR from $3.7M to $8M+ by rationalizing low-margin accounts and expanding enterprise accounts.
           </p>
           <p>
-            Promoted to CEO when obligations exceeded cash and burn hit $1.2M per month. Raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, drove roughly 50% of EBITDA at exit.
+            Promoted to CEO when obligations exceeded cash. Raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, contributing an estimated 50% of EBITDA at exit.
           </p>
           <p>
             EBITDA margin reached 22%+ and expanded to 31% at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed portfolio company.
@@ -143,12 +143,14 @@ export default function Proof() {
         <p className="text-lg font-medium leading-relaxed">
           If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.
         </p>
-        <a
-          href="mailto:mike@mikedelacruz.com?subject=Operating%20model%20reset"
-          className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
-        >
-          Let&apos;s Talk
-        </a>
+        <div className="mt-6 border border-border inline-block px-6 py-3">
+          <a
+            href="mailto:mike@mikedelacruz.com?subject=Operating%20model%20reset"
+            className="text-base hover:text-muted transition-colors"
+          >
+            mike@mikedelacruz.com
+          </a>
+        </div>
       </div>
     </div>
   );
