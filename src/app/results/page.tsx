@@ -64,7 +64,7 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            Directly was a vertical AI support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Grew ARR from $3.7M to $8M+ by rationalizing low-margin accounts and expanding enterprise accounts.
+            Directly was a vertical AI support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Grew ARR from $3.7M to $8M+ by rationalizing low-margin accounts and expanding enterprise accounts. Net revenue CAGR of 30% over the hold period ($3.7M to $8.1M).
           </p>
           <p>
             Promoted to CEO when obligations exceeded cash. Raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, contributing an estimated 50% of EBITDA at exit.
