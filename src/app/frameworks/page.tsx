@@ -75,12 +75,14 @@ export default function Frameworks() {
         <p className="text-base leading-relaxed">
           If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.
         </p>
-        <a
-          href="mailto:mike@mikedelacruz.com?subject=Operating%20model%20reset"
-          className="text-sm font-medium bg-ink text-paper border-2 border-ink px-6 py-3 mt-6 inline-block hover:bg-transparent hover:text-ink transition-colors"
-        >
-          Let&apos;s Talk
-        </a>
+        <div className="mt-6 border border-border inline-block px-6 py-3">
+          <a
+            href="mailto:mike@mikedelacruz.com?subject=Operating%20model%20reset"
+            className="text-base hover:text-muted transition-colors"
+          >
+            mike@mikedelacruz.com
+          </a>
+        </div>
       </div>
     </div>
   );
