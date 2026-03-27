@@ -37,9 +37,6 @@ export default function About() {
       <p className="mt-10 text-base leading-relaxed">
         B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two operational restructures under real-time pressure. I&apos;m an operator that has lived inside the chaos of SaaS rebuilds, and created AI businesses out of it.
       </p>
-      <p className="mt-4 text-base leading-relaxed">
-        Positioning: Portfolio Company CEO or Operating Partner for PE-backed B2B vertical SaaS.
-      </p>
 
       {/* Directly */}
       <div className="mt-10 border-t border-border pt-8">
