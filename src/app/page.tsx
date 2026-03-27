@@ -69,7 +69,7 @@ export default function Home() {
           <p className="text-base leading-relaxed"><strong>You need an operator</strong> who has solved this problem before and can show the financial results.</p>
         </div>
         <p className="text-xl font-medium leading-relaxed mt-6">
-          I go in as CEO. Collapse the portfolio. Reset GTM. Convert AI to EBITDA. I have solved that problem twice.
+          I go in as CEO. Collapse the portfolio. Reset GTM. Convert AI to EBITDA.
         </p>
         <div className="mt-6 border border-border inline-block px-6 py-3">
           <a
