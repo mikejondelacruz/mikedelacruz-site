@@ -4,18 +4,18 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
   alternates: { canonical: "https://www.mikedelacruz.com" },
   openGraph: {
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
     url: "https://www.mikedelacruz.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
   },
 };
 
@@ -48,7 +48,7 @@ export default function Home() {
         {[
           { metric: "2", label: "operational restructures" },
           { metric: "18→2", label: "portfolio reset" },
-          { metric: "$0→$10M+", label: "AI ARR" },
+          { metric: "$0→$10M", label: "AI ARR" },
           { metric: "~50%", label: "of EBITDA at exit" },
         ].map((item) => (
           <div key={item.label} className="border-2 border-border py-3 pr-4 pl-5">

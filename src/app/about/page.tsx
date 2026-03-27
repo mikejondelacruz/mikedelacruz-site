@@ -5,11 +5,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
   alternates: { canonical: "https://www.mikedelacruz.com/about" },
   openGraph: {
     title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
-    description: "B2B Vertical SaaS CEO. iAdvize: $0 to $10M+ AI ARR in 24 months. Directly: 22%+ EBITDA margin, asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO. iAdvize: $0 to $10M AI ARR in 24 months. Directly: 22% EBITDA margin, asset sale to a PE-backed portfolio company.",
     url: "https://www.mikedelacruz.com/about",
     type: "profile",
   },
@@ -42,7 +42,7 @@ export default function About() {
       <div className="mt-10 border-t border-border pt-8">
         <h2 className="text-xl font-semibold tracking-tight">Directly</h2>
         <p className="mt-4 text-base leading-relaxed">
-          Grew ARR from $3.7M to $8M+. Promoted to CEO when obligations exceeded cash. Raised funding 19 days after the pandemic was declared. Rebuilt the cost architecture, sustained 22%+ EBITDA margin, and led the asset sale to a PE-backed portfolio company. The Instant Answers AI contributing an estimated 50% of EBITDA at exit. Enterprise customers included Microsoft, Airbnb, AT&amp;T, and SAP.
+          Grew ARR from $3.7M to $8M+. Promoted to CEO when obligations exceeded cash. Raised funding 19 days after the pandemic was declared. Rebuilt the cost architecture, sustained 22% EBITDA margin, and led the asset sale to a PE-backed portfolio company. The Instant Answers AI contributing an estimated 50% of EBITDA at exit. Enterprise customers included Microsoft, Airbnb, AT&amp;T, and SAP.
         </p>
       </div>
 
@@ -50,7 +50,7 @@ export default function About() {
       <div className="mt-10 border-t border-border pt-8">
         <h2 className="text-xl font-semibold tracking-tight">iAdvize</h2>
         <p className="mt-4 text-base leading-relaxed">
-          Led the operational restructure alongside the CEO. Reset an 18-product portfolio to two: one vertical AI agent, one SaaS add-on. Built AI revenue from $0 to $10M+ ARR in 24 months. Compressed acquisition cycles from 9 months to 60 days. Trial-to-paid conversion tripled.
+          Led the operational restructure alongside the CEO. Reset an 18-product portfolio to two: one vertical AI agent, one SaaS add-on. Built AI revenue from $0 to $10M ARR in 24 months. Compressed acquisition cycles from 9 months to 60 days. Trial-to-paid conversion tripled.
         </p>
       </div>
 

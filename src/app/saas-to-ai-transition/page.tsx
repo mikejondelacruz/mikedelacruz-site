@@ -84,7 +84,7 @@ export default function SaaSToAITransition() {
             At iAdvize, 18 products became two: one vertical AI agent, and one
             SaaS add-on. Quality went up first. Trial-to-paid conversion tripled
             in the first cohorts. Once we monetized, AI revenue went from $0 to
-            $10M+ ARR in 24 months.
+            $10M ARR in 24 months.
           </p>
           <p>Re-founding is not transformation. It is a full reset.</p>
         </div>

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Results — Two AI-Led Operational Restructures",
   description:
-    "Results from two AI-led operational restructures: iAdvize ($0 to $10M+ AI ARR, 18 products to 2) and Directly (22%+ EBITDA, AI-driven margin expansion, PE exit).",
+    "Results from two AI-led operational restructures: iAdvize ($0 to $10M AI ARR, 18 products to 2) and Directly (22% EBITDA, AI-driven margin expansion, PE exit).",
   alternates: { canonical: "https://www.mikedelacruz.com/results" },
   openGraph: {
     title: "Results — Two AI-Led Operational Restructures",
@@ -35,13 +35,13 @@ export default function Proof() {
             iAdvize was positioned as a 360-degree CX platform with 18 products. Led the operational restructure alongside the CEO by collapsing 18 products into one vertical AI agent deployed inside a B2B vertical SaaS platform.
           </p>
           <p>
-            We focused the company on one AI agent for one high-value workflow. Onboarding compressed. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M+ ARR in 24 months and overtook SaaS.
+            We focused the company on one AI agent for one high-value workflow. Onboarding compressed. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M ARR in 24 months and overtook SaaS.
           </p>
         </div>
 
         <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
-            { metric: "$0→$10M+", value: "AI ARR" },
+            { metric: "$0→$10M", value: "AI ARR" },
             { metric: "18→2", value: "Product reset" },
             { metric: "9mo→60d", value: "Sales cycle" },
             { metric: "3x", value: "Trial-to-paid" },
@@ -70,14 +70,14 @@ export default function Proof() {
             Promoted to CEO when obligations exceeded cash. Raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, contributing an estimated 50% of EBITDA at exit.
           </p>
           <p>
-            EBITDA margin reached 22%+ and expanded to 31% at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed portfolio company.
+            EBITDA margin reached 22% and expanded to 31% at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed portfolio company.
           </p>
         </div>
 
         <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
             { metric: "$3.7M→$8M+", value: "ARR" },
-            { metric: "22%+", value: "EBITDA margin" },
+            { metric: "22%", value: "EBITDA margin" },
             { metric: "~50%", value: "EBITDA at exit" },
             { metric: "PE exit", value: "Asset sale" },
             { metric: "Outcome", value: "Per-resolution pricing" },

@@ -85,7 +85,7 @@ export default function AIToEBITDAPlaybook() {
 
         <p className="text-lg text-muted mt-4 leading-relaxed">
           At Directly, the AI resolved support tickets at $1 per resolution.
-          EBITDA margin went from survival-level to 22%+, expanding to 31% at exit. The
+          EBITDA margin went from survival-level to 22%, expanding to 31% at exit. The
           AI created value on the customer&apos;s income statement first. Company
           EBITDA followed.
         </p>
