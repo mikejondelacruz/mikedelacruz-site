@@ -49,7 +49,7 @@ export default function Frameworks() {
         Frameworks
       </h1>
       <p className="text-lg text-muted mt-4 leading-relaxed">
-        I&apos;m an operator that has lived inside the chaos of SaaS rebuilds, and created AI businesses out of it. These are operating frameworks behind two AI-led operational restructures. Each framework was built in public, tested in production, and evolves as a living document. For PE portfolio companies navigating the shift in 2026.
+        Five operating frameworks built and tested across two operational restructures, each mapping from working AI to durable EBITDA. Documented and designed to transfer. For PE portfolio companies navigating the AI transition.
       </p>
 
       <div className="mt-12 divide-y divide-border">
