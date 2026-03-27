@@ -61,7 +61,7 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            22% EBITDA margin, sustained for two years. Promoted to CEO when obligations exceeded cash. Rebuilt cost architecture and deployed AI automation contributing an estimated 50% of EBITDA at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed acquirer. Net revenue CAGR of 30% over the hold period ($3.7M to $8.1M).
+            22% EBITDA margin, sustained for two years. Promoted to CEO when obligations exceeded cash. Rebuilt cost architecture and deployed AI automation contributing an estimated 50% of EBITDA at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed acquirer.
           </p>
         </div>
 
