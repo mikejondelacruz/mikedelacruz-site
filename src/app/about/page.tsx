@@ -38,7 +38,7 @@ export default function About() {
         B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two operational restructures under real-time pressure.
       </p>
       <p className="mt-4 text-base leading-relaxed">
-        Positioning: Portfolio Company CEO or Operating Partner for PE-backed B2B vertical SaaS.
+        Positioning: Portfolio Company CEO for PE-backed B2B vertical SaaS.
       </p>
 
       {/* Directly */}
