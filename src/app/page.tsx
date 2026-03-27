@@ -28,10 +28,10 @@ export default function Home() {
           AI → EBITDA → Exit Value
         </p>
         <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1]">
-          B2B Vertical SaaS CEO who turns AI into EBITDA.
+          B2B Vertical SaaS CEO who converts AI into EBITDA.
         </h1>
         <p className="text-xl text-muted leading-relaxed max-w-xl">
-          $0 to $10M+ AI ARR in 24 months. 22%+ EBITDA margin. Asset sale to a PE-backed portfolio company.
+          $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.
         </p>
         <div className="mt-2">
           <Link
