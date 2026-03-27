@@ -4,18 +4,18 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO who converts AI into EBITDA. $10M AI ARR in 24 months. 22% EBITDA margin at exit.",
   alternates: { canonical: "https://www.mikedelacruz.com" },
   openGraph: {
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO who converts AI into EBITDA. $10M AI ARR in 24 months. 22% EBITDA margin at exit.",
     url: "https://www.mikedelacruz.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Mike de la Cruz \u2014 AI \u2192 EBITDA",
-    description: "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    description: "B2B Vertical SaaS CEO who converts AI into EBITDA. $10M AI ARR in 24 months. 22% EBITDA margin at exit.",
   },
 };
 
