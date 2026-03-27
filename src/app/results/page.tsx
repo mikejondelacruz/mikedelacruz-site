@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Results — Two AI-Led Operational Restructures",
   description:
-    "Results from two AI-led operational restructures: iAdvize ($0 to $10M AI ARR, 18 products to 2) and Directly (22% EBITDA, AI-driven margin expansion, PE exit).",
+    "B2B Vertical SaaS CEO who converts AI into EBITDA. $10M AI ARR in 24 months. 22% EBITDA margin at exit.",
   alternates: { canonical: "https://www.mikedelacruz.com/results" },
   openGraph: {
-    title: "Results — Two AI-Led Operational Restructures",
-    description: "Two AI-led operational restructures. Same pattern. The product worked before the operating model did.",
+    title: "Mike de la Cruz — AI → EBITDA",
+    description: "B2B Vertical SaaS CEO who converts AI into EBITDA. $10M AI ARR in 24 months. 22% EBITDA margin at exit.",
     url: "https://www.mikedelacruz.com/results",
     type: "article",
   },
@@ -21,7 +21,7 @@ export default function Proof() {
         Results
       </h1>
       <p className="text-lg text-muted mt-4 leading-relaxed">
-        Two AI-led operational restructures. Same pattern. The product worked before the operating model did. Results followed once pricing, GTM, and operating cadence caught up.
+        Two operational restructures. The AI worked before the commercial model did.
       </p>
 
       {/* iAdvize */}
@@ -32,10 +32,7 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            iAdvize was positioned as a 360-degree CX platform with 18 products. Led the operational restructure alongside the CEO by collapsing 18 products into one vertical AI agent deployed inside a B2B vertical SaaS platform.
-          </p>
-          <p>
-            We focused the company on one AI agent for one high-value workflow. Onboarding compressed. Trial-to-paid conversion tripled in the first cohorts. AI revenue scaled from $0 to $10M ARR in 24 months and overtook SaaS.
+            $0 to $10M+ AI ARR in 24 months. Collapsed 18 products into two: one vertical AI agent, one SaaS add-on, deployed inside a B2B vertical SaaS platform. Sales cycles compressed from 9 months to 60 days. Trial-to-paid conversion tripled. AI ARR overtook legacy SaaS revenue within the hold period.
           </p>
         </div>
 
@@ -64,24 +61,18 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            Directly was a vertical AI support platform serving Microsoft, Airbnb, AT&amp;T, and SAP. Grew ARR from $3.7M to $8M+ by rationalizing low-margin accounts and expanding enterprise accounts. Net revenue CAGR of 30% over the hold period ($3.7M to $8.1M).
-          </p>
-          <p>
-            Promoted to CEO when obligations exceeded cash. Raised funding 19 days after the pandemic was declared, then rebuilt the company around AI-first delivery. Instant Answers AI, built on pre-LLM intent-based technology, contributing an estimated 50% of EBITDA at exit.
-          </p>
-          <p>
-            EBITDA margin reached 22% and expanded to 31% at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed portfolio company.
+            22% EBITDA margin, sustained for two years. Promoted to CEO when obligations exceeded cash. Rebuilt cost architecture and deployed AI automation contributing an estimated 50% of EBITDA at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed acquirer. Net revenue CAGR of 30% over the hold period ($3.7M to $8.1M).
           </p>
         </div>
 
         <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
-            { metric: "$3.7M→$8M+", value: "ARR" },
+            { metric: "$3.7M→$8.1M", value: "ARR" },
             { metric: "22%", value: "EBITDA margin" },
             { metric: "~50%", value: "EBITDA at exit" },
             { metric: "PE exit", value: "Asset sale" },
             { metric: "Outcome", value: "Per-resolution pricing" },
-            { metric: "PE portco", value: "Acquirer" },
+            { metric: "PE-backed", value: "Acquirer" },
           ].map((item) => (
             <div key={item.value} className="border border-border p-4">
               <p className="font-medium">{item.metric}</p>

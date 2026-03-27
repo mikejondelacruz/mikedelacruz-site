@@ -5,11 +5,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
   description:
-    "B2B Vertical SaaS CEO. Two AI-led re-foundings. $0 to $10M AI ARR in 24 months. 22% EBITDA margin. Asset sale to a PE-backed portfolio company.",
+    "B2B Vertical SaaS CEO who converts AI into EBITDA. $10M AI ARR in 24 months. 22% EBITDA margin at exit.",
   alternates: { canonical: "https://www.mikedelacruz.com/about" },
   openGraph: {
-    title: "Operator — Mike de la Cruz | B2B Vertical SaaS CEO",
-    description: "B2B Vertical SaaS CEO. iAdvize: $0 to $10M AI ARR in 24 months. Directly: 22% EBITDA margin, asset sale to a PE-backed portfolio company.",
+    title: "Mike de la Cruz — AI → EBITDA",
+    description: "B2B Vertical SaaS CEO who converts AI into EBITDA. $10M AI ARR in 24 months. 22% EBITDA margin at exit.",
     url: "https://www.mikedelacruz.com/about",
     type: "profile",
   },
@@ -35,14 +35,17 @@ export default function About() {
 
       {/* Opening */}
       <p className="mt-10 text-base leading-relaxed">
-        B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two operational restructures under real-time pressure. I&apos;m an operator that has lived inside the chaos of SaaS rebuilds, and created AI businesses out of it.
+        B2B Vertical SaaS CEO. I go into B2B SaaS companies where the AI works but the commercial model hasn&apos;t caught up, and rebuild the operating infrastructure so AI shows up in EBITDA. Two operational restructures under real-time pressure.
+      </p>
+      <p className="mt-4 text-base leading-relaxed">
+        Positioning: Portfolio Company CEO or Operating Partner for PE-backed B2B vertical SaaS.
       </p>
 
       {/* Directly */}
       <div className="mt-10 border-t border-border pt-8">
         <h2 className="text-xl font-semibold tracking-tight">Directly</h2>
         <p className="mt-4 text-base leading-relaxed">
-          Grew ARR from $3.7M to $8M+. Promoted to CEO when obligations exceeded cash. Raised funding 19 days after the pandemic was declared. Rebuilt the cost architecture, sustained 22% EBITDA margin, and led the asset sale to a PE-backed portfolio company. The Instant Answers AI contributing an estimated 50% of EBITDA at exit. Enterprise customers included Microsoft, Airbnb, AT&amp;T, and SAP.
+          22% EBITDA margin, sustained for two years. Promoted to CEO when obligations exceeded cash. Rebuilt cost architecture and deployed AI automation contributing an estimated 50% of EBITDA at exit. Led the complete exit process as CEO. Asset sale to a PE-backed acquirer. Enterprise customers included Microsoft, Airbnb, AT&amp;T, and SAP.
         </p>
       </div>
 
@@ -50,7 +53,7 @@ export default function About() {
       <div className="mt-10 border-t border-border pt-8">
         <h2 className="text-xl font-semibold tracking-tight">iAdvize</h2>
         <p className="mt-4 text-base leading-relaxed">
-          Led the operational restructure alongside the CEO. Reset an 18-product portfolio to two: one vertical AI agent, one SaaS add-on. Built AI revenue from $0 to $10M ARR in 24 months. Compressed acquisition cycles from 9 months to 60 days. Trial-to-paid conversion tripled.
+          $0 to $10M+ AI ARR in 24 months. Led the operational restructure, collapsing an 18-product portfolio to two: one vertical AI agent, one SaaS add-on. Compressed sales cycles from 9 months to 60 days. Trial-to-paid conversion tripled.
         </p>
       </div>
 
@@ -58,7 +61,7 @@ export default function About() {
       <div className="mt-10 border-t border-border pt-8">
         <h2 className="text-xl font-semibold tracking-tight">The pattern</h2>
         <p className="mt-4 text-base leading-relaxed">
-          In both cases, the AI worked before the operating model did. Financial results followed once pricing, commercial infrastructure, and operating cadence caught up. That is where I operate: where AI capability is real but has not yet translated to durable revenue, margin expansion, and exit value.
+          The AI worked before the commercial model did. That is where I operate: where AI capability is real but has not yet translated to durable revenue, margin expansion, and exit value.
         </p>
       </div>
 
