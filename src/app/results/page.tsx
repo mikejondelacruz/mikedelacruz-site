@@ -61,7 +61,7 @@ export default function Proof() {
 
         <div className="mt-8 space-y-4 text-base leading-relaxed">
           <p>
-            22% EBITDA margin, sustained for two years. Promoted to CEO when obligations exceeded cash. Rebuilt cost architecture and deployed AI automation contributing an estimated 50% of EBITDA at exit. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed acquirer.
+            Promoted to CEO when obligations exceeded cash. Rebuilt cost architecture and deployed AI automation contributing an estimated 50% of EBITDA at exit. 22% EBITDA margin, sustained for two years. Led the complete exit process as CEO, from advisor selection through diligence, negotiation, and board coordination. Asset sale to a PE-backed acquirer.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function Proof() {
       {/* Closing */}
       <div className="mt-12 border-t border-border pt-8">
         <p className="text-lg font-medium leading-relaxed">
-          If your portfolio company has AI that isn&apos;t yet showing up in EBITDA, I&apos;ve solved that problem twice.
+          If your portfolio company has AI that isn&apos;t driving EBITDA, I&apos;ve solved that problem twice.
         </p>
         <div className="mt-6 border border-border inline-block px-6 py-3">
           <a
